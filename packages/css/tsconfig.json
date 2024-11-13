@@ -1,0 +1,8 @@
+{
+  "compilerOptions": {
+    "moduleResolution": "Bundler"
+  },
+  "exclude": ["node_modules"],
+  "include":  ["src"],
+  "extends": "../../tsconfig.json"
+}
