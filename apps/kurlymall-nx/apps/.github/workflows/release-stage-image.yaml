@@ -1,0 +1,71 @@
+name: CD-Stage
+
+on:
+  push:
+    branches: [release/2.12.60.1]
+
+jobs:
+  setup:
+    name: Common Setup
+    uses: thefarmersfront/kurly-web-workflows/.github/workflows/set-common-env-variables.yaml@main
+    with:
+      NODE_VERSION: 14.16.1
+
+  build-docker-image:
+    needs: [setup]
+    runs-on: sre-runner
+    strategy:
+      matrix:
+        image-name: [kurlymall-nx]
+        node-version: [14.16.1]
+    steps:
+      - name: Checkout Source Code
+        uses: actions/checkout@v3
+        with:
+          fetch-depth: 0
+
+      - name: Setup Node.js Version - ${{matrix.node-version}}
+        uses: actions/setup-node@v3
+        with:
+          node-version: ${{matrix.node-version}}
+
+      - name: Setup NPM Cache
+        id: cache-node-modules
+        uses: maxnowack/local-cache@v2
+        with:
+          path: ${{needs.setup.outputs.CACHE_PACKAGES_PATH}}
+          key: ${{needs.setup.outputs.CACHE_PACKAGES_KEY}}
+
+      - name: Build docker image
+        run: |
+          docker build \
+            --build-arg NEXT_PUBLIC_STAGE=stage \
+            --build-arg PACKAGE_INSTALL_TOKEN=$PACKAGE_INSTALL_TOKEN \
+            -t ${{secrets.ECR_REGISTRY_URL}}:stg-${{needs.setup.outputs.SHA_SHORT}} .
+        env:
+          PACKAGE_INSTALL_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+
+      - name: ecr push
+        env:
+          ECR_AWS_SECRET_ACCESS_KEY: ${{secrets.ECR_AWS_SECRET_ACCESS_KEY}}
+          ECR_AWS_ACCESS_KEY_ID: ${{secrets.ECR_AWS_ACCESS_KEY_ID}}
+        run: sre-cli ecrPush -i cps/${{matrix.image-name}} -t stg-${{needs.setup.outputs.SHA_SHORT}} -a 030787254034 -l 382801500083 -l 030787254034 -n root -n kube-worker-infra-ecr-role
+
+  notify-to-slack:
+    needs: [setup, build-docker-image]
+    runs-on: sre-runner
+    strategy:
+      matrix:
+        image-name: [kurlymall-nx]
+        node-version: [14.16.1]
+    steps:
+      - name: Send Slack
+        id: slack
+        uses: slackapi/slack-github-action@v1.24.0
+        with:
+          payload: |
+            {
+              "text": "Stage Build is finished!! Commit message is `${{needs.setup.outputs.COMMIT_MESSAGE}}`. TAG VERSION is `stg-${{needs.setup.outputs.SHA_SHORT}}`."
+            }
+        env:
+          SLACK_WEBHOOK_URL: ${{secrets.SLACK_WEBHOOK_URL}}

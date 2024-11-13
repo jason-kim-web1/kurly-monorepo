@@ -1,0 +1,36 @@
+{
+  "data": {
+    "id": 765,
+    "title": "카테고리 컬렉션",
+    "subtitle": "",
+    "additional_text": null,
+    "template_code": "md_choice",
+    "template_type": "md_choice",
+    "event_code": "md_choice",
+    "data": {
+      "default_code": "251004",
+      "md_choices": [
+        {
+          "code": "085019",
+          "name": "oc7 카테고리 확인용(수정금지)",
+          "link": "/shop/goods/goods_list.php?category=085019"
+        },
+        {
+          "code": "909",
+          "name": "수산·해산·건어물",
+          "link": "/shop/goods/goods_list.php?category=909"
+        },
+        {
+          "code": "251004",
+          "name": "평택/창원 확장",
+          "link": "/shop/goods/goods_list.php?category=251004"
+        },
+        {
+          "code": "910011",
+          "name": "센터 확장 테스트",
+          "link": "/shop/goods/goods_list.php?category=910011"
+        }
+      ]
+    }
+  }
+}

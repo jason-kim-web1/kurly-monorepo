@@ -1,0 +1,185 @@
+{
+  "data": {
+    "adProducts": [
+      {
+        "no": 1000309695,
+        "name": "싱글딜_셀프픽업_승인이후 데이터 변경 없음 (단일옵션)",
+        "productVerticalMediumUrl": "https://third-party-file-dev.kurly.com/cdn-cgi/image/width=360,height=468,fit=crop,quality=85/temporary/20231204/54df8a11-6eb5-43fb-94bf-cd08d40133e7.png",
+        "salesPrice": 16000,
+        "discountedPrice": 15900,
+        "discountRate": 0.0,
+        "isBuyNow": true,
+        "groupProduct": {
+          "isGroup": false,
+          "isNotRepresentative": false
+        },
+        "deliveryTypeInfos": [
+          {
+            "type": "SELF_PICKUP_WINE",
+            "description": "셀프픽업"
+          }
+        ],
+        "stickersV2": [],
+        "adInfo": {
+          "itemId": "1000309695",
+          "impTrackers": [
+            "https://api.stg.kurly.com/adhub/event/IMP?trackId=2X3IDessayYZTbcVdLzTMPtyeaY108H83CRcJ6ni9gnih4n6Z8Qc9ooCPgSCXmSC9YRiPWQ6HcQCHmSc9cR61cmcncniPiQinYSiHWSCfWRinoPd36ni9YCPiHIMOCG0HG0W-20aI2Z4mC30pC3asEJK"
+          ],
+          "clickTrackers": [
+            "https://api.stg.kurly.com/adhub/event/CLICK?trackId=2X3IDessayYZTbcVdLzTMPtyeaY108H83CRcJ6ni9gnih4n6Z8Qc9ooCPgSCXmSC9YRiPWQ6HcQCHmSc9cR61cmcncniPiQinYSiHWSCfWRinoPd36ni9YCPiHIMOCG0HG0W-20aI2Z4mC30pC3asEJK"
+          ],
+          "trackId": "2X3IDessayYZTbcVdLzTMPtyeaY108H83CRcJ6ni9gnih4n6Z8Qc9ooCPgSCXmSC9YRiPWQ6HcQCHmSc9cR61cmcncniPiQinYSiHWSCfWRinoPd36ni9YCPiHIMOCG0HG0W-20aI2Z4mC30pC3asEJK",
+          "auctionResult": {
+            "adAccountId": "354c3781-87bd-45e8-8708-86e1f2feb5f1",
+            "campaignId": "Qqi1JOu4rYrfOqto",
+            "winPrice": {
+              "currency": "KRW",
+              "amountMicro": "1000000000"
+            }
+          }
+        }
+      },
+      {
+        "no": 1000308034,
+        "name": "콘그_셀프픽업",
+        "productVerticalMediumUrl": "https://third-party-file-dev.kurly.com/cdn-cgi/image/width=360,height=468,fit=crop,quality=85/temporary/20231204/54df8a11-6eb5-43fb-94bf-cd08d40133e7.png",
+        "salesPrice": 100,
+        "discountedPrice": null,
+        "discountRate": 0.0,
+        "isBuyNow": true,
+        "groupProduct": {
+          "isGroup": true,
+          "isNotRepresentative": true
+        },
+        "deliveryTypeInfos": [
+          {
+            "type": "SELF_PICKUP_WINE",
+            "description": "셀프픽업"
+          }
+        ],
+        "stickersV2": [],
+        "adInfo": {
+          "itemId": "1000308034",
+          "impTrackers": [
+            "https://api.stg.kurly.com/adhub/event/IMP?trackId=2X3IDessayYZTbcVdLzTMPtyeaY108H83CRcJ6ni9gnih4n6Z8Qc9ooCPgSCXmSC9YRiPWQ6HcQCHmSc9cR61cmcncniPiQinYSiHWSCfWRinoPd36ni9YCPiHIMOCG0HG0W-20KI2Z4mC30pC3WmCpG"
+          ],
+          "clickTrackers": [
+            "https://api.stg.kurly.com/adhub/event/CLICK?trackId=2X3IDessayYZTbcVdLzTMPtyeaY108H83CRcJ6ni9gnih4n6Z8Qc9ooCPgSCXmSC9YRiPWQ6HcQCHmSc9cR61cmcncniPiQinYSiHWSCfWRinoPd36ni9YCPiHIMOCG0HG0W-20KI2Z4mC30pC3WmCpG"
+          ],
+          "trackId": "2X3IDessayYZTbcVdLzTMPtyeaY108H83CRcJ6ni9gnih4n6Z8Qc9ooCPgSCXmSC9YRiPWQ6HcQCHmSc9cR61cmcncniPiQinYSiHWSCfWRinoPd36ni9YCPiHIMOCG0HG0W-20KI2Z4mC30pC3WmCpG",
+          "auctionResult": {
+            "adAccountId": "354c3781-87bd-45e8-8708-86e1f2feb5f1",
+            "campaignId": "Qqi1JOu4rYrfOqto",
+            "winPrice": {
+              "currency": "KRW",
+              "amountMicro": "1000000000"
+            }
+          }
+        }
+      },
+      {
+        "no": 1000308002,
+        "name": "콘그_셀프픽업",
+        "productVerticalMediumUrl": "https://third-party-file-dev.kurly.com/cdn-cgi/image/width=360,height=468,fit=crop,quality=85/temporary/20231204/54df8a11-6eb5-43fb-94bf-cd08d40133e7.png",
+        "salesPrice": 100,
+        "discountedPrice": null,
+        "discountRate": 0.0,
+        "isBuyNow": true,
+        "groupProduct": {
+          "isGroup": true,
+          "isNotRepresentative": true
+        },
+        "deliveryTypeInfos": [
+          {
+            "type": "SELF_PICKUP_WINE",
+            "description": "셀프픽업"
+          }
+        ],
+        "stickersV2": [],
+        "adInfo": {
+          "itemId": "1000308002",
+          "impTrackers": [
+            "https://api.stg.kurly.com/adhub/event/IMP?trackId=2X3IDessayYZTbcVdLzTMPtyeaY108H83CRcJ6ni9gnih4n6Z8Qc9ooCPgSCXmSC9YRiPWQ6HcQCHmSc9cR61cmcncniPiQinYSiHWSCfWRinoPd36ni9YCPiHIMOCG0HG0W-21qI2Z4mC30pC3WmC38"
+          ],
+          "clickTrackers": [
+            "https://api.stg.kurly.com/adhub/event/CLICK?trackId=2X3IDessayYZTbcVdLzTMPtyeaY108H83CRcJ6ni9gnih4n6Z8Qc9ooCPgSCXmSC9YRiPWQ6HcQCHmSc9cR61cmcncniPiQinYSiHWSCfWRinoPd36ni9YCPiHIMOCG0HG0W-21qI2Z4mC30pC3WmC38"
+          ],
+          "trackId": "2X3IDessayYZTbcVdLzTMPtyeaY108H83CRcJ6ni9gnih4n6Z8Qc9ooCPgSCXmSC9YRiPWQ6HcQCHmSc9cR61cmcncniPiQinYSiHWSCfWRinoPd36ni9YCPiHIMOCG0HG0W-21qI2Z4mC30pC3WmC38",
+          "auctionResult": {
+            "adAccountId": "354c3781-87bd-45e8-8708-86e1f2feb5f1",
+            "campaignId": "Qqi1JOu4rYrfOqto",
+            "winPrice": {
+              "currency": "KRW",
+              "amountMicro": "1000000000"
+            }
+          }
+        }
+      }
+    ],
+    "clickedTogethers": {
+      "selectionPolicy": "category_v1",
+      "items": [
+        {
+          "no": 1000290442,
+          "name": "[STG] 주아 테스트 상품5",
+          "productVerticalMediumUrl": "https://product-image-stg.kurly.com/cdn-cgi/image/width=360,height=468,fit=crop,quality=85/product/image/82ce14a3-4be9-47bd-8219-45fddb11284b.png",
+          "salesPrice": 20000,
+          "discountedPrice": 10000,
+          "discountRate": 50.0,
+          "isBuyNow": true,
+          "groupProduct": {
+            "isGroup": false,
+            "isNotRepresentative": false
+          },
+          "deliveryTypeInfos": [
+            {
+              "type": "DAWN",
+              "description": "샛별배송"
+            }
+          ],
+          "stickersV2": []
+        },
+        {
+          "no": 1000290438,
+          "name": "[STG] 주아 테스트 상품3",
+          "productVerticalMediumUrl": "https://product-image-stg.kurly.com/cdn-cgi/image/width=360,height=468,fit=crop,quality=85/product/image/9d1f8967-c7e1-42df-896b-934cfde71e18.jpeg",
+          "salesPrice": 20000,
+          "discountedPrice": 10000,
+          "discountRate": 50.0,
+          "isBuyNow": true,
+          "groupProduct": {
+            "isGroup": false,
+            "isNotRepresentative": false
+          },
+          "deliveryTypeInfos": [
+            {
+              "type": "DAWN",
+              "description": "샛별배송"
+            }
+          ],
+          "stickersV2": []
+        },
+        {
+          "no": 1000054943,
+          "name": "ya lego4 3",
+          "productVerticalMediumUrl": "https://product-image-stg.kurly.com/cdn-cgi/image/width=360,height=468,fit=crop,quality=85/product/image/0eb07aab-8a9a-4c71-9064-d4519a8537cb.jpg",
+          "salesPrice": 3000,
+          "discountedPrice": null,
+          "discountRate": 0.0,
+          "isBuyNow": false,
+          "groupProduct": {
+            "isGroup": false,
+            "isNotRepresentative": false
+          },
+          "deliveryTypeInfos": [
+            {
+              "type": "DAWN",
+              "description": "샛별배송"
+            }
+          ],
+          "stickersV2": []
+        }
+      ]
+    }
+  }
+}

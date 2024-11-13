@@ -1,0 +1,25 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 16 16">
+    <defs>
+        <filter id="yj3rc2qi6a" color-interpolation-filters="auto">
+            <feColorMatrix in="SourceGraphic" values="0 0 0 0 1.000000 0 0 0 0 1.000000 0 0 0 0 1.000000 0 0 0 1.000000 0"/>
+        </filter>
+    </defs>
+    <g fill="none" fill-rule="evenodd">
+        <g>
+            <g>
+                <g>
+                    <g>
+                        <g transform="translate(-330.000000, -111.000000) translate(0.000000, 88.000000) translate(16.000000, 10.000000) translate(301.000000, 0.000000) translate(13.000000, 13.000000)">
+                            <circle cx="8" cy="8" r="8" fill="#999" opacity=".5"/>
+                            <g filter="url(#yj3rc2qi6a)">
+                                <g>
+                                    <path fill="#FFF" fill-rule="nonzero" d="M7.055.22c.266.266.29.683.072.976l-.072.084-2.359 2.358 2.359 2.358c.293.293.293.768 0 1.06-.266.267-.683.291-.977.073l-.084-.072-2.358-2.359L1.28 7.055c-.293.293-.767.293-1.06 0-.267-.266-.29-.683-.073-.977l.073-.084 2.355-2.356-2.35-2.35C-.068.995-.068.52.225.227c.266-.266.683-.29.977-.073l.084.073 2.35 2.35L5.994.22c.293-.293.768-.293 1.06 0z" transform="translate(4.372083, 4.260047)"/>
+                                </g>
+                            </g>
+                        </g>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

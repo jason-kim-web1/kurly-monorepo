@@ -1,0 +1,68 @@
+## Google
+User-agent: Googlebot
+Allow: /
+Disallow: /mypage/
+Disallow: /order/
+Disallow: /popup/
+Disallow: /games/
+Disallow: /shop/goods/goods_qna.php
+
+## Google Mobile
+User-agent: Googlebot-Mobile
+Allow: /
+Disallow: /mypage/
+Disallow: /order/
+Disallow: /popup/
+Disallow: /games/
+Disallow: /shop/goods/goods_qna.php
+
+## Google Image
+User-agent: Googlebot-image
+Allow: /
+Disallow: /mypage/
+Disallow: /order/
+Disallow: /popup/
+Disallow: /games/
+Disallow: /shop/goods/goods_qna.php
+
+## Naver
+User-agent: NaverBot
+Allow: /
+Disallow: /mypage/
+Disallow: /order/
+Disallow: /popup/
+Disallow: /games/
+Disallow: /shop/goods/goods_qna.php
+
+## Naver
+User-agent: Yeti
+Allow: /
+Disallow: /mypage/
+Disallow: /order/
+Disallow: /popup/
+Disallow: /games/
+Disallow: /shop/goods/goods_qna.php
+
+## Bing
+User-agent: Bingbot
+Allow: /
+Disallow: /mypage/
+Disallow: /order/
+Disallow: /popup/
+Disallow: /games/
+Disallow: /shop/goods/goods_qna.php
+
+## Daum
+User-agent: Daum
+Allow: /
+Disallow: /mypage/
+Disallow: /order/
+Disallow: /popup/
+Disallow: /games/
+Disallow: /shop/goods/goods_qna.php
+
+## other bots
+User-agent: *
+Disallow: /
+
+Sitemap: https://www.kurly.com/sitemap/index-sitemap.xml

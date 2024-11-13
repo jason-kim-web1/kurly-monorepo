@@ -1,0 +1,150 @@
+{
+  "data": {
+    "id": 371,
+    "title": "\ubdf0\ud2f0\ud398\uc2a4\ud0c0 \ud2b9\uac00",
+    "subtitle": "\ub193\uce58\uae30 \uc544\uae4c\uc6b4 \ud61c\ud0dd!",
+    "additional_text": "",
+    "template_code": "special_deal",
+    "template_type": "special_deal",
+    "event_code": "special_deal",
+    "data": [
+      {
+        "deal_type": "time_deal",
+        "is_display_time": false,
+        "is_sold_out": false,
+        "sold_out_title": "Sold Out",
+        "sold_out_content": "\ub2e4\uc74c \uc77c\uc77c\ud2b9\uac00\ub97c \uae30\ub300\ud558\uc138\uc694!",
+        "quantity": 0,
+        "thumbnail_image_url": "https:\/\/product-image.kurly.com\/product\/image\/4a046323-9d74-42cd-bce0-b9bce155b503.jpeg",
+        "promotion_end_time": "2023-02-13T11:00:00+09:00",
+        "product": {
+          "no": 1000134396,
+          "name": "\uc194\ud2b8\ub808\uc778 \ud504\ub808\uc2dc \ub374\ud0c8 \uc138\ud2b8 (\uce58\uc57d 1+\uce6b\uc1942) 3\uc885 (\ud0dd1)",
+          "short_description": "\uac10\uac01\uc801\uc778 \ub514\uc790\uc778\uc758 \uce58\uc57d&\uce6b\uc194 \uc138\ud2b8",
+          "list_image_url": "https:\/\/product-image.kurly.com\/product\/image\/67bbeb58-28c4-4d82-809c-dc9fb1e95c97.jpeg",
+          "sales_price": 13200,
+          "discounted_price": 6900,
+          "discount_rate": 47,
+          "is_multiple_price": false,
+          "is_buy_now": false,
+          "is_purchase_status": true,
+          "is_giftable": false,
+          "is_only_adult": false,
+          "is_shown": true,
+          "is_sold_out": false,
+          "sold_out_title": "Sold Out",
+          "sold_out_text": "\ub2e4\uc74c \uc77c\uc77c\ud2b9\uac00\ub97c \uae30\ub300\ud558\uc138\uc694!",
+          "can_restock_notify": true,
+          "product_view_status": "BUY_POSSIBLE",
+          "not_purchase_message": "Coming Soon",
+          "delivery_type_names": [
+            "\uc0db\ubcc4\ubc30\uc1a1"
+          ],
+          "tags": [],
+          "sticker": null,
+          "group_product": {
+            "is_group": false,
+            "is_not_representative": false
+          },
+          "review_count": "999+"
+        }
+      },
+      {
+        "deal_type": "time_deal",
+        "is_display_time": false,
+        "is_sold_out": false,
+        "sold_out_title": "Coming Soon",
+        "sold_out_content": "",
+        "quantity": 0,
+        "thumbnail_image_url": "https:\/\/img-cf.kurly.com\/shop\/data\/goods\/164707109594z0.jpg",
+        "promotion_end_time": "2023-02-13T11:00:00+09:00",
+        "product": {
+          "no": 5120892,
+          "name": "\ud134\uc624\ubc84 \uc570\ud50c \ub4c0\uc5bc \uc774\ud399\ud2b8 30ml",
+          "short_description": "\uac74\uac15\ud55c \uc5d0\ub108\uc9c0\ub97c \uc804\ud558\ub294 \uc548\ud2f0\uc5d0\uc774\uc9d5 \uc570\ud50c",
+          "list_image_url": "https:\/\/product-image.kurly.com\/product\/image\/e8e72146-6159-4dd1-8306-0613b01d5307.jpg",
+          "sales_price": 132000,
+          "discounted_price": 39900,
+          "discount_rate": 69,
+          "is_multiple_price": false,
+          "is_buy_now": false,
+          "is_purchase_status": true,
+          "is_giftable": false,
+          "is_only_adult": false,
+          "is_shown": true,
+          "is_sold_out": false,
+          "sold_out_title": "Coming Soon",
+          "sold_out_text": "",
+          "can_restock_notify": true,
+          "product_view_status": "BUY_POSSIBLE",
+          "not_purchase_message": "Coming Soon",
+          "delivery_type_names": [
+            "\uc0db\ubcc4\ubc30\uc1a1"
+          ],
+          "tags": [],
+          "sticker": null,
+          "group_product": {
+            "is_group": false,
+            "is_not_representative": false
+          },
+          "review_count": "434"
+        }
+      },
+      {
+        "deal_type": "time_deal",
+        "is_display_time": false,
+        "is_sold_out": true,
+        "sold_out_title": "Coming Soon",
+        "sold_out_content": "",
+        "quantity": 0,
+        "thumbnail_image_url": "https:\/\/img-cf.kurly.com\/shop\/data\/goods\/1622627952400z0.jpg",
+        "promotion_end_time": "2023-02-13T11:00:00+09:00",
+        "product": {
+          "no": 5073203,
+          "name": "\ub85c\uc988\ub9c8\ub9ac \uc2a4\uce7c\ud504 \uc2a4\ucf00\uc77c\ub9c1 \uc0f4\ud478 510ml",
+          "short_description": "\uccad\uacb0\ud55c \ub450\ud53c\ub97c \uc704\ud55c \ubd80\ub4dc\ub7ec\uc6b4 \ube44\uac74 \uc0f4\ud478",
+          "list_image_url": "https:\/\/product-image.kurly.com\/product\/image\/97af68e8-5b84-4671-9c9b-74f01615440d.jpg",
+          "sales_price": 27000,
+          "discounted_price": 15300,
+          "discount_rate": 43,
+          "is_multiple_price": false,
+          "is_buy_now": false,
+          "is_purchase_status": true,
+          "is_giftable": false,
+          "is_only_adult": false,
+          "is_shown": true,
+          "is_sold_out": true,
+          "sold_out_title": "Coming Soon",
+          "sold_out_text": "",
+          "can_restock_notify": true,
+          "product_view_status": "SOLD_OUT",
+          "not_purchase_message": "Coming Soon",
+          "delivery_type_names": [
+            "\uc0db\ubcc4\ubc30\uc1a1"
+          ],
+          "tags": [
+            {
+              "name": "Kurly Only",
+              "type": "KURLY_ONLY"
+            }
+          ],
+          "sticker": {
+            "content": [
+              {
+                "text": "\uc99d\uc815\uc774\ubca4\ud2b8",
+                "weight": "bold"
+              }
+            ],
+            "opacity": 90,
+            "background_color": "#BD76FF"
+          },
+          "group_product": {
+            "is_group": false,
+            "is_not_representative": false
+          },
+          "review_count": "999+"
+        }
+      }
+    ]
+  }
+}

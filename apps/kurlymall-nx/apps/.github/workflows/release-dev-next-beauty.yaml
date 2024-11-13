@@ -1,0 +1,85 @@
+name: CD-NEXT-BEAUTY-DEV
+
+on:
+  push:
+    branches:
+      - 'feature/KMF-6162-**'
+
+jobs:
+  setup:
+    name: Common Setup
+    uses: thefarmersfront/kurly-web-workflows/.github/workflows/set-common-env-variables.yaml@main
+    with:
+      NODE_VERSION: 14.16.1
+
+  build-docker-image:
+    needs: [setup]
+    runs-on: web-runner
+    strategy:
+      matrix:
+        image-name: [kurlymall-nx]
+        node-version: [14.16.1]
+    steps:
+      - name: Checkout Source Code
+        uses: actions/checkout@v3
+        with:
+          fetch-depth: 0
+
+      - name: Setup Node.js Version - ${{matrix.node-version}}
+        uses: actions/setup-node@v3
+        with:
+          node-version: ${{matrix.node-version}}
+
+      - name: Build docker image
+        run: |
+          docker build \
+            --build-arg NEXT_PUBLIC_STAGE=development \
+            --build-arg PACKAGE_INSTALL_TOKEN=$PACKAGE_INSTALL_TOKEN \
+            --build-arg NEXT_PUBLIC_DISABLE_AMPLITUDE_SAMPLING=true \
+            -t ${{secrets.ECR_REGISTRY_URL}}:dev-${{needs.setup.outputs.SHA_SHORT}} .
+        env:
+          PACKAGE_INSTALL_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+
+      - name: Push image to registry - ECR
+        env:
+          ECR_AWS_SECRET_ACCESS_KEY: ${{secrets.ECR_AWS_SECRET_ACCESS_KEY}}
+          ECR_AWS_ACCESS_KEY_ID: ${{secrets.ECR_AWS_ACCESS_KEY_ID}}
+        run: sre-cli ecrPush -i cps/${{matrix.image-name}} -t dev-${{needs.setup.outputs.SHA_SHORT}} -a 030787254034 -l 382801500083 -l 030787254034 -n root -n kube-worker-infra-ecr-role
+
+  deploy-to-rancher:
+    needs: [setup, build-docker-image]
+    runs-on: sre-runner
+    strategy:
+      matrix:
+        image-name: [kurlymall-nx]
+        node-version: [14.16.1]
+    steps:
+      - name: deploy
+        uses: thefarmersfront/kurly-web-workflows/.github/actions/deploy-to-rancher@main
+        with:
+          RANCHER_URL: https://rancher.dev.kurly.services
+          RANCHER_ACCESS: ${{secrets.RANCHER_ACCESS}}
+          RANCHER_KEY: ${{secrets.RANCHER_KEY}}
+          PROJECT_ID: 1a5
+          STACK_NAME: next-beauty-dev
+          SERVICE_NAME: ${{matrix.image-name}}
+          DOCKER_IMAGE: ${{secrets.ECR_REGISTRY_URL}}:dev-${{needs.setup.outputs.SHA_SHORT}}
+
+  notify-to-slack:
+    needs: [setup, build-docker-image, deploy-to-rancher]
+    runs-on: sre-runner
+    strategy:
+      matrix:
+        image-name: [kurlymall-nx]
+        node-version: [14.16.1]
+    steps:
+      - name: Send Slack
+        id: slack
+        uses: slackapi/slack-github-action@v1.24.0
+        with:
+          payload: |
+            {
+              "text": "Next Beauty Deployment is finished!! Commit message is `${{needs.setup.outputs.COMMIT_MESSAGE}}`. TAG VERSION is  `dev-${{needs.setup.outputs.SHA_SHORT}}`."
+            }
+        env:
+          SLACK_WEBHOOK_URL: ${{secrets.SLACK_WEBHOOK_URL}}

@@ -1,0 +1,95 @@
+name: LHCI-PR
+
+on:
+  pull_request:
+    types:
+      - labeled
+
+jobs:
+  setup:
+    name: Common Setup
+    uses: thefarmersfront/kurly-web-workflows/.github/workflows/set-common-env-variables.yaml@main
+    with:
+      NODE_VERSION: 14.16.1
+
+  lhci:
+    needs: [setup]
+    if: ${{ github.event.label.name == 'lighthouse-ci' }}
+    runs-on: ubuntu-latest
+    strategy:
+      matrix:
+        node-version: [14.16.1]
+    steps:
+      - name: Checkout Source Code
+        uses: actions/checkout@v3
+        with:
+          fetch-depth: 0
+
+      - name: Setup Node.js Version - ${{ matrix.node-version }}
+        uses: actions/setup-node@v3
+        with:
+          node-version: ${{ matrix.node-version }}
+
+      - name: Setup NPM Cache
+        id: cache-node-modules
+        uses: maxnowack/local-cache@v2
+        with:
+          path: ${{ needs.setup.outputs.CACHE_PACKAGES_PATH }}
+          key: ${{ needs.setup.outputs.CACHE_PACKAGES_KEY }}
+
+      - name: Run Build
+        run: NEXT_PUBLIC_MOCK_ENABLED=true NEXT_TELEMETRY_DISABLED=1 npm run build:dev
+        env:
+          NODE_OPTIONS: '--max_old_space_size=4096'
+
+      - name: Create lighthouserc.json per Formfactor
+        id: create-lighthouse-configs
+        uses: seungjaey/create-lighthouse-ci-config-files@v0.0.beta-0.5
+        with:
+          URL_PREFIX: http://localhost:3000
+          URL_LIST: |
+            [상품상세] 싱글 콘텐츠__SEP__/goods/5063942
+            [상품상세] 멀티 콘텐츠__SEP__/goods/5094163
+            [상품상세] 옵션형 콘텐츠__SEP__/goods/1000001181
+            [상품상세] 캘린더형 콘텐츠__SEP__/goods/1000001210
+            [장바구니]__SEP__/cart
+            [주문서]__SEP__/order/checkout
+            [주문 취소]__SEP__/mypage/order/cancel?orderNo=2274913293740
+            [선물내역]__SEP__/mypage/gift
+            [선물내역 상세]__SEP__/mypage/gift/detail?orderNo=2278011230005
+            [선물주문 취소]__SEP__/mypage/gift/cancel?orderNo=2278011230005
+
+      - name: Run Lighthouse CI
+        run: |
+          npm install -g @lhci/cli
+
+      - name: Run Lighthouse-CI Mobile
+        run: lhci autorun --config ${{ steps.create-lighthouse-configs.outputs.MOBILE_CONFIG_FILE_NAME }}
+
+      - name: Run Lighthouse-CI Desktop
+        run: lhci autorun --config ${{ steps.create-lighthouse-configs.outputs.DESKTOP_CONFIG_FILE_NAME }}
+
+      - name: Parse Markdown
+        id: parse_lighthouse_report
+        uses: seungjaey/parse-lighthouse-report-to-md@v0.0.beta-0.15
+        with:
+          REPORT_DIR_NAME: ${{ steps.create-lighthouse-configs.outputs.REPORT_DIR_NAME }}
+          URL_LIST_JSON_STRING: ${{ steps.create-lighthouse-configs.outputs.URL_LIST_JSON_STRING }}
+          S3_BUCKET_NAME: ${{ secrets.LHCI_S3_BUCKET_NAME }}
+          AWS_ACCESS_KEY_ID: ${{ secrets.LHCI_AWS_ACCESS_KEY_ID }}
+          AWS_SECRET_ACCESS_KEY: ${{ secrets.LHCI_AWS_SECRET_ACCESS_KEY }}
+
+      - name: comment PR
+        id: comment_pr
+        uses: thollander/actions-comment-pull-request@v1
+        with:
+          message: ${{ steps.parse_lighthouse_report.outputs.REPORT_MD_STRING }}
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+
+      - name: Upload Artifact
+        uses: actions/upload-artifact@v4
+        with:
+          name: Lighthouse-CI
+          path: ./${{ steps.create-lighthouse-configs.outputs.REPORT_DIR_NAME }}
+          retention-days: 1
+          include-hidden-files: true

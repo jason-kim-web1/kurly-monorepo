@@ -1,0 +1,63 @@
+name: Update PR automatically
+
+on:
+  pull_request:
+    types: [opened]
+
+jobs:
+  update-pr:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Update PR
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          COMPANY_JIRA_URL: 'https://kurly0521.atlassian.net/browse'
+        run: |
+          pr_author=${{ github.event.pull_request.user.login }}
+          pr_number=${{ github.event.pull_request.number }}
+          pr_branch_name=${{ github.event.pull_request.head.ref }}
+          repo_name=${{ github.repository }}
+          order_front=("kurly-hyein" "eunchaeKang" "KimJuHyang" "Kwakcena" "yoziyo" "SeongyongLeeKurly")
+
+          # PR author를 assignees로 자동 할당
+          curl -s -X POST -H "Authorization: token $GITHUB_TOKEN" \
+              -H "Accept: application/vnd.github.v3+json" \
+              https://api.github.com/repos/$repo_name/issues/$pr_number/assignees \
+              -d "{\"assignees\":[\"$pr_author\"]}"
+
+          # 브랜치 명이 KNF- KQA-로 시작할 경우
+          if [[ $pr_branch_name =~ ^(KMF-|KQA-) ]]; then
+            # JIRA 링크 자동 삽입
+            jira_issue=$(echo $pr_branch_name | grep -oP '^(KMF-|KQA-)\d+')
+            jira_link="${COMPANY_JIRA_URL}/${jira_issue}"
+
+            pr_body=$(curl -s -H "Authorization: token $GITHUB_TOKEN" \
+              -H "Accept: application/vnd.github.v3+json" \
+              https://api.github.com/repos/$repo_name/pulls/$pr_number | jq -r .body)
+
+            if [[ $pr_body != *$jira_link* ]]; then
+              updated_pr_body="${pr_body}<br/>${jira_link}"
+
+              curl -s -X PATCH -H "Authorization: token $GITHUB_TOKEN" \
+                -H "Accept: application/vnd.github.v3+json" \
+                https://api.github.com/repos/$repo_name/pulls/$pr_number \
+                -d "$(jq -n --arg body "$updated_pr_body" '{body: $body}')"
+            fi
+
+            # author가 주문 프론트인 경우 주문모듈 label 할당
+            label=""
+            for author in "${order_front[@]}"; do
+              if [[ "$pr_author" == "$author" ]]; then
+                label="team/order-front"
+                break
+              fi
+            done
+
+            if [[ -n "$label" ]]; then
+              curl -s -X POST -H "Authorization: token $GITHUB_TOKEN" \
+                  -H "Accept: application/vnd.github.v3+json" \
+                  https://api.github.com/repos/$repo_name/issues/$pr_number/labels \
+                  -d "{\"labels\":[\"$label\"]}"
+            fi
+          fi

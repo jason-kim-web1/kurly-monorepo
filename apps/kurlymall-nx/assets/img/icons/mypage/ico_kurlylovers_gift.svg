@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="32px" height="32px" viewBox="0 0 32 32" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>ic_rank_gift</title>
+    <g id="ic_rank_gift" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <circle id="Oval-5-Copy-21" stroke="#5F0080" fill="#FFFFFF" cx="16" cy="16" r="15.5"></circle>
+        <g id="gift" transform="translate(9.000000, 8.500000)" stroke="#5F0080" stroke-linecap="round" stroke-linejoin="round">
+            <polyline id="Path" points="13 7 13 14 1 14 1 7"></polyline>
+            <rect id="Rectangle" x="0" y="3.5" width="14" height="3.5"></rect>
+            <line x1="7" y1="14" x2="7" y2="3.5" id="Path"></line>
+            <path d="M7,3.5 L3.85,3.5 C2.88350169,3.5 2.1,2.71649831 2.1,1.75 C2.1,0.783501688 2.88350169,6.21724894e-16 3.85,6.21724894e-16 C6.3,6.21724894e-16 7,3.5 7,3.5 Z" id="Path"></path>
+            <path d="M7,3.5 L10.15,3.5 C11.1164983,3.5 11.9,2.71649831 11.9,1.75 C11.9,0.783501688 11.1164983,6.21724894e-16 10.15,6.21724894e-16 C7.7,6.21724894e-16 7,3.5 7,3.5 Z" id="Path"></path>
+        </g>
+    </g>
+</svg>

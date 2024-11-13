@@ -1,0 +1,217 @@
+{
+  "data": [
+    {
+      "no": 1000043224,
+      "name": "창원/평택센터 확장 테스트 상품 - 증정 테스트 (통합운영)",
+      "short_description": "창원/평택센터 확장 테스트 상품 - 증정 테스트 (통합운영)",
+      "list_image_url": "https://product-image-stg.kurly.com/product/image/f84d48bf-80d1-4a06-98f8-2a1b8a91cda2.jpg",
+      "sales_price": 10000,
+      "discounted_price": null,
+      "discount_rate": 0,
+      "is_multiple_price": false,
+      "is_buy_now": true,
+      "is_purchase_status": true,
+      "is_giftable": false,
+      "is_only_adult": false,
+      "is_shown": true,
+      "is_sold_out": false,
+      "sold_out_title": "Coming Soon",
+      "sold_out_text": "",
+      "can_restock_notify": true,
+      "product_view_status": "BUY_POSSIBLE",
+      "not_purchase_message": "Coming Soon",
+      "delivery_type_names": [
+        "샛별배송"
+      ],
+      "tags": [],
+      "sticker": null,
+      "group_product": {
+        "is_group": false,
+        "is_not_representative": false
+      },
+      "review_count": ""
+    },
+    {
+      "no": 1000043374,
+      "name": "평택/창원 확장 - 선물하기 테스트 (IC+CC01) 1",
+      "short_description": "평택/창원 확장 - 선물하기 테스트 (IC+CC01) 1",
+      "list_image_url": "https://product-image-stg.kurly.com/product/image/7ea2aa5c-6e72-46a5-8e94-198c2af4d761.jpg",
+      "sales_price": 20000,
+      "discounted_price": 10000,
+      "discount_rate": 50,
+      "is_multiple_price": false,
+      "is_buy_now": true,
+      "is_purchase_status": true,
+      "is_giftable": true,
+      "is_only_adult": false,
+      "is_shown": true,
+      "is_sold_out": false,
+      "sold_out_title": "Coming Soon",
+      "sold_out_text": "",
+      "can_restock_notify": true,
+      "product_view_status": "BUY_POSSIBLE",
+      "not_purchase_message": "Coming Soon",
+      "delivery_type_names": [
+        "샛별배송"
+      ],
+      "tags": [],
+      "sticker": null,
+      "group_product": {
+        "is_group": false,
+        "is_not_representative": false
+      },
+      "review_count": ""
+    },
+    {
+      "no": 1000043391,
+      "name": "평택/창원 확장 - 선물하기 테스트 (IC+CC01) 2",
+      "short_description": "평택/창원 확장 - 선물하기 테스트 (IC+CC01) 2",
+      "list_image_url": "https://product-image-stg.kurly.com/product/image/e3bc3674-b95b-4664-a292-eee3bb42a747.jpg",
+      "sales_price": 10000,
+      "discounted_price": 5000,
+      "discount_rate": 50,
+      "is_multiple_price": false,
+      "is_buy_now": true,
+      "is_purchase_status": true,
+      "is_giftable": true,
+      "is_only_adult": false,
+      "is_shown": true,
+      "is_sold_out": false,
+      "sold_out_title": "Coming Soon",
+      "sold_out_text": "",
+      "can_restock_notify": true,
+      "product_view_status": "BUY_POSSIBLE",
+      "not_purchase_message": "Coming Soon",
+      "delivery_type_names": [
+        "샛별배송"
+      ],
+      "tags": [],
+      "sticker": null,
+      "group_product": {
+        "is_group": false,
+        "is_not_representative": false
+      },
+      "review_count": ""
+    },
+    {
+      "no": 1000043228,
+      "name": "싱글딜-권장가+컬리가+할인+스티커(통합CC)",
+      "short_description": "싱글딜-권장가+컬리가+할인+스티커(통합CC)",
+      "list_image_url": "https://product-image-stg.kurly.com/product/image/04464e43-a144-4840-92c1-e420a1792edc.png",
+      "sales_price": 20000,
+      "discounted_price": 18000,
+      "discount_rate": 10,
+      "is_multiple_price": false,
+      "is_buy_now": true,
+      "is_purchase_status": true,
+      "is_giftable": false,
+      "is_only_adult": false,
+      "is_shown": true,
+      "is_sold_out": false,
+      "sold_out_title": "Coming Soon",
+      "sold_out_text": "",
+      "can_restock_notify": true,
+      "product_view_status": "BUY_POSSIBLE",
+      "not_purchase_message": "Coming Soon",
+      "delivery_type_names": [
+        "샛별배송"
+      ],
+      "tags": [],
+      "sticker": {
+        "content": [
+          {
+            "text": "0126 스티커",
+            "weight": "bold"
+          }
+        ],
+        "opacity": 90,
+        "background_color": "#BD76FF"
+      },
+      "group_product": {
+        "is_group": false,
+        "is_not_representative": false
+      },
+      "review_count": ""
+    },
+    {
+      "no": 1000001603,
+      "name": "싱글딜 확인용1(콘텐츠 상품명)",
+      "short_description": "콘텐츠 짧은 설명",
+      "list_image_url": "https://product-image-dev.kurly.com/product/image/7b82a344-e64e-40ef-ad07-e110390a254b.jpg",
+      "sales_price": 12000,
+      "discounted_price": 9000,
+      "discount_rate": 25,
+      "is_multiple_price": false,
+      "is_buy_now": false,
+      "is_purchase_status": true,
+      "is_giftable": false,
+      "is_only_adult": false,
+      "is_shown": true,
+      "is_sold_out": false,
+      "sold_out_title": "Coming Soon",
+      "sold_out_text": "품절 문구 테스트(2/6)",
+      "can_restock_notify": true,
+      "product_view_status": "BUY_POSSIBLE",
+      "not_purchase_message": "Coming Soon",
+      "delivery_type_names": [
+        "샛별배송"
+      ],
+      "tags": [
+        {
+          "name": "최저가",
+          "type": "DEFAULT"
+        },
+        {
+          "name": "건강기능",
+          "type": "DEFAULT"
+        }
+      ],
+      "sticker": {
+        "content": [
+          {
+            "text": "할인",
+            "weight": "bold"
+          }
+        ],
+        "opacity": 90,
+        "background_color": "#BD76FF"
+      },
+      "group_product": {
+        "is_group": false,
+        "is_not_representative": false
+      },
+      "review_count": ""
+    },
+    {
+      "no": 1000043382,
+      "name": "평택/창원 확장 - 선물하기 테스트 (통합운영 CC02 + CC01) 2",
+      "short_description": "평택/창원 확장 - 선물하기 테스트 (통합운영 CC02 + CC01) 2",
+      "list_image_url": "https://product-image-stg.kurly.com/product/image/c986a62d-e5fb-456a-8e87-c75df3c83e81.jpg",
+      "sales_price": 10000,
+      "discounted_price": 5000,
+      "discount_rate": 50,
+      "is_multiple_price": false,
+      "is_buy_now": true,
+      "is_purchase_status": true,
+      "is_giftable": true,
+      "is_only_adult": false,
+      "is_shown": true,
+      "is_sold_out": false,
+      "sold_out_title": "Coming Soon",
+      "sold_out_text": "",
+      "can_restock_notify": true,
+      "product_view_status": "BUY_POSSIBLE",
+      "not_purchase_message": "Coming Soon",
+      "delivery_type_names": [
+        "샛별배송"
+      ],
+      "tags": [],
+      "sticker": null,
+      "group_product": {
+        "is_group": false,
+        "is_not_representative": false
+      },
+      "review_count": ""
+    }
+  ]
+}

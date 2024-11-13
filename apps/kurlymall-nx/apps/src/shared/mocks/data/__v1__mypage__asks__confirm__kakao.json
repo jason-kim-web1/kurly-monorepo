@@ -1,0 +1,11 @@
+{
+  "data": {
+    "confirm_flag": true,
+    "code": "WVD1000",
+    "title": "카카오톡 문의",
+    "message": "카카오톡으로 이동하시겠습니까?",
+    "cancel_button_title": "취소",
+    "ok_button_title": "이동",
+    "ok_button_action_url": "https://api.happytalk.io/api/kakao/chat_open?yid=%40%EB%A7%88%EC%BC%93%EC%BB%AC%EB%A6%AC&site_id=1000216895&category_id=66100&division_id=66101"
+  }
+}

@@ -1,0 +1,15 @@
+export const BROWSE_SUB_EVENT_INFO = new Set([
+  'select_category',
+  'select_event_list_banner',
+  'select_brand_list_banner',
+  'select_category_subtab',
+  'select_category_banner',
+  'select_gift_list',
+  'select_benefit_list_banner',
+  'select_collection_banner',
+  'select_collection_subtab',
+  'select_search_banner',
+  'select_section_item',
+  'select_section_item_shortcut',
+  'select_collection',
+]);

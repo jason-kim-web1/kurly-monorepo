@@ -1,0 +1,518 @@
+{
+  "data": {
+    "id": 766,
+    "title": "마감세일 컬렉션",
+    "subtitle": "마감세일 컬렉션",
+    "additional_text": null,
+    "template_code": "closing_sale",
+    "template_type": "closing_sale",
+    "event_code": "closing_sale",
+    "data": {
+      "collection_code": "closeout-sale",
+      "has_more": false,
+      "products": [
+        {
+          "no": 1000043417,
+          "name": "[럭키박스] 블루 미니델피늄",
+          "short_description": "이벤트 구매권 발행 ID 181",
+          "list_image_url": "https://product-image-stg.kurly.com/product/image/8612e29b-2b6f-44ec-883b-3755fddf2d38.png",
+          "sales_price": 19900,
+          "discounted_price": 0,
+          "discount_rate": 100,
+          "is_multiple_price": false,
+          "is_buy_now": false,
+          "is_purchase_status": true,
+          "is_giftable": false,
+          "is_only_adult": false,
+          "is_shown": true,
+          "is_sold_out": false,
+          "sold_out_title": "Coming Soon",
+          "sold_out_text": "",
+          "can_restock_notify": true,
+          "product_view_status": "BUY_POSSIBLE",
+          "not_purchase_message": "Coming Soon",
+          "delivery_type_names": [
+            "샛별배송"
+          ],
+          "tags": [],
+          "sticker": null,
+          "group_product": {
+            "is_group": false,
+            "is_not_representative": false
+          },
+          "review_count": ""
+        },
+        {
+          "no": 1000043414,
+          "name": "멀티(IC운영)_권장가 + 컬리가 + 할인",
+          "short_description": "",
+          "list_image_url": "https://product-image-stg.kurly.com/product/image/1b6b3bcc-37af-43d5-8fb9-391e6c4e7c4d.jpg",
+          "sales_price": 2000,
+          "discounted_price": 50,
+          "discount_rate": 97,
+          "is_multiple_price": true,
+          "is_buy_now": true,
+          "is_purchase_status": true,
+          "is_giftable": false,
+          "is_only_adult": false,
+          "is_shown": true,
+          "is_sold_out": false,
+          "sold_out_title": "Coming Soon",
+          "sold_out_text": "",
+          "can_restock_notify": true,
+          "product_view_status": "BUY_POSSIBLE",
+          "not_purchase_message": "Coming Soon",
+          "delivery_type_names": [
+            "샛별배송"
+          ],
+          "tags": [],
+          "sticker": null,
+          "group_product": {
+            "is_group": false,
+            "is_not_representative": false
+          },
+          "review_count": ""
+        },
+        {
+          "no": 1000044822,
+          "name": "CC02 스티커용",
+          "short_description": "비회원용",
+          "list_image_url": "https://product-image-stg.kurly.com/product/image/55cee89c-9b84-48be-a137-cd297bfeef8f.jpg",
+          "sales_price": 400,
+          "discounted_price": 10,
+          "discount_rate": 97,
+          "is_multiple_price": false,
+          "is_buy_now": true,
+          "is_purchase_status": true,
+          "is_giftable": false,
+          "is_only_adult": false,
+          "is_shown": true,
+          "is_sold_out": false,
+          "sold_out_title": "Coming Soon",
+          "sold_out_text": "",
+          "can_restock_notify": true,
+          "product_view_status": "BUY_POSSIBLE",
+          "not_purchase_message": "Coming Soon",
+          "delivery_type_names": [
+            "샛별배송"
+          ],
+          "tags": [
+            {
+              "name": "Kurly Only",
+              "type": "KURLY_ONLY"
+            },
+            {
+              "name": "한정수량",
+              "type": "DEFAULT"
+            }
+          ],
+          "sticker": {
+            "content": [
+              {
+                "text": "비회원용",
+                "weight": "bold"
+              },
+              {
+                "text": "**",
+                "weight": "regular"
+              }
+            ],
+            "opacity": 90,
+            "background_color": "#BD76FF"
+          },
+          "group_product": {
+            "is_group": false,
+            "is_not_representative": false
+          },
+          "review_count": ""
+        },
+        {
+          "no": 1000043335,
+          "name": "평택/창원 확장 - 콘텐츠 그룹 테스트 12 70%",
+          "short_description": "평택/창원 확장 - 콘텐츠 그룹 테스트 12 70%",
+          "list_image_url": "https://product-image-stg.kurly.com/product/image/c46942bb-ab72-4244-8d48-1d1a5f3ef1cb.png",
+          "sales_price": 10000,
+          "discounted_price": 3000,
+          "discount_rate": 70,
+          "is_multiple_price": false,
+          "is_buy_now": true,
+          "is_purchase_status": true,
+          "is_giftable": false,
+          "is_only_adult": false,
+          "is_shown": true,
+          "is_sold_out": false,
+          "sold_out_title": "Coming Soon",
+          "sold_out_text": "",
+          "can_restock_notify": true,
+          "product_view_status": "BUY_POSSIBLE",
+          "not_purchase_message": "Coming Soon",
+          "delivery_type_names": [
+            "샛별배송"
+          ],
+          "tags": [],
+          "sticker": null,
+          "group_product": {
+            "is_group": true,
+            "is_not_representative": true
+          },
+          "review_count": ""
+        },
+        {
+          "no": 1000043402,
+          "name": "평택/창원 확장 - 선물하기 테스트 (CC운영 + CC01)",
+          "short_description": "평택/창원 확장 - 선물하기 테스트 (CC운영 + CC01)",
+          "list_image_url": "https://product-image-stg.kurly.com/product/image/7d7871c2-d838-493f-8305-2d763142b651.jpg",
+          "sales_price": 10000,
+          "discounted_price": 5000,
+          "discount_rate": 50,
+          "is_multiple_price": false,
+          "is_buy_now": false,
+          "is_purchase_status": true,
+          "is_giftable": true,
+          "is_only_adult": false,
+          "is_shown": true,
+          "is_sold_out": false,
+          "sold_out_title": "Coming Soon",
+          "sold_out_text": "",
+          "can_restock_notify": true,
+          "product_view_status": "BUY_POSSIBLE",
+          "not_purchase_message": "Coming Soon",
+          "delivery_type_names": [
+            "샛별배송"
+          ],
+          "tags": [],
+          "sticker": {
+            "content": [
+              {
+                "text": "스티커 적용",
+                "weight": "bold"
+              }
+            ],
+            "opacity": 90,
+            "background_color": "#BD76FF"
+          },
+          "group_product": {
+            "is_group": false,
+            "is_not_representative": false
+          },
+          "review_count": ""
+        },
+        {
+          "no": 1000043391,
+          "name": "평택/창원 확장 - 선물하기 테스트 (IC+CC01) 2",
+          "short_description": "평택/창원 확장 - 선물하기 테스트 (IC+CC01) 2",
+          "list_image_url": "https://product-image-stg.kurly.com/product/image/e3bc3674-b95b-4664-a292-eee3bb42a747.jpg",
+          "sales_price": 10000,
+          "discounted_price": 5000,
+          "discount_rate": 50,
+          "is_multiple_price": false,
+          "is_buy_now": true,
+          "is_purchase_status": true,
+          "is_giftable": true,
+          "is_only_adult": false,
+          "is_shown": true,
+          "is_sold_out": false,
+          "sold_out_title": "Coming Soon",
+          "sold_out_text": "",
+          "can_restock_notify": true,
+          "product_view_status": "BUY_POSSIBLE",
+          "not_purchase_message": "Coming Soon",
+          "delivery_type_names": [
+            "샛별배송"
+          ],
+          "tags": [],
+          "sticker": null,
+          "group_product": {
+            "is_group": false,
+            "is_not_representative": false
+          },
+          "review_count": ""
+        },
+        {
+          "no": 1000043382,
+          "name": "평택/창원 확장 - 선물하기 테스트 (통합운영 CC02 + CC01) 2",
+          "short_description": "평택/창원 확장 - 선물하기 테스트 (통합운영 CC02 + CC01) 2",
+          "list_image_url": "https://product-image-stg.kurly.com/product/image/c986a62d-e5fb-456a-8e87-c75df3c83e81.jpg",
+          "sales_price": 10000,
+          "discounted_price": 5000,
+          "discount_rate": 50,
+          "is_multiple_price": false,
+          "is_buy_now": true,
+          "is_purchase_status": true,
+          "is_giftable": true,
+          "is_only_adult": false,
+          "is_shown": true,
+          "is_sold_out": false,
+          "sold_out_title": "Coming Soon",
+          "sold_out_text": "",
+          "can_restock_notify": true,
+          "product_view_status": "BUY_POSSIBLE",
+          "not_purchase_message": "Coming Soon",
+          "delivery_type_names": [
+            "샛별배송"
+          ],
+          "tags": [],
+          "sticker": null,
+          "group_product": {
+            "is_group": false,
+            "is_not_representative": false
+          },
+          "review_count": ""
+        },
+        {
+          "no": 1000043374,
+          "name": "평택/창원 확장 - 선물하기 테스트 (IC+CC01) 1",
+          "short_description": "평택/창원 확장 - 선물하기 테스트 (IC+CC01) 1",
+          "list_image_url": "https://product-image-stg.kurly.com/product/image/7ea2aa5c-6e72-46a5-8e94-198c2af4d761.jpg",
+          "sales_price": 20000,
+          "discounted_price": 10000,
+          "discount_rate": 50,
+          "is_multiple_price": false,
+          "is_buy_now": true,
+          "is_purchase_status": true,
+          "is_giftable": true,
+          "is_only_adult": false,
+          "is_shown": true,
+          "is_sold_out": false,
+          "sold_out_title": "Coming Soon",
+          "sold_out_text": "",
+          "can_restock_notify": true,
+          "product_view_status": "BUY_POSSIBLE",
+          "not_purchase_message": "Coming Soon",
+          "delivery_type_names": [
+            "샛별배송"
+          ],
+          "tags": [],
+          "sticker": null,
+          "group_product": {
+            "is_group": false,
+            "is_not_representative": false
+          },
+          "review_count": ""
+        },
+        {
+          "no": 1000043363,
+          "name": "통합운영(CC01) - 멀티딜 (품절)",
+          "short_description": "",
+          "list_image_url": "https://product-image-stg.kurly.com/product/image/97a3797c-3ed8-4d6d-9210-e46b45f73681.jpg",
+          "sales_price": 8000,
+          "discounted_price": 4000,
+          "discount_rate": 50,
+          "is_multiple_price": true,
+          "is_buy_now": true,
+          "is_purchase_status": true,
+          "is_giftable": false,
+          "is_only_adult": false,
+          "is_shown": true,
+          "is_sold_out": false,
+          "sold_out_title": "Coming Soon",
+          "sold_out_text": "",
+          "can_restock_notify": true,
+          "product_view_status": "BUY_POSSIBLE",
+          "not_purchase_message": "Coming Soon",
+          "delivery_type_names": [
+            "샛별배송"
+          ],
+          "tags": [
+            {
+              "name": "한정수량",
+              "type": "DEFAULT"
+            },
+            {
+              "name": "단독특가",
+              "type": "DEFAULT"
+            }
+          ],
+          "sticker": null,
+          "group_product": {
+            "is_group": false,
+            "is_not_representative": false
+          },
+          "review_count": ""
+        },
+        {
+          "no": 1000043397,
+          "name": "멀티(통합IC)_권장+컬리",
+          "short_description": "권장 컬리만 있어",
+          "list_image_url": "https://product-image-stg.kurly.com/product/image/389b30eb-2dcd-47f0-b4bb-6491e5a8901b.jpg",
+          "sales_price": 15000,
+          "discounted_price": 10000,
+          "discount_rate": 33,
+          "is_multiple_price": true,
+          "is_buy_now": false,
+          "is_purchase_status": true,
+          "is_giftable": false,
+          "is_only_adult": false,
+          "is_shown": true,
+          "is_sold_out": false,
+          "sold_out_title": "Coming Soon",
+          "sold_out_text": "",
+          "can_restock_notify": true,
+          "product_view_status": "BUY_POSSIBLE",
+          "not_purchase_message": "Coming Soon",
+          "delivery_type_names": [
+            "샛별배송"
+          ],
+          "tags": [],
+          "sticker": null,
+          "group_product": {
+            "is_group": false,
+            "is_not_representative": false
+          },
+          "review_count": ""
+        },
+        {
+          "no": 1000043339,
+          "name": "평택/창원 확장 - 선물하기 테스트 (통합운영 CC02 + CC01)",
+          "short_description": "평택/창원 확장 - 선물하기 테스트 (통합운영 CC02 + CC01)",
+          "list_image_url": "https://product-image-stg.kurly.com/product/image/fdc880c2-7654-4ab4-8840-96bc9e75c89c.jpg",
+          "sales_price": 15000,
+          "discounted_price": 10000,
+          "discount_rate": 33,
+          "is_multiple_price": false,
+          "is_buy_now": true,
+          "is_purchase_status": true,
+          "is_giftable": true,
+          "is_only_adult": false,
+          "is_shown": true,
+          "is_sold_out": false,
+          "sold_out_title": "Coming Soon",
+          "sold_out_text": "",
+          "can_restock_notify": true,
+          "product_view_status": "BUY_POSSIBLE",
+          "not_purchase_message": "Coming Soon",
+          "delivery_type_names": [
+            "샛별배송"
+          ],
+          "tags": [],
+          "sticker": null,
+          "group_product": {
+            "is_group": false,
+            "is_not_representative": false
+          },
+          "review_count": ""
+        },
+        {
+          "no": 1000043404,
+          "name": "싱글딜 [IC운영] (권장가 + 컬리가 + 할인  + 스티커)",
+          "short_description": "싱글딜 [IC운영] (권장가 + 컬리가 + 할인  + 스티커)",
+          "list_image_url": "https://product-image-stg.kurly.com/product/image/d97c903f-e226-4661-8411-f6c7afcf26f4.jpg",
+          "sales_price": 50000,
+          "discounted_price": 35000,
+          "discount_rate": 30,
+          "is_multiple_price": false,
+          "is_buy_now": true,
+          "is_purchase_status": true,
+          "is_giftable": false,
+          "is_only_adult": false,
+          "is_shown": true,
+          "is_sold_out": false,
+          "sold_out_title": "Coming Soon",
+          "sold_out_text": "",
+          "can_restock_notify": true,
+          "product_view_status": "BUY_POSSIBLE",
+          "not_purchase_message": "Coming Soon",
+          "delivery_type_names": [
+            "샛별배송"
+          ],
+          "tags": [],
+          "sticker": {
+            "content": [
+              {
+                "text": "통합IC",
+                "weight": "bold"
+              }
+            ],
+            "opacity": 90,
+            "background_color": "#BD76FF"
+          },
+          "group_product": {
+            "is_group": false,
+            "is_not_representative": false
+          },
+          "review_count": ""
+        },
+        {
+          "no": 1000043378,
+          "name": "싱글(IC운영)_권장가+컬리가",
+          "short_description": "진열/미진열",
+          "list_image_url": "https://product-image-stg.kurly.com/product/image/2b7d12e3-379b-4f07-bed4-980d56f567c1.png",
+          "sales_price": 90000,
+          "discounted_price": 80000,
+          "discount_rate": 11,
+          "is_multiple_price": false,
+          "is_buy_now": true,
+          "is_purchase_status": true,
+          "is_giftable": false,
+          "is_only_adult": false,
+          "is_shown": true,
+          "is_sold_out": false,
+          "sold_out_title": "Coming Soon",
+          "sold_out_text": "",
+          "can_restock_notify": true,
+          "product_view_status": "BUY_POSSIBLE",
+          "not_purchase_message": "Coming Soon",
+          "delivery_type_names": [
+            "샛별배송"
+          ],
+          "tags": [],
+          "sticker": null,
+          "group_product": {
+            "is_group": false,
+            "is_not_representative": false
+          },
+          "review_count": ""
+        },
+        {
+          "no": 1000043407,
+          "name": "통합운영(IC) - 멀티딜 (컬리가 + 할인)",
+          "short_description": "",
+          "list_image_url": "https://product-image-stg.kurly.com/product/image/e0fa5988-864c-49b5-82a9-1e44fb2b6e83.jpg",
+          "sales_price": 3000,
+          "discounted_price": 2700,
+          "discount_rate": 10,
+          "is_multiple_price": true,
+          "is_buy_now": true,
+          "is_purchase_status": true,
+          "is_giftable": false,
+          "is_only_adult": false,
+          "is_shown": true,
+          "is_sold_out": false,
+          "sold_out_title": "Coming Soon",
+          "sold_out_text": "",
+          "can_restock_notify": true,
+          "product_view_status": "BUY_POSSIBLE",
+          "not_purchase_message": "Coming Soon",
+          "delivery_type_names": [
+            "샛별배송"
+          ],
+          "tags": [
+            {
+              "name": "단독특가",
+              "type": "DEFAULT"
+            },
+            {
+              "name": "재활용 최우수",
+              "type": "RECYCLE"
+            }
+          ],
+          "sticker": {
+            "content": [
+              {
+                "text": "통운IC",
+                "weight": "bold"
+              }
+            ],
+            "opacity": 90,
+            "background_color": "#BD76FF"
+          },
+          "group_product": {
+            "is_group": false,
+            "is_not_representative": false
+          },
+          "review_count": ""
+        }
+      ]
+    }
+  }
+}

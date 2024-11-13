@@ -1,0 +1,32 @@
+{
+  "data": {
+    "id": 711,
+    "title": "후기수-컬렉션모음",
+    "subtitle": "후기수-컬렉션모음",
+    "additional_text": null,
+    "template_code": "group_collection_circle",
+    "template_type": "group_collection",
+    "event_code": "group_collection_circle",
+    "data": {
+      "collection_group_code": "clynpom7",
+      "has_more": true,
+      "collections": [
+        {
+          "code": "review-count-test-01",
+          "name": "후기수-랜컬",
+          "thumbnail_image_url": "https://collection-image-stg.kurly.com/product-collections/1389/LFnf5hTfFSH9m1bLeWXUa1uUq5iRGC7PHhDJutcS.jpg"
+        },
+        {
+          "code": "sfmktest30",
+          "name": "테슷",
+          "thumbnail_image_url": "https://collection-image-stg.kurly.com/product-collections/1388/Xi3aO2OsSxjSHxZaKbbDgduU7wt5zeeb7up11DT1.jpg"
+        },
+        {
+          "code": "review-count-test-2",
+          "name": "후기수수",
+          "thumbnail_image_url": "https://collection-image-stg.kurly.com/product-collections/1390/HoTume7MIGVkSzk6trmwXTtEj7TTjQY428AvjkWZ.jpg"
+        }
+      ]
+    }
+  }
+}

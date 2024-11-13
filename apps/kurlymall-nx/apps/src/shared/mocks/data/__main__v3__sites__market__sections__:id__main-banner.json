@@ -1,0 +1,27 @@
+{
+  "data": {
+    "id": 649,
+    "title": "",
+    "subtitle": "",
+    "additional_text": null,
+    "template_code": "main_banner",
+    "template_type": "main_banner",
+    "event_code": "main_banner",
+    "data": [
+      {
+        "id": "247",
+        "title": "",
+        "subtitle": "",
+        "image_url": "https://product-image-stg.kurly.com/banner/main/mobile/img/c18cdf41-35dd-4c24-9795-89580fa0763f.jpg",
+        "link": "https://www.stg.kurly.com/m2/event/kurlyEvent.php?htmid=event/2023/0202/romantic_valentine"
+      },
+      {
+        "id": "210",
+        "title": "oc7 배너(대)2",
+        "subtitle": "#oc7배너(소)2",
+        "image_url": "https://product-image-stg.kurly.com/banner/main/mobile/img/656337ee-b0d2-4794-8d90-6c02197f4322.jpg",
+        "link": "https://www-qa3.stg.kurly.com/m2/event/kurlyEvent.php?htmid=event%2Fdelivery_search%2Fdelivery_search"
+      }
+    ]
+  }
+}

@@ -1,0 +1,783 @@
+{
+  "data": {
+    "categories": [
+      {
+        "no": "780",
+        "name": "SPRING FESTA",
+        "show_all_flag": true,
+        "pc_icon_url": "https://img-cf.kurly.com/category/icon/pc/8dad5323-f8e6-4ddc-afbb-958582152894",
+        "pc_icon_active_url": "https://img-cf.kurly.com/category/icon/pc/7991746b-3fc4-4b40-b418-4a1f6e168b49",
+        "icon_url": "https://img-cf.kurly.com/category/icon/mobile/bf64b6c2-5e2a-4986-8b52-4f872b68d377",
+        "icon_active_url": "https://img-cf.kurly.com/category/icon/mobile/4847eedf-46f6-47c4-bb7d-7a85d9c40df0",
+        "post_deco_icon_url": "https://res.kurly.com/pc/service/common/1908/ico_new_42x42_v2.png",
+        "thumbnail_url": null,
+        "categories": [
+          { "no": "780031", "name": "\ubc30\uc1a1\uc720\ud615\ubcc4\uc0c1\ud488test" },
+          { "no": "780030", "name": "\ud310\ub9e4\uc81c\ud55c\uc124\uc815\uc0c1\ud488test" },
+          { "no": "780021", "name": "\uc635\uc158\ud615" },
+          { "no": "780024", "name": "\uc635\uc158\ud6152(\ubaa8\ub4e0 \ucf58\ud150\uce20 \ub178\ucd9c)" },
+          { "no": "780027", "name": "\uc635\uc158\ud6153(\ub300\ud45c \ucf58\ud150\uce20 \ub178\ucd9c)" },
+          { "no": "780020", "name": "\uce98\ub9b0\ub354\ud615" },
+          { "no": "780022", "name": "SH_\uc2f1\uae00\uba40\ud2f0\ud655\uc778\uc6a9" },
+          { "no": "780028", "name": "\ud1b5\ud569\uc6b4\uc601 \uc0c1\ud488 \ud655\uc778" },
+          { "no": "780001", "name": "+1 \ud50c\ub7ec\uc2a4\ub51c" },
+          { "no": "780002", "name": "\uc815\uc624\uc758 \ube0c\ub79c\ub4dc \ub370\uc774" },
+          { "no": "780003", "name": "BEST \uac04\ud3b8\uc2dd " },
+          { "no": "780004", "name": "BEST \ubca0\uc774\ucee4\ub9ac\u00b7\uac04\uc2dd" },
+          { "no": "780005", "name": "BEST \uc81c\ucca0\uacfc\uc77c\u00b7\ucc44\uc18c " },
+          { "no": "780006", "name": "BEST \uc815\uc721\u00b7\uc218\uc0b0" },
+          { "no": "780007", "name": "BEST \uc8fc\ubc29\uc6a9\ud488" },
+          { "no": "780008", "name": "BEST \uac00\uc804\u00b7\ub514\uc9c0\ud138" },
+          { "no": "780009", "name": "BEST \ubdf0\ud2f0" },
+          { "no": "780010", "name": "BEST \uc0dd\ud65c\uc6a9\ud488" },
+          { "no": "780011", "name": "BEST \ub9db\uc9d1\u00b7\ubc00\ud0a4\ud2b8" },
+          { "no": "780012", "name": "BEST \uba74 \u00b7\uc591\ub150\u00b7\uc624\uc77c" },
+          { "no": "780013", "name": "BEST \uc804\uc2dc\u00b7\uc219\ubc15\uad8c" },
+          { "no": "780014", "name": "\uc815\uc624\uc758 \ube0c\ub79c\ub4dc \ub370\uc774" },
+          { "no": "780015", "name": "\uc815\uc624\uc758 \ube0c\ub79c\ub4dc \ub370\uc774" },
+          { "no": "780016", "name": "\uc815\uc624\uc758 \ube0c\ub79c\ub4dc \ub370\uc774" },
+          { "no": "780017", "name": "3/25 \ube0c\ub79c\ub4dc\ub370\uc774" },
+          { "no": "780018", "name": "\uc804\uc2dc \uce74\ud14c\uace0\ub9ac \ucd94\uac00" },
+          { "no": "780019", "name": "\ub300\ud45c\uac00 \ud655\uc778" },
+          { "no": "780023", "name": "\ub300\uce74\ud14c\uace0\ub9ac\ud14c\uc2a4\ud2b8" },
+          { "no": "780029", "name": "\uce74\ud14c\uace0\ub9ac \ucd5c\ub300 \uac2f\uc218 \ud14c\uc2a4\ud2b8\uc6a9 1" },
+          { "no": "780033", "name": "\ud14c\uc2a4\ud2b8" }
+        ]
+      },
+      {
+        "no": "031",
+        "name": "QA\ud1b5\ud569\ud14c\uc2a4\ud2b8",
+        "show_all_flag": true,
+        "pc_icon_url": "https://product-image-dev.kurly.com/category/icon/pc/24092f16-ad1b-4db6-abfb-7ae625ab3351.png",
+        "pc_icon_active_url": "https://product-image-dev.kurly.com/category/icon/pc/98a53c49-7953-4ecb-bb76-b0a1cae68d0e.png",
+        "icon_url": "https://product-image-dev.kurly.com/category/icon/mobile/ed61ef1e-8811-4b4a-a9d5-438110dd10ed.png",
+        "icon_active_url": "https://product-image-dev.kurly.com/category/icon/mobile/20eaa963-e093-4bec-9c39-64cf0070354f.png",
+        "post_deco_icon_url": null,
+        "thumbnail_url": null,
+        "categories": [
+          { "no": "031008", "name": "210" },
+          { "no": "031012", "name": "220" },
+          { "no": "031010", "name": "225" },
+          { "no": "031009", "name": "226" },
+          { "no": "031013", "name": "227" },
+          { "no": "031007", "name": "237" },
+          { "no": "031011", "name": "235" },
+          { "no": "031002", "name": "238" },
+          { "no": "031027", "name": "3PL_210" },
+          { "no": "031028", "name": "3PL_220" },
+          { "no": "031029", "name": "3PL_225" },
+          { "no": "031026", "name": "3PL_235" },
+          { "no": "031003", "name": "\uc218\ud37c\ud310 X \ub9c8\ucf13\uceec\ub9ac" },
+          { "no": "031004", "name": "\ud55c\uc77c\uad00" },
+          { "no": "031016", "name": "\uce74\ud14c\uace0\ub9ac \ud14c\uc2a4\ud2b8" },
+          { "no": "031015", "name": "\uc2e0\uaddc\ub4f1\ub85d" },
+          { "no": "031018", "name": "\ubdf0\ud2f0\uceec\ub9ac \uc0ac\uc804 \ud3b8\uc131" },
+          { "no": "031019", "name": "NCL_\uacfc\uc77c \uce74\ud14c\uace0\ub9ac" },
+          {
+            "no": "031020",
+            "name": "3P, \ubbf8\uc2dd\ub51c\ub9ac\ubc84\ub9ac, \uc140\ud504\ud53d\uc5c5, \ubb34\ubc30\uc1a1, \uc124\uce58\ubc30\uc1a1"
+          },
+          { "no": "031021", "name": "\uc804\uc2dc \uce74\ud14c\uace0\ub9ac \ud14c\uc2a4\ud2b8" }
+        ]
+      },
+      {
+        "no": "085",
+        "name": "\uac00\uc804\uc81c\ud488",
+        "show_all_flag": false,
+        "pc_icon_url": "https://img-cf.kurly.com/shop/data/category/icon_electronic__inactive_pc@2x.1574417978.png",
+        "pc_icon_active_url": "https://img-cf.kurly.com/shop/data/category/icon_electronic__active_pc@2x.1574417978.png",
+        "icon_url": "https://img-cf.kurly.com/shop/data/category/icon_electronic_inactive@3x.1574417979.png",
+        "icon_active_url": "https://img-cf.kurly.com/shop/data/category/icon_electronic_active@3x.1574417979.png",
+        "post_deco_icon_url": null,
+        "thumbnail_url": null,
+        "categories": [
+          { "no": "085010", "name": "SH_\uce74\ud14c\uace0\ub9ac\ud655\uc778\uc6a9(\uc0ac\uc6a9\uae08\uc9c0)" },
+          { "no": "085011", "name": "SH_\ubc30\ub108\ud655\uc778\uc6a9(\uce74\ud14c\uace0\ub9ac_URL)" },
+          {
+            "no": "085012",
+            "name": "SH_\ubc30\ub108\ud655\uc778\uc6a9(\uce74\ud14c\uace0\ub9ac_\ucfe0\ud3f0\ub2e4\uc6b4)"
+          },
+          { "no": "085002", "name": "\uc8fc\ubc29\uac00\uc804" },
+          { "no": "085001", "name": "\uc0dd\ud65c\uac00\uc804" },
+          { "no": "085003", "name": "\uacc4\uc808\uac00\uc804" },
+          { "no": "085004", "name": "\ub514\uc9c0\ud138\u00b7PC" },
+          { "no": "085005", "name": "\ub300\ud615\u00b7\uc124\uce58\uac00\uc804" },
+          { "no": "085006", "name": "\uc635\uc158\ud615" },
+          { "no": "085007", "name": "\uce98\ub9b0\ub354\ud615" },
+          { "no": "085008", "name": "\uba40\ud2f0\ub51c \ub300\ud45c\uac00\ud655\uc778" },
+          { "no": "085009", "name": "\uc2f1\uae00\uba40\ud2f0\ud655\uc778\uc6a9" },
+          { "no": "085014", "name": "NCL \uc804\uc2dc\uce74\ud14c\uace0\ub9ac" },
+          { "no": "085015", "name": "\ubdf0\ud2f0\uceec\ub9ac \uc0c1\ud488 \ud655\uc778" }
+        ]
+      },
+      {
+        "no": "909",
+        "name": "\uc218\uc0b0\u00b7\ud574\uc0b0\u00b7\uac74\uc5b4\ubb3c",
+        "show_all_flag": true,
+        "pc_icon_url": "https://img-cf.kurly.com/shop/data/category/icon_seafood_inactive_pc@2x.1568684352.png",
+        "pc_icon_active_url": "https://img-cf.kurly.com/shop/data/category/icon_seafood_active_pc@2x.1568684353.png",
+        "icon_url": "https://img-cf.kurly.com/shop/data/category/icon_seafood_inactive@3x.1572228964.png",
+        "icon_active_url": "https://img-cf.kurly.com/shop/data/category/icon_seafood_active@3x.1572228965.png",
+        "post_deco_icon_url": null,
+        "thumbnail_url": null,
+        "categories": [
+          { "no": "909010", "name": "\uc81c\ucca0\uc218\uc0b0" },
+          { "no": "909001", "name": "\uc0dd\uc120\ub958" },
+          { "no": "909009", "name": "\uad74\ube44\u00b7\ubc18\uac74\ub958" },
+          { "no": "909002", "name": "\uc624\uc9d5\uc5b4\u00b7\ub099\uc9c0\u00b7\ubb38\uc5b4" },
+          { "no": "909003", "name": "\uc0c8\uc6b0\u00b7\uac8c\u00b7\ub78d\uc2a4\ud130" },
+          { "no": "909004", "name": "\ud574\uc0b0\ubb3c\u00b7\uc870\uac1c\ub958" },
+          { "no": "909007", "name": "\uc218\uc0b0\uac00\uacf5\ud488" },
+          { "no": "909005", "name": "\uae40\u00b7\ubbf8\uc5ed\u00b7\ud574\uc870\ub958" },
+          { "no": "909006", "name": "\uac74\uc5b4\ubb3c\u00b7\ub2e4\uc2dc\ud329" }
+        ]
+      },
+      {
+        "no": "908",
+        "name": "\uacfc\uc77c\u00b7\uacac\uacfc\u00b7\uc300",
+        "show_all_flag": true,
+        "pc_icon_url": "https://img-cf.kurly.com/shop/data/category/icon_fruit_inactive_pc@2x.1568684150.png",
+        "pc_icon_active_url": "https://img-cf.kurly.com/shop/data/category/icon_fruit_active_pc@2x.1568684150.png",
+        "icon_url": "https://img-cf.kurly.com/shop/data/category/icon_fruit_inactive@3x.1572229045.png",
+        "icon_active_url": "https://img-cf.kurly.com/shop/data/category/icon_fruit_active@3x.1572229046.png",
+        "post_deco_icon_url": null,
+        "thumbnail_url": null,
+        "categories": [
+          { "no": "908008", "name": "\uce5c\ud658\uacbd" },
+          { "no": "908006", "name": "\uc81c\ucca0\uacfc\uc77c" },
+          { "no": "908001", "name": "\uad6d\uc0b0\uacfc\uc77c" },
+          { "no": "908002", "name": "\uc218\uc785\uacfc\uc77c" },
+          { "no": "908007", "name": "\uac04\ud3b8\uacfc\uc77c" },
+          { "no": "908003", "name": "\ub0c9\ub3d9\u00b7\uac74\uacfc\uc77c" },
+          { "no": "908004", "name": "\uacac\uacfc\ub958" },
+          { "no": "908005", "name": "\uc300\u00b7\uc7a1\uace1" },
+          { "no": "908009", "name": "\ucc44\uc18c" }
+        ]
+      },
+      {
+        "no": "910",
+        "name": "\uc815\uc721\u00b7\uacc4\ub780",
+        "show_all_flag": true,
+        "pc_icon_url": "https://img-cf.kurly.com/shop/data/category/icon_meat_inactive_pc@2x.1568684452.png",
+        "pc_icon_active_url": "https://img-cf.kurly.com/shop/data/category/icon_meat_active_pc@2x.1568684452.png",
+        "icon_url": "https://img-cf.kurly.com/shop/data/category/icon_meat_inactive@3x.1572229206.png",
+        "icon_active_url": "https://img-cf.kurly.com/shop/data/category/icon_meat_active@3x.1572229206.png",
+        "post_deco_icon_url": null,
+        "thumbnail_url": null,
+        "categories": [
+          { "no": "910001", "name": "\uad6d\ub0b4\uc0b0 \uc18c\uace0\uae30" },
+          { "no": "910007", "name": "\uc218\uc785\uc0b0 \uc18c\uace0\uae30" },
+          { "no": "910002", "name": "\ub3fc\uc9c0\uace0\uae30" },
+          { "no": "910005", "name": "\uacc4\ub780\ub958" },
+          { "no": "910004", "name": "\ub2ed\u00b7\uc624\ub9ac\uace0\uae30" },
+          { "no": "910003", "name": "\uc591\ub150\uc721\u00b7\ub3c8\uae4c\uc2a4" },
+          { "no": "910006", "name": "\uc591\uace0\uae30" },
+          { "no": "910008", "name": "2\ucc28 \ud655\uc778 \ud14c\uc2a4\ud2b8\uc6a9" }
+        ]
+      },
+      {
+        "no": "911",
+        "name": "\uad6d\u00b7\ubc18\ucc2c\u00b7\uba54\uc778\uc694\ub9ac",
+        "show_all_flag": true,
+        "pc_icon_url": "https://img-cf.kurly.com/shop/data/category/icon_side_inactive_pc@2x.1572243579.png",
+        "pc_icon_active_url": "https://img-cf.kurly.com/shop/data/category/icon_side_active_pc@2x.1572243579.png",
+        "icon_url": "https://img-cf.kurly.com/shop/data/category/icon_side_inactive@3x.1572243189.png",
+        "icon_active_url": "https://img-cf.kurly.com/shop/data/category/icon_side_active@3x.1572243189.png",
+        "post_deco_icon_url": null,
+        "thumbnail_url": null,
+        "categories": [
+          { "no": "911001", "name": "\uad6d\u00b7\ud0d5\u00b7\ucc0c\uac1c" },
+          { "no": "911006", "name": "\ubc00\ud0a4\ud2b8\u00b7\uba54\uc778\uc694\ub9ac" },
+          { "no": "911002", "name": "\ubc11\ubc18\ucc2c" },
+          { "no": "911003", "name": "\uae40\uce58\u00b7\uc813\uac08\u00b7\uc7a5\ub958" },
+          { "no": "911005", "name": "\ub450\ubd80\u00b7\uc5b4\ubb35\u00b7\ubd80\uce68\uac1c" },
+          { "no": "911004", "name": "\ubca0\uc774\ucee8\u00b7\ud584\u00b7\ud1b5\uc870\ub9bc" }
+        ]
+      },
+      {
+        "no": "912",
+        "name": "\uc0d0\ub7ec\ub4dc\u00b7\uac04\ud3b8\uc2dd",
+        "show_all_flag": true,
+        "pc_icon_url": "https://img-cf.kurly.com/shop/data/category/icon_convenient_inactive_pc@2x.1572243542.png",
+        "pc_icon_active_url": "https://img-cf.kurly.com/shop/data/category/icon_convenient_active_pc@2x.1572243543.png",
+        "icon_url": "https://img-cf.kurly.com/shop/data/category/icon_convenient_inactive@3x.1572243452.png",
+        "icon_active_url": "https://img-cf.kurly.com/shop/data/category/icon_convenient_active@3x.1572243452.png",
+        "post_deco_icon_url": null,
+        "thumbnail_url": null,
+        "categories": [
+          { "no": "912001", "name": "\uc0d0\ub7ec\ub4dc\u00b7\ub2ed\uac00\uc2b4\uc0b4" },
+          { "no": "912003", "name": "\ub3c4\uc2dc\ub77d\u00b7\ubc25\ub958" },
+          { "no": "912004", "name": "\ud30c\uc2a4\ud0c0\u00b7\uba74\ub958" },
+          { "no": "912005", "name": "\ub5a1\ubcf6\uc774\u00b7\ud280\uae40\u00b7\uc21c\ub300" },
+          { "no": "912008", "name": "\ud53c\uc790\u00b7\ud56b\ub3c4\uadf8\u00b7\ub9cc\ub450" },
+          { "no": "912007", "name": "\ud3ed\ub9bd\u00b7\ub5a1\uac08\ube44\u00b7\uc548\uc8fc" },
+          { "no": "912006", "name": "\uc8fd\u00b7\uc2a4\ud504\u00b7\uce74\ub808" },
+          { "no": "912002", "name": "\uc120\uc2dd\u00b7\uc2dc\ub9ac\uc5bc" }
+        ]
+      },
+      {
+        "no": "913",
+        "name": "\uba74\u00b7\uc591\ub150\u00b7\uc624\uc77c",
+        "show_all_flag": true,
+        "pc_icon_url": "https://img-cf.kurly.com/shop/data/category/icon_sauce_inactive_pc@2x.1572243594.png",
+        "pc_icon_active_url": "https://img-cf.kurly.com/shop/data/category/icon_sauce_active_pc@2x.1572243594.png",
+        "icon_url": "https://img-cf.kurly.com/shop/data/category/icon_sauce_inactive@3x.1572243130.png",
+        "icon_active_url": "https://img-cf.kurly.com/shop/data/category/icon_sauce_active@3x.1572243130.png",
+        "post_deco_icon_url": null,
+        "thumbnail_url": null,
+        "categories": [
+          { "no": "913001", "name": "\ud30c\uc2a4\ud0c0\u00b7\uba74\ub958" },
+          { "no": "913007", "name": "\uc2dd\ucd08\u00b7\uc18c\uc2a4\u00b7\ub4dc\ub808\uc2f1" },
+          { "no": "913003", "name": "\uc591\ub150\u00b7\uc561\uc813\u00b7\uc7a5\ub958" },
+          { "no": "913006", "name": "\uc2dd\uc6a9\uc720\u00b7\ucc38\uae30\ub984\u00b7\uc624\uc77c" },
+          { "no": "913008", "name": "\uc18c\uae08\u00b7\uc124\ud0d5\u00b7\ud5a5\uc2e0\ub8cc" },
+          { "no": "913002", "name": "\ubc00\uac00\ub8e8\u00b7\uac00\ub8e8\u00b7\ubbf9\uc2a4" }
+        ]
+      },
+      {
+        "no": "914",
+        "name": "\uc0dd\uc218\u00b7\uc74c\ub8cc\u00b7\uc6b0\uc720\u00b7\ucee4\ud53c",
+        "show_all_flag": true,
+        "pc_icon_url": "https://img-cf.kurly.com/shop/data/category/icon_snacks_inactive_pc@2x.1572243615.png",
+        "pc_icon_active_url": "https://img-cf.kurly.com/shop/data/category/icon_snacks_active_pc@2x.1572243616.png",
+        "icon_url": "https://img-cf.kurly.com/shop/data/category/icon_snacks_inactive@3x.1572243151.png",
+        "icon_active_url": "https://img-cf.kurly.com/shop/data/category/icon_snacks_active@3x.1572243151.png",
+        "post_deco_icon_url": null,
+        "thumbnail_url": null,
+        "categories": [
+          { "no": "914001", "name": "\uc0dd\uc218\u00b7\ud0c4\uc0b0\uc218" },
+          { "no": "914002", "name": "\uc74c\ub8cc\u00b7\uc8fc\uc2a4" },
+          { "no": "914003", "name": "\uc6b0\uc720\u00b7\ub450\uc720\u00b7\uc694\uac70\ud2b8" },
+          { "no": "914004", "name": "\ucee4\ud53c" },
+          { "no": "914005", "name": "\ucc28" }
+        ]
+      },
+      {
+        "no": "249",
+        "name": "\uac04\uc2dd\u00b7\uacfc\uc790\u00b7\ub5a1",
+        "show_all_flag": true,
+        "pc_icon_url": "https://img-cf.kurly.com/shop/data/category/icon_cookie_inactive_pc.1610074008.png",
+        "pc_icon_active_url": "https://img-cf.kurly.com/shop/data/category/icon_cookie_active_pc.1610074008.png",
+        "icon_url": "https://img-cf.kurly.com/shop/data/category/icon_cookie_inactive.1610074009.png",
+        "icon_active_url": "https://img-cf.kurly.com/shop/data/category/icon_cookie_active.1610074009.png",
+        "post_deco_icon_url": null,
+        "thumbnail_url": null,
+        "categories": [
+          { "no": "249001", "name": "\uacfc\uc790\u00b7\uc2a4\ub0b5\u00b7\ucfe0\ud0a4" },
+          { "no": "249002", "name": "\ucd08\ucf5c\ub9bf\u00b7\uc824\ub9ac\u00b7\uce94\ub514" },
+          { "no": "249003", "name": "\ub5a1\u00b7\ud55c\uacfc" },
+          { "no": "249004", "name": "\uc544\uc774\uc2a4\ud06c\ub9bc" }
+        ]
+      },
+      {
+        "no": "915",
+        "name": "\ubca0\uc774\ucee4\ub9ac\u00b7\uce58\uc988\u00b7\ub378\ub9ac",
+        "show_all_flag": true,
+        "pc_icon_url": "https://img-cf.kurly.com/shop/data/category/icon_deli_inactive_pc@2x.1568687352.png",
+        "pc_icon_active_url": "https://img-cf.kurly.com/shop/data/category/icon_deli_active_pc@2x.1568687352.png",
+        "icon_url": "https://img-cf.kurly.com/shop/data/category/icon_deli_inactive@3x.1572229829.png",
+        "icon_active_url": "https://img-cf.kurly.com/shop/data/category/icon_deli_active@3x.1572229829.png",
+        "post_deco_icon_url": null,
+        "thumbnail_url": null,
+        "categories": [
+          { "no": "915001", "name": "\uc2dd\ube75\u00b7\ube75\ub958" },
+          { "no": "915002", "name": "\uc7bc\u00b7\ubc84\ud130\u00b7\uc2a4\ud504\ub808\ub4dc" },
+          { "no": "915003", "name": "\ucf00\uc774\ud06c\u00b7\ud30c\uc774\u00b7\ub514\uc800\ud2b8" },
+          { "no": "915004", "name": "\uce58\uc988" },
+          { "no": "915005", "name": "\ub378\ub9ac" },
+          { "no": "915006", "name": "\uc62c\ub9ac\ube0c\u00b7\ud53c\ud074" }
+        ]
+      },
+      {
+        "no": "032",
+        "name": "\uac74\uac15\uc2dd\ud488",
+        "show_all_flag": true,
+        "pc_icon_url": "https://img-cf.kurly.com/shop/data/category/icon_health_inactive_pc@2x.1574645922.png",
+        "pc_icon_active_url": "https://img-cf.kurly.com/shop/data/category/icon_health_active_pc@2x.1574645923.png",
+        "icon_url": "https://img-cf.kurly.com/shop/data/category/icon_health_inactive@3x.1574645923.png",
+        "icon_active_url": "https://img-cf.kurly.com/shop/data/category/icon_health_active@3x.1574645924.png",
+        "post_deco_icon_url": null,
+        "thumbnail_url": null,
+        "categories": [
+          { "no": "032003", "name": "\uc601\uc591\uc81c" },
+          { "no": "032004", "name": "\uc720\uc0b0\uade0" },
+          { "no": "032002", "name": "\ud64d\uc0bc\u00b7\uc778\uc0bc\u00b7\uafc0" },
+          { "no": "032001", "name": "\uac74\uac15\uc999\u00b7\uac74\uac15\uc74c\ub8cc" },
+          { "no": "032005", "name": "\uac74\uac15\ubd84\ub9d0\u00b7\uac74\uac15\ud658" },
+          { "no": "032008", "name": "\ub2e4\uc774\uc5b4\ud2b8\u00b7\uc774\ub108\ubdf0\ud2f0" },
+          { "no": "032007", "name": "\uc720\uc544\ub3d9" }
+        ]
+      },
+      {
+        "no": "722",
+        "name": "\uc640\uc778",
+        "show_all_flag": true,
+        "pc_icon_url": "https://img-cf.kurly.com/category/icon/pc/fcc93d08-3fa0-4760-82e1-7f8484658c73",
+        "pc_icon_active_url": "https://img-cf.kurly.com/category/icon/pc/b2fed528-c5c1-49f2-9db5-e81e1aad57bd",
+        "icon_url": "https://img-cf.kurly.com/category/icon/mobile/78a2c170-69d4-465c-9548-e62fa148096d",
+        "icon_active_url": "https://img-cf.kurly.com/category/icon/mobile/183049ab-7b36-48bf-a7ae-6211a3794321",
+        "post_deco_icon_url": null,
+        "thumbnail_url": null,
+        "categories": [
+          { "no": "722014", "name": "\ub808\ub4dc\uc640\uc778" },
+          { "no": "722012", "name": "\ud654\uc774\ud2b8\uc640\uc778" },
+          { "no": "722013", "name": "\uc0f4\ud398\uc778\u00b7\uc2a4\ud30c\ud074\ub9c1" },
+          { "no": "722015", "name": "\uc640\uc778\uc6a9\ud488" },
+          { "no": "722016", "name": "\ud504\ub791\uc2a4\uc640\uc778" },
+          { "no": "722017", "name": "\uc640\uc778\ud14c\uc2a4\ud2b8" }
+        ]
+      },
+      {
+        "no": "251",
+        "name": "\uc804\ud1b5\uc8fc",
+        "show_all_flag": true,
+        "pc_icon_url": "https://img-cf.kurly.com/category/icon/pc/9bead7b8-2a7e-4a2f-910a-ebe5c8f5f4f0",
+        "pc_icon_active_url": "https://img-cf.kurly.com/category/icon/pc/ee395c3c-2b71-4304-b730-7b7e09dd62a4",
+        "icon_url": "https://img-cf.kurly.com/category/icon/mobile/70338ce8-9153-462f-8d22-99fcb132e3a4",
+        "icon_active_url": "https://img-cf.kurly.com/category/icon/mobile/9ab54e28-948d-4ddf-9921-2e4a0763eb6e",
+        "post_deco_icon_url": null,
+        "thumbnail_url": null,
+        "categories": [
+          { "no": "251001", "name": "\ub9c9\uac78\ub9ac\u00b7\uc57d\uc8fc" },
+          { "no": "251002", "name": "\uc99d\ub958\uc8fc\u00b7\uacfc\uc2e4\uc8fc" }
+        ]
+      },
+      {
+        "no": "918",
+        "name": "\uc0dd\ud65c\uc6a9\ud488\u00b7\ub9ac\ube59\u00b7\ucea0\ud551",
+        "show_all_flag": true,
+        "pc_icon_url": "https://img-cf.kurly.com/shop/data/category/icon_living_inactive_pc@2x.1588814089.png",
+        "pc_icon_active_url": "https://img-cf.kurly.com/shop/data/category/icon_living_active_pc@2x.1588814090.png",
+        "icon_url": "https://img-cf.kurly.com/shop/data/category/icon_living_inactive@3x.1588814090.png",
+        "icon_active_url": "https://img-cf.kurly.com/shop/data/category/icon_living_active@3x.1588814091.png",
+        "post_deco_icon_url": null,
+        "thumbnail_url": null,
+        "categories": [
+          { "no": "918007", "name": "\ud734\uc9c0\u00b7\ud2f0\uc288" },
+          { "no": "918016", "name": "\uc5ec\uc131\u00b7\uc704\uc0dd\uc6a9\ud488" },
+          { "no": "918008", "name": "\uc138\uc81c\u00b7\uccad\uc18c\uc6a9\ud488" },
+          { "no": "918009", "name": "\ud654\ud6fc\u00b7\uc778\ud14c\ub9ac\uc5b4\uc18c\ud488" },
+          { "no": "918010", "name": "\uc758\uc57d\uc678\ud488\u00b7\ub9c8\uc2a4\ud06c" },
+          { "no": "918011", "name": "\uc0dd\ud65c\uc7a1\ud654\u00b7\ubb38\uad6c" },
+          { "no": "918017", "name": "\ucea0\ud551\uc6a9\ud488" },
+          { "no": "918018", "name": "test" }
+        ]
+      },
+      {
+        "no": "233",
+        "name": "\uc2a4\ud0a8\ucf00\uc5b4\u00b7\uba54\uc774\ud06c\uc5c5",
+        "show_all_flag": true,
+        "pc_icon_url": "https://img-cf.kurly.com/shop/data/category/icon_beauty_inactive_pc.1618488987.png",
+        "pc_icon_active_url": "https://img-cf.kurly.com/shop/data/category/icon_beauty_active_pc.1618488987.png",
+        "icon_url": "https://img-cf.kurly.com/shop/data/category/icon_beauty_inactive.1618488988.png",
+        "icon_active_url": "https://img-cf.kurly.com/shop/data/category/icon_beauty_active.1618488988.png",
+        "post_deco_icon_url": null,
+        "thumbnail_url": null,
+        "categories": [
+          { "no": "233001", "name": "\uc2a4\ud0a8\u00b7\ubbf8\uc2a4\ud2b8\u00b7\ud328\ub4dc" },
+          { "no": "233002", "name": "\uc5d0\uc13c\uc2a4\u00b7\uc570\ud50c\u00b7\ub85c\uc158" },
+          { "no": "233003", "name": "\ud06c\ub9bc\u00b7\uc624\uc77c" },
+          { "no": "233004", "name": "\ud074\ub80c\uc9d5" },
+          { "no": "233005", "name": "\ub9c8\uc2a4\ud06c\ud329" },
+          { "no": "233006", "name": "\uc120\ucf00\uc5b4" },
+          { "no": "233007", "name": "\uba54\uc774\ud06c\uc5c5" },
+          { "no": "233008", "name": "\ub9e8\uc988\ucf00\uc5b4" },
+          { "no": "233009", "name": "\ubdf0\ud2f0\uc18c\ud488\u00b7\uae30\uae30" }
+        ]
+      },
+      {
+        "no": "012",
+        "name": "\ud5e4\uc5b4\u00b7\ubc14\ub514\u00b7\uad6c\uac15",
+        "show_all_flag": true,
+        "pc_icon_url": "https://img-cf.kurly.com/shop/data/category/icon_body_inactive_pc.1618528534.png",
+        "pc_icon_active_url": "https://img-cf.kurly.com/shop/data/category/icon_body_active_pc.1618528534.png",
+        "icon_url": "https://img-cf.kurly.com/shop/data/category/icon_body_inactive.1618528535.png",
+        "icon_active_url": "https://img-cf.kurly.com/shop/data/category/icon_body_active.1618528535.png",
+        "post_deco_icon_url": null,
+        "thumbnail_url": null,
+        "categories": [
+          { "no": "012010", "name": "\uad6c\uac15\u00b7\uba74\ub3c4" },
+          { "no": "012009", "name": "\uc0f4\ud478\u00b7\ucee8\ub514\uc154\ub108" },
+          { "no": "012014", "name": "\ud2b8\ub9ac\ud2b8\uba3c\ud2b8\u00b7\ud329" },
+          { "no": "012015", "name": "\ud5e4\uc5b4\uc5d0\uc13c\uc2a4\u00b7\uc5fc\ubaa8" },
+          { "no": "012008", "name": "\ubc14\ub514\uc6cc\uc2dc\u00b7\uc2a4\ud06c\ub7fd" },
+          { "no": "012016", "name": "\ubc14\ub514\ub85c\uc158\u00b7\ud06c\ub9bc" },
+          { "no": "012017", "name": "\ud578\ub4dc\u00b7\ub9bd\u00b7\ub370\uc624" },
+          { "no": "012018", "name": "\ud5a5\uc218\u00b7\ub514\ud4e8\uc800" },
+          { "no": "012012", "name": "\ud5e4\uc5b4\u00b7\ubc14\ub514\uc18c\ud488" }
+        ]
+      },
+      {
+        "no": "916",
+        "name": "\uc8fc\ubc29\uc6a9\ud488 \uc218\uc815\ud574\ubd04",
+        "show_all_flag": true,
+        "pc_icon_url": "https://img-cf.kurly.com/shop/data/category/icon_kitchen_inactive_pc@2x.1574646457.png",
+        "pc_icon_active_url": "https://img-cf.kurly.com/shop/data/category/icon_kitchen_active_pc@2x.1574646458.png",
+        "icon_url": "https://img-cf.kurly.com/shop/data/category/icon_kitchen_inactive@3x.1574646458.png",
+        "icon_active_url": "https://img-cf.kurly.com/shop/data/category/icon_kitchen_active@3x.1574646459.png",
+        "post_deco_icon_url": null,
+        "thumbnail_url": "https://product-image-dev.kurly.com/category/image/f23e9ea7-1401-4731-979a-72ad84a8242e.jpg",
+        "categories": [
+          { "no": "916006", "name": "\uc8fc\ubc29\uc18c\ubaa8\ud488\u00b7\uc7a1\ud654" },
+          { "no": "916007", "name": "\uc8fc\ubc29\u00b7\uc870\ub9ac\ub3c4\uad6c" },
+          { "no": "916008", "name": "\ub0c4\ube44\u00b7\ud32c\u00b7\uc1a5" },
+          { "no": "916011", "name": "\ubcf4\uad00\uc6a9\uae30\u00b7\ud140\ube14\ub7ec" },
+          { "no": "916009", "name": "\uc2dd\uae30\u00b7\ud14c\uc774\ube14\uc6e8\uc5b4" },
+          { "no": "916010", "name": "\ucef5\u00b7\uc794\u00b7\ucee4\ud53c\ub3c4\uad6c" }
+        ]
+      },
+      {
+        "no": "991",
+        "name": "\ubc18\ub824\ub3d9\ubb3c",
+        "show_all_flag": true,
+        "pc_icon_url": "https://img-cf.kurly.com/shop/data/category/icon_pet_inactive_pc@2x.1587442293.png",
+        "pc_icon_active_url": "https://img-cf.kurly.com/shop/data/category/icon_pet_active_pc@2x.1587442294.png",
+        "icon_url": "https://img-cf.kurly.com/shop/data/category/icon_pet_inactive@3x.1587442294.png",
+        "icon_active_url": "https://img-cf.kurly.com/shop/data/category/icon_pet_active@3x.1587442295.png",
+        "post_deco_icon_url": null,
+        "thumbnail_url": null,
+        "categories": [
+          { "no": "991001", "name": "\uac15\uc544\uc9c0 \uac04\uc2dd" },
+          { "no": "991002", "name": "\uac15\uc544\uc9c0 \uc8fc\uc2dd" },
+          { "no": "991003", "name": "\uace0\uc591\uc774 \uac04\uc2dd" },
+          { "no": "991004", "name": "\uace0\uc591\uc774 \uc8fc\uc2dd" },
+          { "no": "991006", "name": "\ubc18\ub824\ub3d9\ubb3c \uc6a9\ud488" },
+          { "no": "991007", "name": "\ubc30\ubcc0\u00b7\uc704\uc0dd" },
+          { "no": "991008", "name": "\uc18c\uc6a9\ub7c9\u00b7\uc0d8\ud50c" },
+          { "no": "991009", "name": "\ubc18\ub824\uc2dd\ubb3c\uc740\uc5c6\ub098\uc694" },
+          { "no": "991010", "name": "\ubc18\ub824\ub3d9\ubb3c 2\ucc28 1\ubc88" }
+        ]
+      },
+      {
+        "no": "919",
+        "name": "\ubca0\uc774\ube44\u00b7\ud0a4\uc988\u00b7\uc644\uad6c",
+        "show_all_flag": true,
+        "pc_icon_url": "https://img-cf.kurly.com/shop/data/category/icon_kids_inactive_pc@2x.1568687537.png",
+        "pc_icon_active_url": "https://img-cf.kurly.com/shop/data/category/icon_kids_active_pc@2x.1568687537.png",
+        "icon_url": "https://img-cf.kurly.com/shop/data/category/icon_kids_inactive@3x.1572229885.png",
+        "icon_active_url": "https://img-cf.kurly.com/shop/data/category/icon_kids_active@3x.1572229885.png",
+        "post_deco_icon_url": null,
+        "thumbnail_url": null,
+        "categories": [
+          { "no": "919011", "name": "\ubd84\uc720\u00b7\uac04\ud3b8 \uc774\uc720\uc2dd" },
+          { "no": "919008", "name": "\uc774\uc720\uc2dd \uc7ac\ub8cc" },
+          { "no": "919013", "name": "\uac04\uc2dd\u00b7\uc74c\uc2dd\u00b7\uc74c\ub8cc" },
+          { "no": "919012", "name": "\uac74\uac15\uc2dd\ud488" },
+          { "no": "919009", "name": "\uc774\uc720\u00b7\uc218\uc720\uc6a9\ud488" },
+          { "no": "919014", "name": "\uae30\uc800\uadc0\u00b7\ubb3c\ud2f0\uc288" },
+          { "no": "919010", "name": "\uc138\uc81c\u00b7\uc704\uc0dd\uc6a9\ud488" },
+          { "no": "919015", "name": "\uc2a4\ud0a8\u00b7\uad6c\uac15\ucf00\uc5b4" },
+          { "no": "919016", "name": "\uc644\uad6c\u00b7\uc7a1\ud654\ub958" },
+          { "no": "919017", "name": "QA_\uc5b4\ub2c8\ucef4 \uc548\uc138\uc544 \ud14c\uc2a4\ud2b8" },
+          { "no": "919018", "name": "\uce74\ud14c\uace0\ub9ac \uc0ad\uc81c \ud14c\uc2a4\ud2b8" },
+          { "no": "919019", "name": "\uce74\ud14c\uace0\ub9ac \ud14c\uc2a4\ud2b8" }
+        ]
+      },
+      {
+        "no": "491",
+        "name": "\ucf58\ud150\uce20 \uadf8\ub8f9 \ub178\ucd9c \ud14c\uc2a4\ud2b8",
+        "show_all_flag": true,
+        "pc_icon_url": null,
+        "pc_icon_active_url": null,
+        "icon_url": null,
+        "icon_active_url": null,
+        "post_deco_icon_url": "https://res.kurly.com/pc/service/common/1908/ico_new_42x42_v2.png",
+        "thumbnail_url": null,
+        "categories": []
+      }
+    ],
+    "recommend_categories": [
+      {
+        "no": "085",
+        "name": "\uac00\uc804\uc81c\ud488",
+        "show_all_flag": false,
+        "pc_icon_active_url": "https://img-cf.kurly.com/shop/data/category/icon_electronic__active_pc@2x.1574417978.png",
+        "icon_active_url": "https://img-cf.kurly.com/shop/data/category/icon_electronic_active@3x.1574417979.png",
+        "post_deco_icon_url": null,
+        "thumbnail_url": null,
+        "categories": [
+          { "no": "085010", "name": "SH_\uce74\ud14c\uace0\ub9ac\ud655\uc778\uc6a9(\uc0ac\uc6a9\uae08\uc9c0)" },
+          { "no": "085011", "name": "SH_\ubc30\ub108\ud655\uc778\uc6a9(\uce74\ud14c\uace0\ub9ac_URL)" },
+          {
+            "no": "085012",
+            "name": "SH_\ubc30\ub108\ud655\uc778\uc6a9(\uce74\ud14c\uace0\ub9ac_\ucfe0\ud3f0\ub2e4\uc6b4)"
+          },
+          { "no": "085002", "name": "\uc8fc\ubc29\uac00\uc804" },
+          { "no": "085001", "name": "\uc0dd\ud65c\uac00\uc804" },
+          { "no": "085003", "name": "\uacc4\uc808\uac00\uc804" },
+          { "no": "085004", "name": "\ub514\uc9c0\ud138\u00b7PC" },
+          { "no": "085005", "name": "\ub300\ud615\u00b7\uc124\uce58\uac00\uc804" },
+          { "no": "085006", "name": "\uc635\uc158\ud615" },
+          { "no": "085007", "name": "\uce98\ub9b0\ub354\ud615" },
+          { "no": "085008", "name": "\uba40\ud2f0\ub51c \ub300\ud45c\uac00\ud655\uc778" },
+          { "no": "085009", "name": "\uc2f1\uae00\uba40\ud2f0\ud655\uc778\uc6a9" },
+          { "no": "085014", "name": "NCL \uc804\uc2dc\uce74\ud14c\uace0\ub9ac" },
+          { "no": "085015", "name": "\ubdf0\ud2f0\uceec\ub9ac \uc0c1\ud488 \ud655\uc778" }
+        ]
+      },
+      {
+        "no": "206",
+        "name": "\uc5ec\ud589\u00b7\ubb38\ud654",
+        "show_all_flag": false,
+        "pc_icon_active_url": null,
+        "icon_active_url": null,
+        "post_deco_icon_url": null,
+        "thumbnail_url": "https://img-cf.kurly.com/category/image/090e4182-cbcf-4c1b-bfc4-daef9ddf4a21",
+        "categories": [
+          { "no": "206001", "name": "\uc219\ubc15\uad8c" },
+          { "no": "206009", "name": "\uad6d\ub0b4 \uc219\ubc15\u00b7\ud56d\uacf5\u00b7\uc804\uc2dc" },
+          { "no": "206010", "name": "\uc5ec\ud589 \ud544\uc218\ud15c" },
+          { "no": "206011", "name": "\uc6b0\ub9ac\uc9d1\uc744 \ud638\ud154\ucc98\ub7fc" },
+          { "no": "206012", "name": "\uc9c0\ub09c\uc0c1\ud488\ubcf4\uae30" }
+        ]
+      },
+      {
+        "no": "724",
+        "name": "\ud648\uce89\uc2a4",
+        "show_all_flag": false,
+        "pc_icon_active_url": null,
+        "icon_active_url": null,
+        "post_deco_icon_url": null,
+        "thumbnail_url": "https://img-cf.kurly.com/category/image/291b013e-cad1-42f3-81db-d9ddb3c5db03",
+        "categories": [
+          { "no": "724001", "name": "\ube0c\ub7f0\uce58" },
+          { "no": "724002", "name": "\ud648\uce74\ud398" },
+          { "no": "724006", "name": "\ud648\uc2a4\ud1a0\ub791" },
+          { "no": "724003", "name": "\ud648\uc220" },
+          { "no": "724004", "name": "\ud648\uc2a4\ud30c" },
+          { "no": "724005", "name": "\ud648\ud14c\uc778\uba3c\ud2b8" }
+        ]
+      },
+      {
+        "no": "007",
+        "name": "\uc2dd\ub2e8\uad00\ub9ac",
+        "show_all_flag": false,
+        "pc_icon_active_url": null,
+        "icon_active_url": null,
+        "post_deco_icon_url": "",
+        "thumbnail_url": "https://img-cf.kurly.com/shop/data/category/thumbnail_diet.1585551225.jpg",
+        "categories": [
+          { "no": "007001", "name": "\uc0d0\ub7ec\ub4dc" },
+          { "no": "007008", "name": "\ub2ed\uac00\uc2b4\uc0b4\u00b7\ub2ec\uac40" },
+          { "no": "007002", "name": "\ub3c4\uc2dc\ub77d\u00b7\uac04\ud3b8\uc2dd" },
+          { "no": "007009", "name": "\uac04\uc2dd\u00b7\uc120\uc2dd\u00b7\uc2dc\ub9ac\uc5bc" },
+          { "no": "007006", "name": "\ud074\ub80c\uc988 \uc8fc\uc2a4" },
+          { "no": "007010", "name": "\ud504\ub85c\ud2f4\u00b7\ubcf4\uc870\uc81c" }
+        ]
+      },
+      {
+        "no": "001",
+        "name": "\uac04\ud3b8\ud55c \uc544\uce68\uc2dd\uc0ac",
+        "show_all_flag": false,
+        "pc_icon_active_url": null,
+        "icon_active_url": null,
+        "post_deco_icon_url": "",
+        "thumbnail_url": "https://img-cf.kurly.com/shop/data/category/thumbnail_breakfast.1585549149.jpg",
+        "categories": [
+          { "no": "001001", "name": "\ubca0\uc774\ucee4\ub9ac\u00b7\ub378\ub9ac" },
+          { "no": "001005", "name": "\uc6b0\uc720\u00b7\ucee4\ud53c\u00b7\uc8fc\uc2a4" },
+          { "no": "001002", "name": "\uacfc\uc77c" },
+          { "no": "001003", "name": "\uc0d0\ub7ec\ub4dc\u00b7\uac04\ud3b8\uc2dd\u00b7\uc2a4\ud504" },
+          { "no": "001004", "name": "\uc120\uc2dd\u00b7\uc2dc\ub9ac\uc5bc\u00b7\uadf8\ub798\ub180\ub77c" }
+        ]
+      },
+      {
+        "no": "948",
+        "name": "\uc7ac\uad6c\ub9e4 BEST",
+        "show_all_flag": false,
+        "pc_icon_active_url": null,
+        "icon_active_url": null,
+        "post_deco_icon_url": "",
+        "thumbnail_url": "https://img-cf.kurly.com/shop/data/category/thumbnail_best_210402.1617341016.png",
+        "categories": [
+          { "no": "948001", "name": "\uc2e0\uc120\uc2dd\ud488" },
+          { "no": "948002", "name": "\uac00\uacf5\uc2dd\ud488" },
+          { "no": "948003", "name": "\ubc18\ucc2c\u00b7\uac04\ud3b8\uc2dd" },
+          { "no": "948004", "name": "\ub9ac\ube59\u00b7\ubdf0\ud2f0\u00b7\ud3ab" }
+        ]
+      },
+      {
+        "no": "183",
+        "name": "3\ucc9c\uc6d0\uc758 \ud589\ubcf5",
+        "show_all_flag": false,
+        "pc_icon_active_url": null,
+        "icon_active_url": null,
+        "post_deco_icon_url": "",
+        "thumbnail_url": "https://img-cf.kurly.com/shop/data/category/thumbnail_3000_210303.1614667552.png",
+        "categories": [
+          { "no": "183001", "name": "1\ucc9c\uc6d0 \ubbf8\ub9cc" },
+          { "no": "183002", "name": "2\ucc9c\uc6d0 \ubbf8\ub9cc" },
+          { "no": "183003", "name": "3\ucc9c\uc6d0 \ubbf8\ub9cc" }
+        ]
+      },
+      {
+        "no": "315",
+        "name": "\uceec\ub9ac\ub9c8\ud2b8",
+        "show_all_flag": false,
+        "pc_icon_active_url": null,
+        "icon_active_url": null,
+        "post_deco_icon_url": "",
+        "thumbnail_url": "https://img-cf.kurly.com/shop/data/category/thumbnail_kp_210108_4.1610088265.jpg",
+        "categories": [
+          { "no": "315008", "name": "\ub77c\uba74\u00b7\uac04\ud3b8\uc2dd" },
+          { "no": "315009", "name": "\uae40\uce58\u00b7\ubc18\ucc2c" },
+          { "no": "315010", "name": "\uac04\uc2dd\u00b7\uacfc\uc790\u00b7\uc2dc\ub9ac\uc5bc" },
+          { "no": "315014", "name": "\uc720\uc81c\ud488\u00b7\uc544\uc774\uc2a4\ud06c\ub9bc" },
+          { "no": "315006", "name": "\uc0dd\uc218\u00b7\uc74c\ub8cc\u00b7\ucee4\ud53c" },
+          { "no": "315005", "name": "\uc7a5\ub958\u00b7\uc591\ub150\u00b7\uc624\uc77c" },
+          { "no": "315012", "name": "\uc81c\uc9c0\u00b7\uc0dd\ub9ac\ub300\u00b7\uae30\uc800\uadc0" },
+          { "no": "315013", "name": "\ud5e4\uc5b4\u00b7\ubc14\ub514\u00b7\uad6c\uac15" },
+          { "no": "315007", "name": "\uc0dd\ud65c\u00b7\uc8fc\ubc29\uc6a9\ud488" }
+        ]
+      },
+      {
+        "no": "068",
+        "name": "\ub300\uc6a9\ub7c9 \uc0c1\ud488",
+        "show_all_flag": false,
+        "pc_icon_active_url": null,
+        "icon_active_url": null,
+        "post_deco_icon_url": null,
+        "thumbnail_url": "https://img-cf.kurly.com/category/image/37194cb5-e9c1-4492-ac5a-385a1ff2b624",
+        "categories": []
+      },
+      {
+        "no": "228",
+        "name": "\ucea0\ud551",
+        "show_all_flag": false,
+        "pc_icon_active_url": null,
+        "icon_active_url": null,
+        "post_deco_icon_url": "",
+        "thumbnail_url": "https://img-cf.kurly.com/shop/data/category/thumbnail_camping_210405.1617341339.png",
+        "categories": [
+          { "no": "228006", "name": "\ucea0\ud551\uc6a9\ud488" },
+          { "no": "228001", "name": "\ubc14\ubca0\ud050" },
+          { "no": "228002", "name": "\ucc44\uc18c\u00b7\uacfc\uc77c" },
+          { "no": "228003", "name": "\uac04\ud3b8\uc2dd\u00b7\ubc18\ucc2c" },
+          { "no": "228004", "name": "\uc591\ub150\u00b7\uc18c\uc2a4" },
+          { "no": "228005", "name": "\uac04\uc2dd\u00b7\uc74c\ub8cc" }
+        ]
+      },
+      {
+        "no": "955",
+        "name": "1\uc778 \uac00\uad6c",
+        "show_all_flag": false,
+        "pc_icon_active_url": null,
+        "icon_active_url": null,
+        "post_deco_icon_url": null,
+        "thumbnail_url": "https://img-cf.kurly.com/shop/data/category/thumbnail_single.1594026881.jpg",
+        "categories": [
+          { "no": "955003", "name": "\ud55c\ub07c\ucc44\uc18c" },
+          { "no": "955001", "name": "\uacfc\uc77c/\uc300" },
+          { "no": "955002", "name": "\uac04\ud3b8\uc2dd/\uc7ac\ub8cc" },
+          { "no": "955004", "name": "\uac04\uc2dd/\uc74c\ub8cc" },
+          { "no": "955005", "name": "\uc0dd\ud65c\uc6a9\ud488" },
+          { "no": "955006", "name": "\uc774\ucf00\uc544" }
+        ]
+      },
+      {
+        "no": "525",
+        "name": "\ube44\uac74",
+        "show_all_flag": false,
+        "pc_icon_active_url": null,
+        "icon_active_url": null,
+        "post_deco_icon_url": "",
+        "thumbnail_url": "https://img-cf.kurly.com/shop/data/category/thumbnail_vegan_210303.1614667589.png",
+        "categories": [
+          { "no": "525002", "name": "\ub300\uccb4\uc721\u00b7\uac04\ud3b8\uc2dd" },
+          { "no": "525008", "name": "\ub300\uccb4\uc720\uc81c\ud488\u00b7\uc74c\ub8cc" },
+          { "no": "525004", "name": "\uc0d0\ub7ec\ub4dc" },
+          { "no": "525006", "name": "\uc2dc\ub9ac\uc5bc\u00b7\uc120\uc2dd" },
+          { "no": "525001", "name": "\uac04\uc2dd" },
+          { "no": "525003", "name": "\ubca0\uc774\ucee4\ub9ac" },
+          { "no": "525007", "name": "\uc591\ub150\u00b7\uc18c\uc2a4" },
+          { "no": "525005", "name": "\uc0dd\ud65c\u00b7\ubdf0\ud2f0" }
+        ]
+      },
+      {
+        "no": "990",
+        "name": "\uc624\ud504\ub77c\uc778 \ub9db\uc9d1",
+        "show_all_flag": false,
+        "pc_icon_active_url": null,
+        "icon_active_url": null,
+        "post_deco_icon_url": "",
+        "thumbnail_url": "https://img-cf.kurly.com/shop/data/category/thumbnail_offline_210303.1614666430.png",
+        "categories": [
+          { "no": "990003", "name": "\uc591\uc2dd" },
+          { "no": "990004", "name": "\ud55c\uc2dd" },
+          { "no": "990005", "name": "\uc911\uc2dd" },
+          { "no": "990006", "name": "\ubd84\uc2dd" },
+          { "no": "990007", "name": "\uc544\uc2dc\uc548" },
+          { "no": "990008", "name": "\ubca0\uc774\ucee4\ub9ac" },
+          { "no": "990009", "name": "\uce74\ud398" }
+        ]
+      },
+      {
+        "no": "726",
+        "name": "\uceec\ub9ac\uac00 \ub9cc\ub4e0 \uc0c1\ud488",
+        "show_all_flag": false,
+        "pc_icon_active_url": null,
+        "icon_active_url": null,
+        "post_deco_icon_url": "",
+        "thumbnail_url": "https://img-cf.kurly.com/shop/data/category/thumbnail_kurly_s_210303.1614667608.png",
+        "categories": [
+          { "no": "726003", "name": "Kurly`s \uc2dd\ud488" },
+          { "no": "726004", "name": "Kurly`s \uc0dd\ud65c\uc6a9\ud488" },
+          { "no": "726002", "name": "\uc77c\ubc18 \uc0c1\ud488" }
+        ]
+      },
+      {
+        "no": "075",
+        "name": "Kurly Only",
+        "show_all_flag": false,
+        "pc_icon_active_url": null,
+        "icon_active_url": null,
+        "post_deco_icon_url": "",
+        "thumbnail_url": "https://img-cf.kurly.com/shop/data/category/thumbnail_only_210303.1614667623.png",
+        "categories": [
+          { "no": "075009", "name": "\ubca0\uc774\ucee4\ub9ac\u00b7\uac04\uc2dd" },
+          { "no": "075004", "name": "\ubc18\ucc2c\u00b7\uac04\ud3b8\uc2dd" },
+          { "no": "075005", "name": "\uc720\uc81c\ud488\u00b7\uc74c\ub8cc" },
+          { "no": "075001", "name": "\ub18d\uc0b0" },
+          { "no": "075002", "name": "\uc218\uc0b0" },
+          { "no": "075003", "name": "\uc815\uc721\u00b7\uacc4\ub780" },
+          { "no": "075006", "name": "\uac00\uacf5\uc2dd\ud488" },
+          { "no": "075007", "name": "\uac74\uac15\uc2dd\ud488" },
+          { "no": "075008", "name": "\ub9ac\ube59\u00b7\ud3ab" }
+        ]
+      },
+      {
+        "no": "316",
+        "name": "KF365",
+        "show_all_flag": false,
+        "pc_icon_active_url": null,
+        "icon_active_url": null,
+        "post_deco_icon_url": null,
+        "thumbnail_url": "https://img-cf.kurly.com/category/image/f8cf5fe6-4123-4147-981e-d7f889f9e316",
+        "categories": [
+          { "no": "316001", "name": "\ucc44\uc18c\u00b7\uacfc\uc77c" },
+          { "no": "316002", "name": "\uc815\uc721\u00b7\ub2ec\uac40" },
+          { "no": "316003", "name": "\uc218\uc0b0" },
+          { "no": "316004", "name": "\ub9ac\ube59" },
+          { "no": "316005", "name": "\ud0c4\uc0b0\uc218" }
+        ]
+      },
+      {
+        "no": "127",
+        "name": "1% Table",
+        "show_all_flag": false,
+        "pc_icon_active_url": null,
+        "icon_active_url": null,
+        "post_deco_icon_url": "",
+        "thumbnail_url": "https://img-cf.kurly.com/shop/data/category/thumb_kp_1PT_201222.1608611417.jpg",
+        "categories": [
+          { "no": "127001", "name": "\uacfc\uc77c" },
+          { "no": "127002", "name": "\uc815\uc721" },
+          { "no": "127003", "name": "\uc218\uc0b0" },
+          { "no": "127004", "name": "\ucee4\ud53c" },
+          { "no": "127005", "name": "\uce58\uc988\u00b7\uc7bc" }
+        ]
+      }
+    ],
+    "recommend_categories_name": "\uceec\ub9ac\uc758 \ucd94\ucc9c"
+  }
+}

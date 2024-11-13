@@ -1,0 +1,156 @@
+import { CheckoutProduct, CheckoutProductItem } from '../src/shared/interfaces';
+
+export const mockDealProductsWithPickupProduct: CheckoutProduct[] = [
+  {
+    isCouponBlacklist: false,
+    dealProductNo: 10041705,
+    dealProductCode: 'D00010041705',
+    dealProductName: '[타코] 두리안 주스',
+    contentProductNo: 5041705,
+    contentProductName: '[타코] 두리안 주스',
+    imageUrl: 'https://img-cf.kurly.com/shop/data/goods/1568969683950s0.jpg',
+    productVerticalSmallUrl:
+      'https://product-image-stg.kurly.com/cdn-cgi/image/width=120,height=156,fit=crop,quality=85/product/image/f6ea7d20-0faa-42d4-8345-43d85c3359d3.jpg',
+    quantity: 2,
+    displayPrice: 3300,
+    displayDiscountPrice: 0,
+    isPickupDealProduct: true,
+    isReservable: false,
+    isAlcoholDealProduct: false,
+    isGiftCard: false,
+  },
+  {
+    isCouponBlacklist: false,
+    dealProductNo: 11045285,
+    dealProductCode: 'D00011045285',
+    dealProductName: '[제로베이커리] 저탄수 크림치즈 타르트 홀',
+    contentProductNo: 5045287,
+    contentProductName: '[제로베이커리] 저탄수 타르트 2종 (홀사이즈)',
+    imageUrl: 'https://img-cf.kurly.com/shop/data/goods/1578294922609s0.jpg',
+    productVerticalSmallUrl:
+      'https://product-image-stg.kurly.com/cdn-cgi/image/width=120,height=156,fit=crop,quality=85/product/image/f6ea7d20-0faa-42d4-8345-43d85c3359d3.jpg',
+    quantity: 2,
+    displayPrice: 39000,
+    displayDiscountPrice: 0,
+    isPickupDealProduct: false,
+    isReservable: false,
+    isAlcoholDealProduct: false,
+    isGiftCard: false,
+  },
+  {
+    isCouponBlacklist: false,
+    dealProductNo: 11006470,
+    dealProductCode: 'D00011006470',
+    dealProductName: '[풀무원] 국물 떡볶이 (2인분 봉지)',
+    contentProductNo: 5006471,
+    contentProductName: 'qaw[풀무원] 국물 떡볶이 2종',
+    imageUrl: 'https://img-cf.kurly.com/shop/data/goods/1495696042682s0.jpg',
+    productVerticalSmallUrl:
+      'https://product-image-stg.kurly.com/cdn-cgi/image/width=120,height=156,fit=crop,quality=85/product/image/f6ea7d20-0faa-42d4-8345-43d85c3359d3.jpg',
+    quantity: 2,
+    displayPrice: 4100,
+    displayDiscountPrice: 0,
+    isPickupDealProduct: false,
+    isReservable: false,
+    isAlcoholDealProduct: false,
+    isGiftCard: false,
+  },
+];
+
+export const mockDealProductWithoutPickupProduct: CheckoutProduct[] = [
+  {
+    isCouponBlacklist: false,
+    dealProductNo: 10041705,
+    dealProductCode: 'D00010041705',
+    dealProductName: '[타코] 두리안 주스',
+    contentProductNo: 5041705,
+    contentProductName: '[타코] 두리안 주스',
+    imageUrl: 'https://img-cf.kurly.com/shop/data/goods/1568969683950s0.jpg',
+    productVerticalSmallUrl:
+      'https://product-image-stg.kurly.com/cdn-cgi/image/width=120,height=156,fit=crop,quality=85/product/image/f6ea7d20-0faa-42d4-8345-43d85c3359d3.jpg',
+    quantity: 2,
+    displayPrice: 3300,
+    displayDiscountPrice: 0,
+    isPickupDealProduct: false,
+    isReservable: false,
+    isAlcoholDealProduct: false,
+    isGiftCard: false,
+  },
+  {
+    isCouponBlacklist: false,
+    dealProductNo: 11045285,
+    dealProductCode: 'D00011045285',
+    dealProductName: '[제로베이커리] 저탄수 크림치즈 타르트 홀',
+    contentProductNo: 5045287,
+    contentProductName: '[제로베이커리] 저탄수 타르트 2종 (홀사이즈)',
+    imageUrl: 'https://img-cf.kurly.com/shop/data/goods/1578294922609s0.jpg',
+    productVerticalSmallUrl:
+      'https://product-image-stg.kurly.com/cdn-cgi/image/width=120,height=156,fit=crop,quality=85/product/image/f6ea7d20-0faa-42d4-8345-43d85c3359d3.jpg',
+    quantity: 2,
+    displayPrice: 39000,
+    displayDiscountPrice: 0,
+    isPickupDealProduct: false,
+    isReservable: false,
+    isAlcoholDealProduct: false,
+    isGiftCard: false,
+  },
+];
+
+export const mockDealProductsWithReservableProduct: CheckoutProduct[] = [
+  {
+    isCouponBlacklist: false,
+    dealProductNo: 10041705,
+    dealProductCode: 'D00010041705',
+    dealProductName: '[타코] 두리안 주스',
+    contentProductNo: 5041705,
+    contentProductName: '[타코] 두리안 주스',
+    imageUrl: 'https://img-cf.kurly.com/shop/data/goods/1568969683950s0.jpg',
+    productVerticalSmallUrl:
+      'https://product-image-stg.kurly.com/cdn-cgi/image/width=120,height=156,fit=crop,quality=85/product/image/f6ea7d20-0faa-42d4-8345-43d85c3359d3.jpg',
+    quantity: 2,
+    displayPrice: 3300,
+    displayDiscountPrice: 0,
+    isPickupDealProduct: false,
+    isReservable: true,
+    isAlcoholDealProduct: false,
+    isGiftCard: false,
+  },
+];
+
+export const mockDealProductsWithoutReservableProduct: CheckoutProduct[] = [
+  {
+    isCouponBlacklist: false,
+    dealProductNo: 10041705,
+    dealProductCode: 'D00010041705',
+    dealProductName: '[타코] 두리안 주스',
+    contentProductNo: 5041705,
+    contentProductName: '[타코] 두리안 주스',
+    imageUrl: 'https://img-cf.kurly.com/shop/data/goods/1568969683950s0.jpg',
+    productVerticalSmallUrl:
+      'https://product-image-stg.kurly.com/cdn-cgi/image/width=120,height=156,fit=crop,quality=85/product/image/f6ea7d20-0faa-42d4-8345-43d85c3359d3.jpg',
+    quantity: 2,
+    displayPrice: 3300,
+    displayDiscountPrice: 0,
+    isPickupDealProduct: false,
+    isReservable: false,
+    isAlcoholDealProduct: false,
+    isGiftCard: false,
+  },
+];
+
+export const mockCheckoutProduct: CheckoutProductItem = {
+  id: 5000,
+  isCouponBlacklist: false,
+  dealProductName: '방울토마토',
+  contentProductNo: 1000,
+  contentProductName: 'contentProductName',
+  thumbnailUrl: '',
+  quantity: 1,
+  price: 5000,
+  dealProductNo: 1,
+  discountedPrice: 0,
+  isPickupProduct: false,
+  isReservable: false,
+  isAlcoholDealProduct: false,
+  isGiftCard: false,
+};

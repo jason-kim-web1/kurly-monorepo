@@ -1,0 +1,420 @@
+{
+  "data": {
+    "id": 777,
+    "title": "CC02",
+    "subtitle": "CC02",
+    "additional_text": null,
+    "template_code": "random_collection",
+    "template_type": "random_collection",
+    "event_code": "random_collection",
+    "data": {
+      "collection_code": "hmjqpdhh",
+      "has_more": false,
+      "products": [
+        {
+          "no": 1000047940,
+          "name": "싱글딜_아르마니 K0116_판매지역제한 서울",
+          "short_description": "판매제한지역서울",
+          "list_image_url": "https://product-image-stg.kurly.com/product/image/12b938cc-cf84-4470-8d2e-3895a7ee3bcc.jpg",
+          "sales_price": 100000,
+          "discounted_price": 10000,
+          "discount_rate": 90,
+          "is_multiple_price": false,
+          "is_buy_now": false,
+          "is_purchase_status": true,
+          "is_giftable": false,
+          "is_only_adult": false,
+          "is_shown": true,
+          "is_sold_out": false,
+          "sold_out_title": "Coming Soon",
+          "sold_out_text": "",
+          "can_restock_notify": true,
+          "product_view_status": "BUY_POSSIBLE",
+          "not_purchase_message": "Coming Soon",
+          "delivery_type_names": [
+            "샛별배송"
+          ],
+          "tags": [],
+          "sticker": null,
+          "group_product": {
+            "is_group": false,
+            "is_not_representative": false
+          },
+          "review_count": ""
+        },
+        {
+          "no": 1000045325,
+          "name": "싱글딜_어반디케이 K0519",
+          "short_description": "싱글딜_어반디케이 K0519 상온",
+          "list_image_url": "https://product-image-stg.kurly.com/product/image/b229ec37-25b9-485d-a870-4c044f782cec.jpg",
+          "sales_price": 100000,
+          "discounted_price": 50000,
+          "discount_rate": 50,
+          "is_multiple_price": false,
+          "is_buy_now": false,
+          "is_purchase_status": true,
+          "is_giftable": false,
+          "is_only_adult": false,
+          "is_shown": true,
+          "is_sold_out": false,
+          "sold_out_title": "Coming Soon",
+          "sold_out_text": "",
+          "can_restock_notify": true,
+          "product_view_status": "BUY_POSSIBLE",
+          "not_purchase_message": "Coming Soon",
+          "delivery_type_names": [
+            "샛별배송"
+          ],
+          "tags": [],
+          "sticker": null,
+          "group_product": {
+            "is_group": false,
+            "is_not_representative": false
+          },
+          "review_count": ""
+        },
+        {
+          "no": 1000045508,
+          "name": "멀티딜_아틀리에 코롱",
+          "short_description": "상온+유효하지않은 코드 포함",
+          "list_image_url": "https://product-image-stg.kurly.com/product/image/c5583273-ea1f-4d4e-87d8-fbf33237e55f.png",
+          "sales_price": 15000,
+          "discounted_price": null,
+          "discount_rate": 0,
+          "is_multiple_price": true,
+          "is_buy_now": false,
+          "is_purchase_status": true,
+          "is_giftable": false,
+          "is_only_adult": false,
+          "is_shown": true,
+          "is_sold_out": false,
+          "sold_out_title": "Coming Soon",
+          "sold_out_text": "",
+          "can_restock_notify": true,
+          "product_view_status": "BUY_POSSIBLE",
+          "not_purchase_message": "Coming Soon",
+          "delivery_type_names": [
+            "샛별배송"
+          ],
+          "tags": [],
+          "sticker": null,
+          "group_product": {
+            "is_group": false,
+            "is_not_representative": false
+          },
+          "review_count": ""
+        },
+        {
+          "no": 1000045370,
+          "name": "멀티딜_키엘_상온/냉장/냉동",
+          "short_description": "브랜드 1개로 구성된 멀티딜 + 상온/냉장/냉동",
+          "list_image_url": "https://product-image-stg.kurly.com/product/image/fdec9741-8664-4691-ad7d-ed53c9aefe73.png",
+          "sales_price": 16500,
+          "discounted_price": null,
+          "discount_rate": 0,
+          "is_multiple_price": true,
+          "is_buy_now": false,
+          "is_purchase_status": true,
+          "is_giftable": false,
+          "is_only_adult": false,
+          "is_shown": true,
+          "is_sold_out": false,
+          "sold_out_title": "Coming Soon",
+          "sold_out_text": "",
+          "can_restock_notify": true,
+          "product_view_status": "BUY_POSSIBLE",
+          "not_purchase_message": "Coming Soon",
+          "delivery_type_names": [
+            "샛별배송"
+          ],
+          "tags": [],
+          "sticker": null,
+          "group_product": {
+            "is_group": false,
+            "is_not_representative": false
+          },
+          "review_count": ""
+        },
+        {
+          "no": 1000045346,
+          "name": "멀티딜_키엘K0415",
+          "short_description": "브랜드 1개로 구성된 멀티딜",
+          "list_image_url": "https://product-image-stg.kurly.com/product/image/2e16b286-31df-47e9-9abd-452b80974dd2.png",
+          "sales_price": 5000,
+          "discounted_price": 4000,
+          "discount_rate": 20,
+          "is_multiple_price": true,
+          "is_buy_now": false,
+          "is_purchase_status": true,
+          "is_giftable": false,
+          "is_only_adult": false,
+          "is_shown": true,
+          "is_sold_out": false,
+          "sold_out_title": "Coming Soon",
+          "sold_out_text": "",
+          "can_restock_notify": true,
+          "product_view_status": "BUY_POSSIBLE",
+          "not_purchase_message": "Coming Soon",
+          "delivery_type_names": [
+            "샛별배송"
+          ],
+          "tags": [],
+          "sticker": null,
+          "group_product": {
+            "is_group": false,
+            "is_not_representative": false
+          },
+          "review_count": ""
+        },
+        {
+          "no": 1000045407,
+          "name": "싱글딜_랑콤 K0011 냉장",
+          "short_description": "싱글딜_랑콤 K0011 냉장",
+          "list_image_url": "https://product-image-stg.kurly.com/product/image/cf3a7a1f-5438-4f52-ba9e-580451082b13.jpg",
+          "sales_price": 100000,
+          "discounted_price": 50000,
+          "discount_rate": 50,
+          "is_multiple_price": false,
+          "is_buy_now": false,
+          "is_purchase_status": true,
+          "is_giftable": false,
+          "is_only_adult": false,
+          "is_shown": true,
+          "is_sold_out": false,
+          "sold_out_title": "Coming Soon",
+          "sold_out_text": "",
+          "can_restock_notify": true,
+          "product_view_status": "BUY_POSSIBLE",
+          "not_purchase_message": "Coming Soon",
+          "delivery_type_names": [
+            "샛별배송"
+          ],
+          "tags": [],
+          "sticker": null,
+          "group_product": {
+            "is_group": false,
+            "is_not_representative": false
+          },
+          "review_count": ""
+        },
+        {
+          "no": 1000045552,
+          "name": "싱글딜_랑콤 유효하지않은코드",
+          "short_description": "싱글딜_랑콤 유효하지않은코드 상온",
+          "list_image_url": "https://product-image-stg.kurly.com/product/image/029d17c4-9100-47e5-958f-36389b105ff2.jpg",
+          "sales_price": 10000,
+          "discounted_price": 1000,
+          "discount_rate": 90,
+          "is_multiple_price": false,
+          "is_buy_now": false,
+          "is_purchase_status": true,
+          "is_giftable": false,
+          "is_only_adult": false,
+          "is_shown": true,
+          "is_sold_out": false,
+          "sold_out_title": "Coming Soon",
+          "sold_out_text": "",
+          "can_restock_notify": true,
+          "product_view_status": "BUY_POSSIBLE",
+          "not_purchase_message": "Coming Soon",
+          "delivery_type_names": [
+            "샛별배송"
+          ],
+          "tags": [],
+          "sticker": null,
+          "group_product": {
+            "is_group": false,
+            "is_not_representative": false
+          },
+          "review_count": ""
+        },
+        {
+          "no": 1000045348,
+          "name": "싱글딜_라로슈포제 K0411",
+          "short_description": "싱글딜_라로슈포제 K0411 상온",
+          "list_image_url": "https://product-image-stg.kurly.com/product/image/9f8552a4-0db3-454d-ba00-946b65bf152a.jpg",
+          "sales_price": 100000,
+          "discounted_price": 49000,
+          "discount_rate": 51,
+          "is_multiple_price": false,
+          "is_buy_now": false,
+          "is_purchase_status": true,
+          "is_giftable": false,
+          "is_only_adult": false,
+          "is_shown": true,
+          "is_sold_out": false,
+          "sold_out_title": "Coming Soon",
+          "sold_out_text": "",
+          "can_restock_notify": true,
+          "product_view_status": "BUY_POSSIBLE",
+          "not_purchase_message": "Coming Soon",
+          "delivery_type_names": [
+            "샛별배송"
+          ],
+          "tags": [],
+          "sticker": null,
+          "group_product": {
+            "is_group": false,
+            "is_not_representative": false
+          },
+          "review_count": ""
+        },
+        {
+          "no": 1000045272,
+          "name": "싱글딜_키엘 K0415",
+          "short_description": "싱글딜_키엘 K0415 상온",
+          "list_image_url": "https://product-image-stg.kurly.com/product/image/2c610e0f-f33f-4aea-a55b-2e85454d30c7.jpg",
+          "sales_price": 100000,
+          "discounted_price": 49000,
+          "discount_rate": 51,
+          "is_multiple_price": false,
+          "is_buy_now": false,
+          "is_purchase_status": true,
+          "is_giftable": false,
+          "is_only_adult": false,
+          "is_shown": true,
+          "is_sold_out": false,
+          "sold_out_title": "Coming Soon",
+          "sold_out_text": "",
+          "can_restock_notify": true,
+          "product_view_status": "BUY_POSSIBLE",
+          "not_purchase_message": "Coming Soon",
+          "delivery_type_names": [
+            "샛별배송"
+          ],
+          "tags": [],
+          "sticker": null,
+          "group_product": {
+            "is_group": false,
+            "is_not_representative": false
+          },
+          "review_count": ""
+        },
+        {
+          "no": 1000045265,
+          "name": "싱글딜_아르마니 K0116",
+          "short_description": "싱글딜_아르마니 K0116 상온",
+          "list_image_url": "https://product-image-stg.kurly.com/product/image/f8d512e7-b2fa-440e-ac39-ad7986ac7013.jpg",
+          "sales_price": 100000,
+          "discounted_price": 50000,
+          "discount_rate": 50,
+          "is_multiple_price": false,
+          "is_buy_now": false,
+          "is_purchase_status": true,
+          "is_giftable": false,
+          "is_only_adult": false,
+          "is_shown": true,
+          "is_sold_out": false,
+          "sold_out_title": "Coming Soon",
+          "sold_out_text": "",
+          "can_restock_notify": true,
+          "product_view_status": "BUY_POSSIBLE",
+          "not_purchase_message": "Coming Soon",
+          "delivery_type_names": [
+            "샛별배송"
+          ],
+          "tags": [],
+          "sticker": null,
+          "group_product": {
+            "is_group": false,
+            "is_not_representative": false
+          },
+          "review_count": ""
+        },
+        {
+          "no": 1000045257,
+          "name": "싱글딜_랑콤 K0011",
+          "short_description": "싱글딜_랑콤 K0011 상온",
+          "list_image_url": "https://product-image-stg.kurly.com/product/image/6ded6793-bd73-4015-83a2-dae33a69a16e.jpg",
+          "sales_price": 100000,
+          "discounted_price": 49000,
+          "discount_rate": 51,
+          "is_multiple_price": false,
+          "is_buy_now": false,
+          "is_purchase_status": true,
+          "is_giftable": false,
+          "is_only_adult": false,
+          "is_shown": true,
+          "is_sold_out": false,
+          "sold_out_title": "Coming Soon",
+          "sold_out_text": "",
+          "can_restock_notify": true,
+          "product_view_status": "BUY_POSSIBLE",
+          "not_purchase_message": "Coming Soon",
+          "delivery_type_names": [
+            "샛별배송"
+          ],
+          "tags": [],
+          "sticker": null,
+          "group_product": {
+            "is_group": false,
+            "is_not_representative": false
+          },
+          "review_count": ""
+        },
+        {
+          "no": 1000045539,
+          "name": "MBB 멀티딜 - 뷰티 상품 7종 ",
+          "short_description": "마스터 코드 유효하지 않은 코드 포함한 상품 ",
+          "list_image_url": "https://product-image-stg.kurly.com/product/image/5e0c982a-09a8-466d-b1e5-969eb59816fc.jpg",
+          "sales_price": 9800,
+          "discounted_price": null,
+          "discount_rate": 0,
+          "is_multiple_price": true,
+          "is_buy_now": false,
+          "is_purchase_status": true,
+          "is_giftable": false,
+          "is_only_adult": false,
+          "is_shown": true,
+          "is_sold_out": false,
+          "sold_out_title": "Coming Soon",
+          "sold_out_text": "",
+          "can_restock_notify": true,
+          "product_view_status": "BUY_POSSIBLE",
+          "not_purchase_message": "Coming Soon",
+          "delivery_type_names": [
+            "샛별배송"
+          ],
+          "tags": [],
+          "sticker": null,
+          "group_product": {
+            "is_group": false,
+            "is_not_representative": false
+          },
+          "review_count": ""
+        },
+        {
+          "no": 1000045286,
+          "name": "MBB 브랜드 상품 8종 (브랜드 없는 상품 1종 포함) ",
+          "short_description": "브랜드 없는 상품 1종 포함",
+          "list_image_url": "https://product-image-stg.kurly.com/product/image/261f4df3-4ecc-48f7-b639-a48ae507be9b.jpg",
+          "sales_price": 15000,
+          "discounted_price": null,
+          "discount_rate": 0,
+          "is_multiple_price": true,
+          "is_buy_now": false,
+          "is_purchase_status": true,
+          "is_giftable": false,
+          "is_only_adult": false,
+          "is_shown": true,
+          "is_sold_out": false,
+          "sold_out_title": "Coming Soon",
+          "sold_out_text": "",
+          "can_restock_notify": true,
+          "product_view_status": "BUY_POSSIBLE",
+          "not_purchase_message": "Coming Soon",
+          "delivery_type_names": [
+            "샛별배송"
+          ],
+          "tags": [],
+          "sticker": null,
+          "group_product": {
+            "is_group": false,
+            "is_not_representative": false
+          },
+          "review_count": ""
+        }
+      ]
+    }
+  }
+}

@@ -1,0 +1,1 @@
+export const SHOW_MARKER_LATITUDE_CENTER = 0.00035;

@@ -1,0 +1,663 @@
+{
+  "data": {
+    "id": 763,
+    "title": "이 상품 어때요 타이틀💥",
+    "subtitle": "",
+    "additional_text": null,
+    "template_code": "today_recommendation",
+    "template_type": "today_recommendation",
+    "event_code": "today_recommendation",
+    "data": [
+      {
+        "no": 1000045994,
+        "name": "YA_증정2",
+        "short_description": "YA_증정2",
+        "list_image_url": "https://product-image-stg.kurly.com/product/image/b5ee5d4c-5fc6-4a8b-81a8-111157595193.jpg",
+        "sales_price": 5000,
+        "discounted_price": 3000,
+        "discount_rate": 40,
+        "is_multiple_price": false,
+        "is_buy_now": false,
+        "is_purchase_status": true,
+        "is_giftable": false,
+        "is_only_adult": false,
+        "is_shown": true,
+        "is_sold_out": false,
+        "sold_out_title": "Coming Soon",
+        "sold_out_text": "",
+        "can_restock_notify": true,
+        "product_view_status": "BUY_POSSIBLE",
+        "not_purchase_message": "Coming Soon",
+        "delivery_type_names": [
+          "샛별배송"
+        ],
+        "tags": [],
+        "sticker": null,
+        "group_product": {
+          "is_group": false,
+          "is_not_representative": false
+        },
+        "review_count": ""
+      },
+      {
+        "no": 5120975,
+        "name": "[베키아에누보] 시그니처 체커스 초코 케이크",
+        "short_description": "근사한 비주얼이 숨겨진",
+        "list_image_url": "https://img-cf-perf.kurly.com/shop/data/goods/1647842373847l0.jpg",
+        "sales_price": 45000,
+        "discounted_price": 31500,
+        "discount_rate": 30,
+        "is_multiple_price": false,
+        "is_buy_now": false,
+        "is_purchase_status": true,
+        "is_giftable": false,
+        "is_only_adult": false,
+        "is_shown": true,
+        "is_sold_out": false,
+        "sold_out_title": "Coming Soon",
+        "sold_out_text": "",
+        "can_restock_notify": true,
+        "product_view_status": "BUY_POSSIBLE",
+        "not_purchase_message": "Coming Soon",
+        "delivery_type_names": [
+          "샛별배송"
+        ],
+        "tags": [],
+        "sticker": null,
+        "group_product": {
+          "is_group": false,
+          "is_not_representative": false
+        },
+        "review_count": ""
+      },
+      {
+        "no": 1000044053,
+        "name": "YA_IC_멀티딜",
+        "short_description": "YA_IC_멀티딜",
+        "list_image_url": "https://product-image-stg.kurly.com/product/image/e0d5280c-3f9c-4189-b6fd-01940dec65aa.jpg",
+        "sales_price": 12000,
+        "discounted_price": 12000,
+        "discount_rate": 0,
+        "is_multiple_price": true,
+        "is_buy_now": true,
+        "is_purchase_status": true,
+        "is_giftable": false,
+        "is_only_adult": false,
+        "is_shown": true,
+        "is_sold_out": false,
+        "sold_out_title": "Coming Soon",
+        "sold_out_text": "",
+        "can_restock_notify": true,
+        "product_view_status": "BUY_POSSIBLE",
+        "not_purchase_message": "Coming Soon",
+        "delivery_type_names": [
+          "샛별배송"
+        ],
+        "tags": [],
+        "sticker": null,
+        "group_product": {
+          "is_group": false,
+          "is_not_representative": false
+        },
+        "review_count": ""
+      },
+      {
+        "no": 1000046618,
+        "name": "YA_CC개별_본품",
+        "short_description": "YA_CC개별_본품",
+        "list_image_url": "https://product-image-stg.kurly.com/product/image/39144469-922c-4fb2-91ae-aac235f5e295.jpg",
+        "sales_price": 15000,
+        "discounted_price": 12000,
+        "discount_rate": 20,
+        "is_multiple_price": false,
+        "is_buy_now": false,
+        "is_purchase_status": true,
+        "is_giftable": false,
+        "is_only_adult": false,
+        "is_shown": true,
+        "is_sold_out": false,
+        "sold_out_title": "Coming Soon",
+        "sold_out_text": "",
+        "can_restock_notify": true,
+        "product_view_status": "BUY_POSSIBLE",
+        "not_purchase_message": "Coming Soon",
+        "delivery_type_names": [
+          "샛별배송"
+        ],
+        "tags": [],
+        "sticker": null,
+        "group_product": {
+          "is_group": false,
+          "is_not_representative": false
+        },
+        "review_count": ""
+      },
+      {
+        "no": 1000045416,
+        "name": "싱글딜_아틀리에 코롱 K0714 냉동",
+        "short_description": "싱글딜_아틀리에 코롱 K0714 냉동",
+        "list_image_url": "https://product-image-stg.kurly.com/product/image/55c95bdd-3629-492e-93a2-81cddf26fa53.jpg",
+        "sales_price": 100000,
+        "discounted_price": 49000,
+        "discount_rate": 51,
+        "is_multiple_price": false,
+        "is_buy_now": false,
+        "is_purchase_status": true,
+        "is_giftable": false,
+        "is_only_adult": false,
+        "is_shown": true,
+        "is_sold_out": false,
+        "sold_out_title": "Coming Soon",
+        "sold_out_text": "",
+        "can_restock_notify": true,
+        "product_view_status": "BUY_POSSIBLE",
+        "not_purchase_message": "Coming Soon",
+        "delivery_type_names": [
+          "샛별배송"
+        ],
+        "tags": [],
+        "sticker": null,
+        "group_product": {
+          "is_group": false,
+          "is_not_representative": false
+        },
+        "review_count": ""
+      },
+      {
+        "no": 1000043029,
+        "name": "물병_정액할인",
+        "short_description": "물병_정액할인",
+        "list_image_url": "https://product-image-stg.kurly.com/product/image/e9fa4d3a-c3f7-42cb-bb45-8182c7503550.jpg",
+        "sales_price": 5000,
+        "discounted_price": 1965,
+        "discount_rate": 60,
+        "is_multiple_price": false,
+        "is_buy_now": false,
+        "is_purchase_status": true,
+        "is_giftable": false,
+        "is_only_adult": false,
+        "is_shown": true,
+        "is_sold_out": false,
+        "sold_out_title": "Coming Soon",
+        "sold_out_text": "",
+        "can_restock_notify": true,
+        "product_view_status": "BUY_POSSIBLE",
+        "not_purchase_message": "Coming Soon",
+        "delivery_type_names": [
+          "샛별배송"
+        ],
+        "tags": [
+          {
+            "name": "재활용 최우수",
+            "type": "RECYCLE"
+          }
+        ],
+        "sticker": null,
+        "group_product": {
+          "is_group": false,
+          "is_not_representative": false
+        },
+        "review_count": ""
+      },
+      {
+        "no": 1000043041,
+        "name": "컵_cc01/cc02 할인율 다름",
+        "short_description": "컵_cc01/cc02 할인율 다름",
+        "list_image_url": "https://product-image-stg.kurly.com/product/image/4ce80a2f-fb4a-43d0-a80c-12137a4bf930.jpg",
+        "sales_price": 10000,
+        "discounted_price": 4000,
+        "discount_rate": 60,
+        "is_multiple_price": false,
+        "is_buy_now": false,
+        "is_purchase_status": true,
+        "is_giftable": false,
+        "is_only_adult": false,
+        "is_shown": true,
+        "is_sold_out": false,
+        "sold_out_title": "Coming Soon",
+        "sold_out_text": "",
+        "can_restock_notify": true,
+        "product_view_status": "BUY_POSSIBLE",
+        "not_purchase_message": "Coming Soon",
+        "delivery_type_names": [
+          "샛별배송"
+        ],
+        "tags": [
+          {
+            "name": "최저가",
+            "type": "DEFAULT"
+          }
+        ],
+        "sticker": null,
+        "group_product": {
+          "is_group": false,
+          "is_not_representative": false
+        },
+        "review_count": ""
+      },
+      {
+        "no": 1000048131,
+        "name": "YA_CC연동(CC04) ",
+        "short_description": "찜목록 용으로 쓸거임",
+        "list_image_url": "https://product-image-stg.kurly.com/product/image/171d05e8-57b3-4360-8fd6-836c3e1a4fff.jpg",
+        "sales_price": 13000,
+        "discounted_price": 13000,
+        "discount_rate": 0,
+        "is_multiple_price": false,
+        "is_buy_now": false,
+        "is_purchase_status": true,
+        "is_giftable": false,
+        "is_only_adult": false,
+        "is_shown": true,
+        "is_sold_out": false,
+        "sold_out_title": "Coming Soon",
+        "sold_out_text": "",
+        "can_restock_notify": true,
+        "product_view_status": "BUY_POSSIBLE",
+        "not_purchase_message": "Coming Soon",
+        "delivery_type_names": [
+          "샛별배송"
+        ],
+        "tags": [],
+        "sticker": null,
+        "group_product": {
+          "is_group": false,
+          "is_not_representative": false
+        },
+        "review_count": ""
+      },
+      {
+        "no": 1000046316,
+        "name": "J-증정_본품0",
+        "short_description": "",
+        "list_image_url": "https://product-image-stg.kurly.com/product/image/8283a84a-fa11-4c76-9032-0824e53e6198.png",
+        "sales_price": 5000,
+        "discounted_price": 4900,
+        "discount_rate": 2,
+        "is_multiple_price": false,
+        "is_buy_now": false,
+        "is_purchase_status": true,
+        "is_giftable": false,
+        "is_only_adult": false,
+        "is_shown": true,
+        "is_sold_out": false,
+        "sold_out_title": "Coming Soon",
+        "sold_out_text": "",
+        "can_restock_notify": true,
+        "product_view_status": "BUY_POSSIBLE",
+        "not_purchase_message": "Coming Soon",
+        "delivery_type_names": [
+          "샛별배송"
+        ],
+        "tags": [],
+        "sticker": null,
+        "group_product": {
+          "is_group": false,
+          "is_not_representative": false
+        },
+        "review_count": ""
+      },
+      {
+        "no": 1000043975,
+        "name": "YA_IC_싱글딜",
+        "short_description": "YA_IC_싱글딜",
+        "list_image_url": "https://product-image-stg.kurly.com/product/image/48a2cbfd-4158-4b0d-a99a-d20014f5cd31.jpg",
+        "sales_price": 11000,
+        "discounted_price": 11000,
+        "discount_rate": 0,
+        "is_multiple_price": false,
+        "is_buy_now": true,
+        "is_purchase_status": true,
+        "is_giftable": false,
+        "is_only_adult": false,
+        "is_shown": true,
+        "is_sold_out": false,
+        "sold_out_title": "Coming Soon",
+        "sold_out_text": "",
+        "can_restock_notify": true,
+        "product_view_status": "BUY_POSSIBLE",
+        "not_purchase_message": "Coming Soon",
+        "delivery_type_names": [
+          "샛별배송"
+        ],
+        "tags": [],
+        "sticker": null,
+        "group_product": {
+          "is_group": false,
+          "is_not_representative": false
+        },
+        "review_count": ""
+      },
+      {
+        "no": 1000045288,
+        "name": "싱글딜_비오템 K0017",
+        "short_description": "싱글딜_비오템 K0017 상온",
+        "list_image_url": "https://product-image-stg.kurly.com/product/image/4ab8212b-b890-42fc-8289-240c7a5097b4.jpg",
+        "sales_price": 100000,
+        "discounted_price": 50000,
+        "discount_rate": 50,
+        "is_multiple_price": false,
+        "is_buy_now": false,
+        "is_purchase_status": true,
+        "is_giftable": false,
+        "is_only_adult": false,
+        "is_shown": true,
+        "is_sold_out": false,
+        "sold_out_title": "Coming Soon",
+        "sold_out_text": "",
+        "can_restock_notify": true,
+        "product_view_status": "BUY_POSSIBLE",
+        "not_purchase_message": "Coming Soon",
+        "delivery_type_names": [
+          "샛별배송"
+        ],
+        "tags": [],
+        "sticker": null,
+        "group_product": {
+          "is_group": false,
+          "is_not_representative": false
+        },
+        "review_count": ""
+      },
+      {
+        "no": 1000046605,
+        "name": "냉동채소 (1p)",
+        "short_description": "1p",
+        "list_image_url": "https://product-image-stg.kurly.com/product/image/51e93bf6-1771-4094-83ec-e9e0171910d0.jpg",
+        "sales_price": 12500,
+        "discounted_price": 5000,
+        "discount_rate": 60,
+        "is_multiple_price": false,
+        "is_buy_now": false,
+        "is_purchase_status": true,
+        "is_giftable": false,
+        "is_only_adult": false,
+        "is_shown": true,
+        "is_sold_out": false,
+        "sold_out_title": "Coming Soon",
+        "sold_out_text": "",
+        "can_restock_notify": true,
+        "product_view_status": "BUY_POSSIBLE",
+        "not_purchase_message": "Coming Soon",
+        "delivery_type_names": [
+          "샛별배송"
+        ],
+        "tags": [],
+        "sticker": null,
+        "group_product": {
+          "is_group": false,
+          "is_not_representative": false
+        },
+        "review_count": ""
+      },
+      {
+        "no": 1000044292,
+        "name": "싱글딜 [CC03] (권장가+컬리가)",
+        "short_description": "싱글딜 [CC03] (권장가+컬리가)",
+        "list_image_url": "https://product-image-stg.kurly.com/product/image/6752ce50-d38d-4d97-9188-e1e181f03a4e.png",
+        "sales_price": 35000,
+        "discounted_price": 20000,
+        "discount_rate": 42,
+        "is_multiple_price": false,
+        "is_buy_now": true,
+        "is_purchase_status": true,
+        "is_giftable": false,
+        "is_only_adult": false,
+        "is_shown": true,
+        "is_sold_out": false,
+        "sold_out_title": "Coming Soon",
+        "sold_out_text": "",
+        "can_restock_notify": true,
+        "product_view_status": "BUY_POSSIBLE",
+        "not_purchase_message": "Coming Soon",
+        "delivery_type_names": [
+          "샛별배송"
+        ],
+        "tags": [],
+        "sticker": null,
+        "group_product": {
+          "is_group": false,
+          "is_not_representative": false
+        },
+        "review_count": ""
+      },
+      {
+        "no": 5095821,
+        "name": "[Dole] 아보카도 440g (2입)",
+        "short_description": "부담 없이 맛보는 후숙 과일",
+        "list_image_url": "https://img-cf-perf.kurly.com/shop/data/goods/1637925083834l0.jpeg",
+        "sales_price": 5900,
+        "discounted_price": null,
+        "discount_rate": 0,
+        "is_multiple_price": false,
+        "is_buy_now": false,
+        "is_purchase_status": true,
+        "is_giftable": false,
+        "is_only_adult": false,
+        "is_shown": true,
+        "is_sold_out": false,
+        "sold_out_title": "Coming Soon",
+        "sold_out_text": "",
+        "can_restock_notify": true,
+        "product_view_status": "BUY_POSSIBLE",
+        "not_purchase_message": "Coming Soon",
+        "delivery_type_names": [
+          "샛별배송"
+        ],
+        "tags": [],
+        "sticker": null,
+        "group_product": {
+          "is_group": false,
+          "is_not_representative": false
+        },
+        "review_count": "999+"
+      },
+      {
+        "no": 1000047584,
+        "name": "YA_통합운영_CC04상품",
+        "short_description": "YA_통합운영_CC04상품",
+        "list_image_url": "https://product-image-stg.kurly.com/product/image/78fc409a-6e48-4b38-96ff-85197e8274e2.jpg",
+        "sales_price": 11000,
+        "discounted_price": 11000,
+        "discount_rate": 0,
+        "is_multiple_price": false,
+        "is_buy_now": true,
+        "is_purchase_status": true,
+        "is_giftable": false,
+        "is_only_adult": false,
+        "is_shown": true,
+        "is_sold_out": false,
+        "sold_out_title": "Coming Soon",
+        "sold_out_text": "",
+        "can_restock_notify": true,
+        "product_view_status": "BUY_POSSIBLE",
+        "not_purchase_message": "Coming Soon",
+        "delivery_type_names": [
+          "샛별배송"
+        ],
+        "tags": [],
+        "sticker": null,
+        "group_product": {
+          "is_group": false,
+          "is_not_representative": false
+        },
+        "review_count": ""
+      },
+      {
+        "no": 5007398,
+        "name": "[선물세트] 돼지감자 진액",
+        "short_description": "자연에서 얻은 천연 인슐린",
+        "list_image_url": "https://img-cf-perf.kurly.com/shop/data/goods/1501832042689l0.jpg",
+        "sales_price": 35500,
+        "discounted_price": null,
+        "discount_rate": 0,
+        "is_multiple_price": false,
+        "is_buy_now": false,
+        "is_purchase_status": true,
+        "is_giftable": true,
+        "is_only_adult": false,
+        "is_shown": true,
+        "is_sold_out": false,
+        "sold_out_title": "Coming Soon",
+        "sold_out_text": "",
+        "can_restock_notify": true,
+        "product_view_status": "BUY_POSSIBLE",
+        "not_purchase_message": "Coming Soon",
+        "delivery_type_names": [
+          "샛별배송"
+        ],
+        "tags": [],
+        "sticker": null,
+        "group_product": {
+          "is_group": false,
+          "is_not_representative": false
+        },
+        "review_count": "320"
+      },
+      {
+        "no": 1000045346,
+        "name": "멀티딜_키엘K0415",
+        "short_description": "브랜드 1개로 구성된 멀티딜",
+        "list_image_url": "https://product-image-stg.kurly.com/product/image/2e16b286-31df-47e9-9abd-452b80974dd2.png",
+        "sales_price": 5000,
+        "discounted_price": 4000,
+        "discount_rate": 20,
+        "is_multiple_price": true,
+        "is_buy_now": false,
+        "is_purchase_status": true,
+        "is_giftable": false,
+        "is_only_adult": false,
+        "is_shown": true,
+        "is_sold_out": false,
+        "sold_out_title": "Coming Soon",
+        "sold_out_text": "",
+        "can_restock_notify": true,
+        "product_view_status": "BUY_POSSIBLE",
+        "not_purchase_message": "Coming Soon",
+        "delivery_type_names": [
+          "샛별배송"
+        ],
+        "tags": [],
+        "sticker": null,
+        "group_product": {
+          "is_group": false,
+          "is_not_representative": false
+        },
+        "review_count": ""
+      },
+      {
+        "no": 1000048093,
+        "name": "YA_통합_CC01",
+        "short_description": "YA_통합_CC01",
+        "list_image_url": "https://product-image-stg.kurly.com/product/image/2fee2952-0813-428e-ab1c-8451e11ecca4.jpg",
+        "sales_price": 11000,
+        "discounted_price": 11000,
+        "discount_rate": 0,
+        "is_multiple_price": false,
+        "is_buy_now": true,
+        "is_purchase_status": true,
+        "is_giftable": false,
+        "is_only_adult": false,
+        "is_shown": true,
+        "is_sold_out": false,
+        "sold_out_title": "Coming Soon",
+        "sold_out_text": "",
+        "can_restock_notify": true,
+        "product_view_status": "BUY_POSSIBLE",
+        "not_purchase_message": "Coming Soon",
+        "delivery_type_names": [
+          "샛별배송"
+        ],
+        "tags": [],
+        "sticker": {
+          "content": [
+            {
+              "text": "통합CC01증정",
+              "weight": "bold"
+            }
+          ],
+          "opacity": 90,
+          "background_color": "#BD76FF"
+        },
+        "group_product": {
+          "is_group": false,
+          "is_not_representative": false
+        },
+        "review_count": ""
+      },
+      {
+        "no": 1000047660,
+        "name": "마스크12313",
+        "short_description": "마스크123123",
+        "list_image_url": "https://product-image-stg.kurly.com/product/image/da3d1331-0026-4056-ae9f-8fbc58c756b2.jpg",
+        "sales_price": 3000,
+        "discounted_price": 2000,
+        "discount_rate": 33,
+        "is_multiple_price": false,
+        "is_buy_now": false,
+        "is_purchase_status": true,
+        "is_giftable": false,
+        "is_only_adult": false,
+        "is_shown": true,
+        "is_sold_out": false,
+        "sold_out_title": "Coming Soon",
+        "sold_out_text": "",
+        "can_restock_notify": true,
+        "product_view_status": "BUY_POSSIBLE",
+        "not_purchase_message": "Coming Soon",
+        "delivery_type_names": [
+          "샛별배송"
+        ],
+        "tags": [
+          {
+            "name": "최저가",
+            "type": "DEFAULT"
+          }
+        ],
+        "sticker": null,
+        "group_product": {
+          "is_group": false,
+          "is_not_representative": false
+        },
+        "review_count": ""
+      },
+      {
+        "no": 1000046698,
+        "name": "L_본품_8",
+        "short_description": "L_본품_8",
+        "list_image_url": "https://product-image-stg.kurly.com/product/image/46d43905-5ac8-4dd4-a4fa-dd3a470f8270.jpg",
+        "sales_price": 12000,
+        "discounted_price": 10000,
+        "discount_rate": 16,
+        "is_multiple_price": false,
+        "is_buy_now": false,
+        "is_purchase_status": true,
+        "is_giftable": false,
+        "is_only_adult": false,
+        "is_shown": true,
+        "is_sold_out": false,
+        "sold_out_title": "Coming Soon",
+        "sold_out_text": "",
+        "can_restock_notify": true,
+        "product_view_status": "BUY_POSSIBLE",
+        "not_purchase_message": "Coming Soon",
+        "delivery_type_names": [
+          "샛별배송"
+        ],
+        "tags": [],
+        "sticker": null,
+        "group_product": {
+          "is_group": false,
+          "is_not_representative": false
+        },
+        "review_count": ""
+      }
+    ]
+  },
+  "meta": {
+    "recipe": "default",
+    "campaign_policy_key": "default",
+    "cluster_center_code": "CC02",
+    "delivery_type": "direct"
+  }
+}

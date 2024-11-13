@@ -1,0 +1,9 @@
+<svg width="24" height="24" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <defs>
+        <path id="0qa6237aea" d="M8.8 6.4H16v7.2"/>
+    </defs>
+    <g fill="none" fill-rule="evenodd">
+        <path d="M0 0h24v24H0z"/>
+        <use stroke="#FFF" stroke-width="2" stroke-linecap="square" transform="scale(1 -1) rotate(-45 -11.742 0)" xlink:href="#0qa6237aea"/>
+    </g>
+</svg>

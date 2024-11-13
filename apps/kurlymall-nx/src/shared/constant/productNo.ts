@@ -1,0 +1,5 @@
+export const DEFAULT_NORMAL_CONTENT_NO = 5000000; // 5백만
+
+export const DEFAULT_GROUP_CONTENT_NO = 10000000; // 천만
+
+export const DEFAULT_PARTNER_CONTENT_NO = 1000000000; // 10억
