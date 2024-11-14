@@ -1,8 +1,0 @@
-<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="20" height="20" viewBox="0 0 20 20">
-    <defs>
-        <path id="4547tcdaca" d="M2 2L10 2 10 10"/>
-    </defs>
-    <g fill="none" fill-rule="evenodd" transform="translate(4 2)">
-        <use stroke="#999" stroke-linecap="round" stroke-linejoin="round" transform="rotate(135 6 6)" xlink:href="#4547tcdaca"/>
-    </g>
-</svg>

@@ -1,0 +1,998 @@
+
+
+> @thefarmersfront/kpds-css@0.0.21 build /Users/gtg671l9r2/Documents/my/kurly-monorepo/packages/css
+> vite build
+
+[36mvite v5.4.10 [32mbuilding for production...[36m[39m
+[96msrc/theme.css.ts[0m:[93m38[0m:[93m14[0m - [91merror[0m[90m TS4023: [0mExported variable 'vars' has or is using name 'MapLeafNodes' from external module "/Users/gtg671l9r2/Documents/my/kurly-monorepo/node_modules/.pnpm/@vanilla-extract+css@1.15.3_babel-plugin-macros@3.1.0/node_modules/@vanilla-extract/css/dist/vanilla-extract-css.cjs" but cannot be named.
+
+[7m38[0m export const vars = createThemeContract(baseTokens);
+[7m  [0m [91m             ~~~~[0m
+[96msrc/components/alert.css.ts[0m:[93m55[0m:[93m29[0m - [91merror[0m[90m TS2339: [0mProperty '$24' does not exist on type 'CSSVarFunction | MapLeafNodes<any, CSSVarFunction>'.
+  Property '$24' does not exist on type '`var(--${string})`'.
+
+[7m55[0m   paddingLeft: vars.spacing.$24,
+[7m  [0m [91m                            ~~~[0m
+[96msrc/components/alert.css.ts[0m:[93m56[0m:[93m30[0m - [91merror[0m[90m TS2339: [0mProperty '$24' does not exist on type 'CSSVarFunction | MapLeafNodes<any, CSSVarFunction>'.
+  Property '$24' does not exist on type '`var(--${string})`'.
+
+[7m56[0m   paddingRight: vars.spacing.$24,
+[7m  [0m [91m                             ~~~[0m
+[96msrc/components/alert.css.ts[0m:[93m57[0m:[93m30[0m - [91merror[0m[90m TS2339: [0mProperty '$8' does not exist on type 'CSSVarFunction | MapLeafNodes<any, CSSVarFunction>'.
+  Property '$8' does not exist on type '`var(--${string})`'.
+
+[7m57[0m   marginBottom: vars.spacing.$8,
+[7m  [0m [91m                             ~~[0m
+[96msrc/components/alert.css.ts[0m:[93m58[0m:[93m21[0m - [91merror[0m[90m TS2339: [0mProperty 'text' does not exist on type 'CSSVarFunction | MapLeafNodes<any, CSSVarFunction>'.
+  Property 'text' does not exist on type '`var(--${string})`'.
+
+[7m58[0m   color: vars.color.text.$primary,
+[7m  [0m [91m                    ~~~~[0m
+[96msrc/components/alert.css.ts[0m:[93m62[0m:[93m30[0m - [91merror[0m[90m TS2339: [0mProperty '$20' does not exist on type 'CSSVarFunction | MapLeafNodes<any, CSSVarFunction>'.
+  Property '$20' does not exist on type '`var(--${string})`'.
+
+[7m62[0m   marginBottom: vars.spacing.$20,
+[7m  [0m [91m                             ~~~[0m
+[96msrc/components/alert.css.ts[0m:[93m63[0m:[93m29[0m - [91merror[0m[90m TS2339: [0mProperty '$24' does not exist on type 'CSSVarFunction | MapLeafNodes<any, CSSVarFunction>'.
+  Property '$24' does not exist on type '`var(--${string})`'.
+
+[7m63[0m   paddingLeft: vars.spacing.$24,
+[7m  [0m [91m                            ~~~[0m
+[96msrc/components/alert.css.ts[0m:[93m64[0m:[93m30[0m - [91merror[0m[90m TS2339: [0mProperty '$24' does not exist on type 'CSSVarFunction | MapLeafNodes<any, CSSVarFunction>'.
+  Property '$24' does not exist on type '`var(--${string})`'.
+
+[7m64[0m   paddingRight: vars.spacing.$24,
+[7m  [0m [91m                             ~~~[0m
+[96msrc/components/alert.css.ts[0m:[93m71[0m:[93m23[0m - [91merror[0m[90m TS2339: [0mProperty 'text' does not exist on type 'CSSVarFunction | MapLeafNodes<any, CSSVarFunction>'.
+  Property 'text' does not exist on type '`var(--${string})`'.
+
+[7m71[0m     color: vars.color.text.$secondary,
+[7m  [0m [91m                      ~~~~[0m
+[96msrc/components/alert.css.ts[0m:[93m115[0m:[93m39[0m - [91merror[0m[90m TS2339: [0mProperty '$8' does not exist on type 'CSSVarFunction | MapLeafNodes<any, CSSVarFunction>'.
+  Property '$8' does not exist on type '`var(--${string})`'.
+
+[7m115[0m             marginRight: vars.spacing.$8,
+[7m   [0m [91m                                      ~~[0m
+[96msrc/components/alert.css.ts[0m:[93m131[0m:[93m39[0m - [91merror[0m[90m TS2339: [0mProperty '$0' does not exist on type 'CSSVarFunction | MapLeafNodes<any, CSSVarFunction>'.
+  Property '$0' does not exist on type '`var(--${string})`'.
+
+[7m131[0m             marginRight: vars.spacing.$0,
+[7m   [0m [91m                                      ~~[0m
+[96msrc/components/alert.css.ts[0m:[93m132[0m:[93m37[0m - [91merror[0m[90m TS2339: [0mProperty '$8' does not exist on type 'CSSVarFunction | MapLeafNodes<any, CSSVarFunction>'.
+  Property '$8' does not exist on type '`var(--${string})`'.
+
+[7m132[0m             marginTop: vars.spacing.$8,
+[7m   [0m [91m                                    ~~[0m
+[96msrc/components/button.css.ts[0m:[93m87[0m:[93m43[0m - [91merror[0m[90m TS2339: [0mProperty '$purple950' does not exist on type 'CSSVarFunction | MapLeafNodes<any, CSSVarFunction>'.
+  Property '$purple950' does not exist on type '`var(--${string})`'.
+
+[7m87[0m               backgroundColor: vars.color.$purple950,
+[7m  [0m [91m                                          ~~~~~~~~~~[0m
+[96msrc/components/button.css.ts[0m:[93m90[0m:[93m43[0m - [91merror[0m[90m TS2339: [0mProperty '$purple100' does not exist on type 'CSSVarFunction | MapLeafNodes<any, CSSVarFunction>'.
+  Property '$purple100' does not exist on type '`var(--${string})`'.
+
+[7m90[0m               backgroundColor: vars.color.$purple100,
+[7m  [0m [91m                                          ~~~~~~~~~~[0m
+[96msrc/components/button.css.ts[0m:[93m91[0m:[93m33[0m - [91merror[0m[90m TS2339: [0mProperty '$purple400' does not exist on type 'CSSVarFunction | MapLeafNodes<any, CSSVarFunction>'.
+  Property '$purple400' does not exist on type '`var(--${string})`'.
+
+[7m91[0m               color: vars.color.$purple400,
+[7m  [0m [91m                                ~~~~~~~~~~[0m
+[96msrc/components/button.css.ts[0m:[93m111[0m:[93m43[0m - [91merror[0m[90m TS2339: [0mProperty '$purple200' does not exist on type 'CSSVarFunction | MapLeafNodes<any, CSSVarFunction>'.
+  Property '$purple200' does not exist on type '`var(--${string})`'.
+
+[7m111[0m               backgroundColor: vars.color.$purple200,
+[7m   [0m [91m                                          ~~~~~~~~~~[0m
+[96msrc/components/button.css.ts[0m:[93m114[0m:[93m43[0m - [91merror[0m[90m TS2339: [0mProperty '$purple100' does not exist on type 'CSSVarFunction | MapLeafNodes<any, CSSVarFunction>'.
+  Property '$purple100' does not exist on type '`var(--${string})`'.
+
+[7m114[0m               backgroundColor: vars.color.$purple100,
+[7m   [0m [91m                                          ~~~~~~~~~~[0m
+[96msrc/components/button.css.ts[0m:[93m115[0m:[93m33[0m - [91merror[0m[90m TS2339: [0mProperty '$purple400' does not exist on type 'CSSVarFunction | MapLeafNodes<any, CSSVarFunction>'.
+  Property '$purple400' does not exist on type '`var(--${string})`'.
+
+[7m115[0m               color: vars.color.$purple400,
+[7m   [0m [91m                                ~~~~~~~~~~[0m
+[96msrc/components/button.css.ts[0m:[93m136[0m:[93m43[0m - [91merror[0m[90m TS2339: [0mProperty '$purple50' does not exist on type 'CSSVarFunction | MapLeafNodes<any, CSSVarFunction>'.
+  Property '$purple50' does not exist on type '`var(--${string})`'.
+
+[7m136[0m               backgroundColor: vars.color.$purple50,
+[7m   [0m [91m                                          ~~~~~~~~~[0m
+[96msrc/components/button.css.ts[0m:[93m139[0m:[93m33[0m - [91merror[0m[90m TS2339: [0mProperty '$purple400' does not exist on type 'CSSVarFunction | MapLeafNodes<any, CSSVarFunction>'.
+  Property '$purple400' does not exist on type '`var(--${string})`'.
+
+[7m139[0m               color: vars.color.$purple400,
+[7m   [0m [91m                                ~~~~~~~~~~[0m
+[96msrc/components/button.css.ts[0m:[93m140[0m:[93m39[0m - [91merror[0m[90m TS2339: [0mProperty '$purple200' does not exist on type 'CSSVarFunction | MapLeafNodes<any, CSSVarFunction>'.
+  Property '$purple200' does not exist on type '`var(--${string})`'.
+
+[7m140[0m               borderColor: vars.color.$purple200,
+[7m   [0m [91m                                      ~~~~~~~~~~[0m
+[96msrc/components/button.css.ts[0m:[93m141[0m:[93m43[0m - [91merror[0m[90m TS2339: [0mProperty '$white' does not exist on type 'CSSVarFunction | MapLeafNodes<any, CSSVarFunction>'.
+  Property '$white' does not exist on type '`var(--${string})`'.
+
+[7m141[0m               backgroundColor: vars.color.$white,
+[7m   [0m [91m                                          ~~~~~~[0m
+[96msrc/components/button.css.ts[0m:[93m162[0m:[93m43[0m - [91merror[0m[90m TS2339: [0mProperty '$purple200' does not exist on type 'CSSVarFunction | MapLeafNodes<any, CSSVarFunction>'.
+  Property '$purple200' does not exist on type '`var(--${string})`'.
+
+[7m162[0m               backgroundColor: vars.color.$purple200,
+[7m   [0m [91m                                          ~~~~~~~~~~[0m
+[96msrc/components/button.css.ts[0m:[93m165[0m:[93m33[0m - [91merror[0m[90m TS2339: [0mProperty '$purple400' does not exist on type 'CSSVarFunction | MapLeafNodes<any, CSSVarFunction>'.
+  Property '$purple400' does not exist on type '`var(--${string})`'.
+
+[7m165[0m               color: vars.color.$purple400,
+[7m   [0m [91m                                ~~~~~~~~~~[0m
+[96msrc/components/button.css.ts[0m:[93m166[0m:[93m43[0m - [91merror[0m[90m TS2339: [0mProperty '$white' does not exist on type 'CSSVarFunction | MapLeafNodes<any, CSSVarFunction>'.
+  Property '$white' does not exist on type '`var(--${string})`'.
+
+[7m166[0m               backgroundColor: vars.color.$white,
+[7m   [0m [91m                                          ~~~~~~[0m
+[96msrc/components/button.css.ts[0m:[93m188[0m:[93m43[0m - [91merror[0m[90m TS2339: [0mProperty '$gray950' does not exist on type 'CSSVarFunction | MapLeafNodes<any, CSSVarFunction>'.
+  Property '$gray950' does not exist on type '`var(--${string})`'.
+
+[7m188[0m               backgroundColor: vars.color.$gray950,
+[7m   [0m [91m                                          ~~~~~~~~[0m
+[96msrc/components/button.css.ts[0m:[93m191[0m:[93m43[0m - [91merror[0m[90m TS2339: [0mProperty 'background' does not exist on type 'CSSVarFunction | MapLeafNodes<any, CSSVarFunction>'.
+  Property 'background' does not exist on type '`var(--${string})`'.
+
+[7m191[0m               backgroundColor: vars.color.background.$background3,
+[7m   [0m [91m                                          ~~~~~~~~~~[0m
+[96msrc/components/button.css.ts[0m:[93m192[0m:[93m33[0m - [91merror[0m[90m TS2339: [0mProperty 'text' does not exist on type 'CSSVarFunction | MapLeafNodes<any, CSSVarFunction>'.
+  Property 'text' does not exist on type '`var(--${string})`'.
+
+[7m192[0m               color: vars.color.text.$disabled,
+[7m   [0m [91m                                ~~~~[0m
+[96msrc/components/button.css.ts[0m:[93m212[0m:[93m43[0m - [91merror[0m[90m TS2339: [0mProperty 'background' does not exist on type 'CSSVarFunction | MapLeafNodes<any, CSSVarFunction>'.
+  Property 'background' does not exist on type '`var(--${string})`'.
+
+[7m212[0m               backgroundColor: vars.color.background.$background4,
+[7m   [0m [91m                                          ~~~~~~~~~~[0m
+[96msrc/components/button.css.ts[0m:[93m215[0m:[93m43[0m - [91merror[0m[90m TS2339: [0mProperty 'background' does not exist on type 'CSSVarFunction | MapLeafNodes<any, CSSVarFunction>'.
+  Property 'background' does not exist on type '`var(--${string})`'.
+
+[7m215[0m               backgroundColor: vars.color.background.$background3,
+[7m   [0m [91m                                          ~~~~~~~~~~[0m
+[96msrc/components/button.css.ts[0m:[93m216[0m:[93m33[0m - [91merror[0m[90m TS2339: [0mProperty 'text' does not exist on type 'CSSVarFunction | MapLeafNodes<any, CSSVarFunction>'.
+  Property 'text' does not exist on type '`var(--${string})`'.
+
+[7m216[0m               color: vars.color.text.$disabled,
+[7m   [0m [91m                                ~~~~[0m
+[96msrc/components/button.css.ts[0m:[93m237[0m:[93m43[0m - [91merror[0m[90m TS2339: [0mProperty 'background' does not exist on type 'CSSVarFunction | MapLeafNodes<any, CSSVarFunction>'.
+  Property 'background' does not exist on type '`var(--${string})`'.
+
+[7m237[0m               backgroundColor: vars.color.background.$background2,
+[7m   [0m [91m                                          ~~~~~~~~~~[0m
+[96msrc/components/button.css.ts[0m:[93m240[0m:[93m33[0m - [91merror[0m[90m TS2339: [0mProperty 'text' does not exist on type 'CSSVarFunction | MapLeafNodes<any, CSSVarFunction>'.
+  Property 'text' does not exist on type '`var(--${string})`'.
+
+[7m240[0m               color: vars.color.text.$disabled,
+[7m   [0m [91m                                ~~~~[0m
+[96msrc/components/button.css.ts[0m:[93m241[0m:[93m39[0m - [91merror[0m[90m TS2339: [0mProperty 'line' does not exist on type 'CSSVarFunction | MapLeafNodes<any, CSSVarFunction>'.
+  Property 'line' does not exist on type '`var(--${string})`'.
+
+[7m241[0m               borderColor: vars.color.line.$line2,
+[7m   [0m [91m                                      ~~~~[0m
+[96msrc/components/button.css.ts[0m:[93m242[0m:[93m43[0m - [91merror[0m[90m TS2339: [0mProperty 'background' does not exist on type 'CSSVarFunction | MapLeafNodes<any, CSSVarFunction>'.
+  Property 'background' does not exist on type '`var(--${string})`'.
+
+[7m242[0m               backgroundColor: vars.color.background.$background1,
+[7m   [0m [91m                                          ~~~~~~~~~~[0m
+[96msrc/components/button.css.ts[0m:[93m263[0m:[93m43[0m - [91merror[0m[90m TS2339: [0mProperty 'background' does not exist on type 'CSSVarFunction | MapLeafNodes<any, CSSVarFunction>'.
+  Property 'background' does not exist on type '`var(--${string})`'.
+
+[7m263[0m               backgroundColor: vars.color.background.$background2,
+[7m   [0m [91m                                          ~~~~~~~~~~[0m
+[96msrc/components/button.css.ts[0m:[93m266[0m:[93m33[0m - [91merror[0m[90m TS2339: [0mProperty 'text' does not exist on type 'CSSVarFunction | MapLeafNodes<any, CSSVarFunction>'.
+  Property 'text' does not exist on type '`var(--${string})`'.
+
+[7m266[0m               color: vars.color.text.$disabled,
+[7m   [0m [91m                                ~~~~[0m
+[96msrc/components/button.css.ts[0m:[93m267[0m:[93m43[0m - [91merror[0m[90m TS2339: [0mProperty 'background' does not exist on type 'CSSVarFunction | MapLeafNodes<any, CSSVarFunction>'.
+  Property 'background' does not exist on type '`var(--${string})`'.
+
+[7m267[0m               backgroundColor: vars.color.background.$background1,
+[7m   [0m [91m                                          ~~~~~~~~~~[0m
+[96msrc/components/button.css.ts[0m:[93m289[0m:[93m43[0m - [91merror[0m[90m TS2339: [0mProperty '$orange950' does not exist on type 'CSSVarFunction | MapLeafNodes<any, CSSVarFunction>'.
+  Property '$orange950' does not exist on type '`var(--${string})`'.
+
+[7m289[0m               backgroundColor: vars.color.$orange950,
+[7m   [0m [91m                                          ~~~~~~~~~~[0m
+[96msrc/components/button.css.ts[0m:[93m292[0m:[93m43[0m - [91merror[0m[90m TS2339: [0mProperty '$orange100' does not exist on type 'CSSVarFunction | MapLeafNodes<any, CSSVarFunction>'.
+  Property '$orange100' does not exist on type '`var(--${string})`'.
+
+[7m292[0m               backgroundColor: vars.color.$orange100,
+[7m   [0m [91m                                          ~~~~~~~~~~[0m
+[96msrc/components/button.css.ts[0m:[93m293[0m:[93m33[0m - [91merror[0m[90m TS2339: [0mProperty '$orange400' does not exist on type 'CSSVarFunction | MapLeafNodes<any, CSSVarFunction>'.
+  Property '$orange400' does not exist on type '`var(--${string})`'.
+
+[7m293[0m               color: vars.color.$orange400,
+[7m   [0m [91m                                ~~~~~~~~~~[0m
+[96msrc/components/button.css.ts[0m:[93m313[0m:[93m43[0m - [91merror[0m[90m TS2339: [0mProperty '$orange200' does not exist on type 'CSSVarFunction | MapLeafNodes<any, CSSVarFunction>'.
+  Property '$orange200' does not exist on type '`var(--${string})`'.
+
+[7m313[0m               backgroundColor: vars.color.$orange200,
+[7m   [0m [91m                                          ~~~~~~~~~~[0m
+[96msrc/components/button.css.ts[0m:[93m316[0m:[93m43[0m - [91merror[0m[90m TS2339: [0mProperty '$orange100' does not exist on type 'CSSVarFunction | MapLeafNodes<any, CSSVarFunction>'.
+  Property '$orange100' does not exist on type '`var(--${string})`'.
+
+[7m316[0m               backgroundColor: vars.color.$orange100,
+[7m   [0m [91m                                          ~~~~~~~~~~[0m
+[96msrc/components/button.css.ts[0m:[93m317[0m:[93m33[0m - [91merror[0m[90m TS2339: [0mProperty '$orange400' does not exist on type 'CSSVarFunction | MapLeafNodes<any, CSSVarFunction>'.
+  Property '$orange400' does not exist on type '`var(--${string})`'.
+
+[7m317[0m               color: vars.color.$orange400,
+[7m   [0m [91m                                ~~~~~~~~~~[0m
+[96msrc/components/button.css.ts[0m:[93m338[0m:[93m43[0m - [91merror[0m[90m TS2339: [0mProperty '$orange50' does not exist on type 'CSSVarFunction | MapLeafNodes<any, CSSVarFunction>'.
+  Property '$orange50' does not exist on type '`var(--${string})`'.
+
+[7m338[0m               backgroundColor: vars.color.$orange50,
+[7m   [0m [91m                                          ~~~~~~~~~[0m
+[96msrc/components/button.css.ts[0m:[93m341[0m:[93m33[0m - [91merror[0m[90m TS2339: [0mProperty '$orange400' does not exist on type 'CSSVarFunction | MapLeafNodes<any, CSSVarFunction>'.
+  Property '$orange400' does not exist on type '`var(--${string})`'.
+
+[7m341[0m               color: vars.color.$orange400,
+[7m   [0m [91m                                ~~~~~~~~~~[0m
+[96msrc/components/button.css.ts[0m:[93m342[0m:[93m39[0m - [91merror[0m[90m TS2339: [0mProperty '$orange200' does not exist on type 'CSSVarFunction | MapLeafNodes<any, CSSVarFunction>'.
+  Property '$orange200' does not exist on type '`var(--${string})`'.
+
+[7m342[0m               borderColor: vars.color.$orange200,
+[7m   [0m [91m                                      ~~~~~~~~~~[0m
+[96msrc/components/button.css.ts[0m:[93m343[0m:[93m43[0m - [91merror[0m[90m TS2339: [0mProperty 'background' does not exist on type 'CSSVarFunction | MapLeafNodes<any, CSSVarFunction>'.
+  Property 'background' does not exist on type '`var(--${string})`'.
+
+[7m343[0m               backgroundColor: vars.color.background.$background1,
+[7m   [0m [91m                                          ~~~~~~~~~~[0m
+[96msrc/components/button.css.ts[0m:[93m364[0m:[93m43[0m - [91merror[0m[90m TS2339: [0mProperty '$orange50' does not exist on type 'CSSVarFunction | MapLeafNodes<any, CSSVarFunction>'.
+  Property '$orange50' does not exist on type '`var(--${string})`'.
+
+[7m364[0m               backgroundColor: vars.color.$orange50,
+[7m   [0m [91m                                          ~~~~~~~~~[0m
+[96msrc/components/button.css.ts[0m:[93m367[0m:[93m33[0m - [91merror[0m[90m TS2339: [0mProperty '$orange200' does not exist on type 'CSSVarFunction | MapLeafNodes<any, CSSVarFunction>'.
+  Property '$orange200' does not exist on type '`var(--${string})`'.
+
+[7m367[0m               color: vars.color.$orange200,
+[7m   [0m [91m                                ~~~~~~~~~~[0m
+[96msrc/components/button.css.ts[0m:[93m368[0m:[93m43[0m - [91merror[0m[90m TS2339: [0mProperty 'background' does not exist on type 'CSSVarFunction | MapLeafNodes<any, CSSVarFunction>'.
+  Property 'background' does not exist on type '`var(--${string})`'.
+
+[7m368[0m               backgroundColor: vars.color.background.$background1,
+[7m   [0m [91m                                          ~~~~~~~~~~[0m
+[96msrc/components/button.css.ts[0m:[93m390[0m:[93m43[0m - [91merror[0m[90m TS2339: [0mProperty '$red950' does not exist on type 'CSSVarFunction | MapLeafNodes<any, CSSVarFunction>'.
+  Property '$red950' does not exist on type '`var(--${string})`'.
+
+[7m390[0m               backgroundColor: vars.color.$red950,
+[7m   [0m [91m                                          ~~~~~~~[0m
+[96msrc/components/button.css.ts[0m:[93m393[0m:[93m43[0m - [91merror[0m[90m TS2339: [0mProperty '$red100' does not exist on type 'CSSVarFunction | MapLeafNodes<any, CSSVarFunction>'.
+  Property '$red100' does not exist on type '`var(--${string})`'.
+
+[7m393[0m               backgroundColor: vars.color.$red100,
+[7m   [0m [91m                                          ~~~~~~~[0m
+[96msrc/components/button.css.ts[0m:[93m394[0m:[93m33[0m - [91merror[0m[90m TS2339: [0mProperty '$red400' does not exist on type 'CSSVarFunction | MapLeafNodes<any, CSSVarFunction>'.
+  Property '$red400' does not exist on type '`var(--${string})`'.
+
+[7m394[0m               color: vars.color.$red400,
+[7m   [0m [91m                                ~~~~~~~[0m
+[96msrc/components/button.css.ts[0m:[93m414[0m:[93m43[0m - [91merror[0m[90m TS2339: [0mProperty '$red200' does not exist on type 'CSSVarFunction | MapLeafNodes<any, CSSVarFunction>'.
+  Property '$red200' does not exist on type '`var(--${string})`'.
+
+[7m414[0m               backgroundColor: vars.color.$red200,
+[7m   [0m [91m                                          ~~~~~~~[0m
+[96msrc/components/button.css.ts[0m:[93m417[0m:[93m43[0m - [91merror[0m[90m TS2339: [0mProperty '$red100' does not exist on type 'CSSVarFunction | MapLeafNodes<any, CSSVarFunction>'.
+  Property '$red100' does not exist on type '`var(--${string})`'.
+
+[7m417[0m               backgroundColor: vars.color.$red100,
+[7m   [0m [91m                                          ~~~~~~~[0m
+[96msrc/components/button.css.ts[0m:[93m418[0m:[93m33[0m - [91merror[0m[90m TS2339: [0mProperty '$red400' does not exist on type 'CSSVarFunction | MapLeafNodes<any, CSSVarFunction>'.
+  Property '$red400' does not exist on type '`var(--${string})`'.
+
+[7m418[0m               color: vars.color.$red400,
+[7m   [0m [91m                                ~~~~~~~[0m
+[96msrc/components/button.css.ts[0m:[93m439[0m:[93m43[0m - [91merror[0m[90m TS2339: [0mProperty '$red50' does not exist on type 'CSSVarFunction | MapLeafNodes<any, CSSVarFunction>'.
+  Property '$red50' does not exist on type '`var(--${string})`'.
+
+[7m439[0m               backgroundColor: vars.color.$red50,
+[7m   [0m [91m                                          ~~~~~~[0m
+[96msrc/components/button.css.ts[0m:[93m442[0m:[93m33[0m - [91merror[0m[90m TS2339: [0mProperty '$red400' does not exist on type 'CSSVarFunction | MapLeafNodes<any, CSSVarFunction>'.
+  Property '$red400' does not exist on type '`var(--${string})`'.
+
+[7m442[0m               color: vars.color.$red400,
+[7m   [0m [91m                                ~~~~~~~[0m
+[96msrc/components/button.css.ts[0m:[93m443[0m:[93m39[0m - [91merror[0m[90m TS2339: [0mProperty '$red200' does not exist on type 'CSSVarFunction | MapLeafNodes<any, CSSVarFunction>'.
+  Property '$red200' does not exist on type '`var(--${string})`'.
+
+[7m443[0m               borderColor: vars.color.$red200,
+[7m   [0m [91m                                      ~~~~~~~[0m
+[96msrc/components/button.css.ts[0m:[93m444[0m:[93m43[0m - [91merror[0m[90m TS2339: [0mProperty 'background' does not exist on type 'CSSVarFunction | MapLeafNodes<any, CSSVarFunction>'.
+  Property 'background' does not exist on type '`var(--${string})`'.
+
+[7m444[0m               backgroundColor: vars.color.background.$background1,
+[7m   [0m [91m                                          ~~~~~~~~~~[0m
+[96msrc/components/button.css.ts[0m:[93m465[0m:[93m43[0m - [91merror[0m[90m TS2339: [0mProperty '$red50' does not exist on type 'CSSVarFunction | MapLeafNodes<any, CSSVarFunction>'.
+  Property '$red50' does not exist on type '`var(--${string})`'.
+
+[7m465[0m               backgroundColor: vars.color.$red50,
+[7m   [0m [91m                                          ~~~~~~[0m
+[96msrc/components/button.css.ts[0m:[93m468[0m:[93m33[0m - [91merror[0m[90m TS2339: [0mProperty '$red400' does not exist on type 'CSSVarFunction | MapLeafNodes<any, CSSVarFunction>'.
+  Property '$red400' does not exist on type '`var(--${string})`'.
+
+[7m468[0m               color: vars.color.$red400,
+[7m   [0m [91m                                ~~~~~~~[0m
+[96msrc/components/button.css.ts[0m:[93m469[0m:[93m43[0m - [91merror[0m[90m TS2339: [0mProperty 'background' does not exist on type 'CSSVarFunction | MapLeafNodes<any, CSSVarFunction>'.
+  Property 'background' does not exist on type '`var(--${string})`'.
+
+[7m469[0m               backgroundColor: vars.color.background.$background1,
+[7m   [0m [91m                                          ~~~~~~~~~~[0m
+[96msrc/components/button.css.ts[0m:[93m487[0m:[93m29[0m - [91merror[0m[90m TS2339: [0mProperty '$blackUniversal' does not exist on type 'CSSVarFunction | MapLeafNodes<any, CSSVarFunction>'.
+  Property '$blackUniversal' does not exist on type '`var(--${string})`'.
+
+[7m487[0m           color: vars.color.$blackUniversal,
+[7m   [0m [91m                            ~~~~~~~~~~~~~~~[0m
+[96msrc/components/button.css.ts[0m:[93m490[0m:[93m43[0m - [91merror[0m[90m TS2339: [0mProperty '$kakaoYellow950' does not exist on type 'CSSVarFunction | MapLeafNodes<any, CSSVarFunction>'.
+  Property '$kakaoYellow950' does not exist on type '`var(--${string})`'.
+
+[7m490[0m               backgroundColor: vars.color.$kakaoYellow950,
+[7m   [0m [91m                                          ~~~~~~~~~~~~~~~[0m
+[96msrc/components/button.css.ts[0m:[93m493[0m:[93m43[0m - [91merror[0m[90m TS2339: [0mProperty '$kakaoYellow100' does not exist on type 'CSSVarFunction | MapLeafNodes<any, CSSVarFunction>'.
+  Property '$kakaoYellow100' does not exist on type '`var(--${string})`'.
+
+[7m493[0m               backgroundColor: vars.color.$kakaoYellow100,
+[7m   [0m [91m                                          ~~~~~~~~~~~~~~~[0m
+[96msrc/components/button.css.ts[0m:[93m494[0m:[93m33[0m - [91merror[0m[90m TS2339: [0mProperty '$kakaoYellow400' does not exist on type 'CSSVarFunction | MapLeafNodes<any, CSSVarFunction>'.
+  Property '$kakaoYellow400' does not exist on type '`var(--${string})`'.
+
+[7m494[0m               color: vars.color.$kakaoYellow400,
+[7m   [0m [91m                                ~~~~~~~~~~~~~~~[0m
+[96msrc/components/icon-button.css.ts[0m:[93m19[0m:[93m33[0m - [91merror[0m[90m TS2339: [0mProperty '$20' does not exist on type 'CSSVarFunction | MapLeafNodes<any, CSSVarFunction>'.
+  Property '$20' does not exist on type '`var(--${string})`'.
+
+[7m19[0m       borderRadius: vars.radius.$20,
+[7m  [0m [91m                                ~~~[0m
+[96msrc/components/icon-button.css.ts[0m:[93m28[0m:[93m43[0m - [91merror[0m[90m TS2339: [0mProperty '$purple100' does not exist on type 'CSSVarFunction | MapLeafNodes<any, CSSVarFunction>'.
+  Property '$purple100' does not exist on type '`var(--${string})`'.
+
+[7m28[0m               backgroundColor: vars.color.$purple100,
+[7m  [0m [91m                                          ~~~~~~~~~~[0m
+[96msrc/components/icon-button.css.ts[0m:[93m31[0m:[93m33[0m - [91merror[0m[90m TS2339: [0mProperty '$purple400' does not exist on type 'CSSVarFunction | MapLeafNodes<any, CSSVarFunction>'.
+  Property '$purple400' does not exist on type '`var(--${string})`'.
+
+[7m31[0m               color: vars.color.$purple400,
+[7m  [0m [91m                                ~~~~~~~~~~[0m
+[96msrc/components/icon-button.css.ts[0m:[93m41[0m:[93m43[0m - [91merror[0m[90m TS2339: [0mProperty '$gray100' does not exist on type 'CSSVarFunction | MapLeafNodes<any, CSSVarFunction>'.
+  Property '$gray100' does not exist on type '`var(--${string})`'.
+
+[7m41[0m               backgroundColor: vars.color.$gray100,
+[7m  [0m [91m                                          ~~~~~~~~[0m
+[96msrc/components/icon-button.css.ts[0m:[93m44[0m:[93m33[0m - [91merror[0m[90m TS2339: [0mProperty '$gray400' does not exist on type 'CSSVarFunction | MapLeafNodes<any, CSSVarFunction>'.
+  Property '$gray400' does not exist on type '`var(--${string})`'.
+
+[7m44[0m               color: vars.color.$gray400,
+[7m  [0m [91m                                ~~~~~~~~[0m
+[96msrc/components/icon-button.css.ts[0m:[93m54[0m:[93m43[0m - [91merror[0m[90m TS2339: [0mProperty '$orange100' does not exist on type 'CSSVarFunction | MapLeafNodes<any, CSSVarFunction>'.
+  Property '$orange100' does not exist on type '`var(--${string})`'.
+
+[7m54[0m               backgroundColor: vars.color.$orange100,
+[7m  [0m [91m                                          ~~~~~~~~~~[0m
+[96msrc/components/icon-button.css.ts[0m:[93m57[0m:[93m33[0m - [91merror[0m[90m TS2339: [0mProperty '$orange400' does not exist on type 'CSSVarFunction | MapLeafNodes<any, CSSVarFunction>'.
+  Property '$orange400' does not exist on type '`var(--${string})`'.
+
+[7m57[0m               color: vars.color.$orange400,
+[7m  [0m [91m                                ~~~~~~~~~~[0m
+[96msrc/components/icon-button.css.ts[0m:[93m67[0m:[93m43[0m - [91merror[0m[90m TS2339: [0mProperty '$gray50' does not exist on type 'CSSVarFunction | MapLeafNodes<any, CSSVarFunction>'.
+  Property '$gray50' does not exist on type '`var(--${string})`'.
+
+[7m67[0m               backgroundColor: vars.color.$gray50,
+[7m  [0m [91m                                          ~~~~~~~[0m
+[96msrc/components/icon-button.css.ts[0m:[93m70[0m:[93m33[0m - [91merror[0m[90m TS2339: [0mProperty '$gray400' does not exist on type 'CSSVarFunction | MapLeafNodes<any, CSSVarFunction>'.
+  Property '$gray400' does not exist on type '`var(--${string})`'.
+
+[7m70[0m               color: vars.color.$gray400,
+[7m  [0m [91m                                ~~~~~~~~[0m
+[96msrc/components/icon-button.css.ts[0m:[93m80[0m:[93m43[0m - [91merror[0m[90m TS2339: [0mProperty '$gray100' does not exist on type 'CSSVarFunction | MapLeafNodes<any, CSSVarFunction>'.
+  Property '$gray100' does not exist on type '`var(--${string})`'.
+
+[7m80[0m               backgroundColor: vars.color.$gray100,
+[7m  [0m [91m                                          ~~~~~~~~[0m
+[96msrc/components/icon-button.css.ts[0m:[93m83[0m:[93m33[0m - [91merror[0m[90m TS2339: [0mProperty '$gray400' does not exist on type 'CSSVarFunction | MapLeafNodes<any, CSSVarFunction>'.
+  Property '$gray400' does not exist on type '`var(--${string})`'.
+
+[7m83[0m               color: vars.color.$gray400,
+[7m  [0m [91m                                ~~~~~~~~[0m
+[96msrc/components/icon-button.css.ts[0m:[93m93[0m:[93m43[0m - [91merror[0m[90m TS2339: [0mProperty '$blackAlphaLight' does not exist on type 'CSSVarFunction | MapLeafNodes<any, CSSVarFunction>'.
+  Property '$blackAlphaLight' does not exist on type '`var(--${string})`'.
+
+[7m93[0m               backgroundColor: vars.color.$blackAlphaLight,
+[7m  [0m [91m                                          ~~~~~~~~~~~~~~~~[0m
+[96msrc/components/icon-button.css.ts[0m:[93m96[0m:[93m33[0m - [91merror[0m[90m TS2339: [0mProperty '$whiteAlphaRegular' does not exist on type 'CSSVarFunction | MapLeafNodes<any, CSSVarFunction>'.
+  Property '$whiteAlphaRegular' does not exist on type '`var(--${string})`'.
+
+[7m96[0m               color: vars.color.$whiteAlphaRegular,
+[7m  [0m [91m                                ~~~~~~~~~~~~~~~~~~[0m
+[96msrc/components/icon-button.css.ts[0m:[93m106[0m:[93m43[0m - [91merror[0m[90m TS2339: [0mProperty '$blackAlphaLightUniversal' does not exist on type 'CSSVarFunction | MapLeafNodes<any, CSSVarFunction>'.
+  Property '$blackAlphaLightUniversal' does not exist on type '`var(--${string})`'.
+
+[7m106[0m               backgroundColor: vars.color.$blackAlphaLightUniversal,
+[7m   [0m [91m                                          ~~~~~~~~~~~~~~~~~~~~~~~~~[0m
+[96msrc/components/icon-button.css.ts[0m:[93m109[0m:[93m33[0m - [91merror[0m[90m TS2339: [0mProperty '$whiteAlphaRegular' does not exist on type 'CSSVarFunction | MapLeafNodes<any, CSSVarFunction>'.
+  Property '$whiteAlphaRegular' does not exist on type '`var(--${string})`'.
+
+[7m109[0m               color: vars.color.$whiteAlphaRegular,
+[7m   [0m [91m                                ~~~~~~~~~~~~~~~~~~[0m
+[96msrc/components/icon-button.css.ts[0m:[93m119[0m:[93m43[0m - [91merror[0m[90m TS2339: [0mProperty '$red100' does not exist on type 'CSSVarFunction | MapLeafNodes<any, CSSVarFunction>'.
+  Property '$red100' does not exist on type '`var(--${string})`'.
+
+[7m119[0m               backgroundColor: vars.color.$red100,
+[7m   [0m [91m                                          ~~~~~~~[0m
+[96msrc/components/icon-button.css.ts[0m:[93m122[0m:[93m33[0m - [91merror[0m[90m TS2339: [0mProperty '$red400' does not exist on type 'CSSVarFunction | MapLeafNodes<any, CSSVarFunction>'.
+  Property '$red400' does not exist on type '`var(--${string})`'.
+
+[7m122[0m               color: vars.color.$red400,
+[7m   [0m [91m                                ~~~~~~~[0m
+[96msrc/components/icon-button.css.ts[0m:[93m132[0m:[93m43[0m - [91merror[0m[90m TS2339: [0mProperty '$purple100' does not exist on type 'CSSVarFunction | MapLeafNodes<any, CSSVarFunction>'.
+  Property '$purple100' does not exist on type '`var(--${string})`'.
+
+[7m132[0m               backgroundColor: vars.color.$purple100,
+[7m   [0m [91m                                          ~~~~~~~~~~[0m
+[96msrc/components/icon-button.css.ts[0m:[93m135[0m:[93m33[0m - [91merror[0m[90m TS2339: [0mProperty '$purple400' does not exist on type 'CSSVarFunction | MapLeafNodes<any, CSSVarFunction>'.
+  Property '$purple400' does not exist on type '`var(--${string})`'.
+
+[7m135[0m               color: vars.color.$purple400,
+[7m   [0m [91m                                ~~~~~~~~~~[0m
+[96msrc/components/radio.css.ts[0m:[93m4[0m:[93m23[0m - [91merror[0m[90m TS2307: [0mCannot find module '@thefarmersfront/kpds-tokens' or its corresponding type declarations.
+
+[7m4[0m import { Color } from '@thefarmersfront/kpds-tokens';
+[7m [0m [91m                      ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[0m
+[96msrc/components/text-button.css.ts[0m:[93m30[0m:[93m43[0m - [91merror[0m[90m TS2339: [0mProperty '$purple100' does not exist on type 'CSSVarFunction | MapLeafNodes<any, CSSVarFunction>'.
+  Property '$purple100' does not exist on type '`var(--${string})`'.
+
+[7m30[0m               backgroundColor: vars.color.$purple100,
+[7m  [0m [91m                                          ~~~~~~~~~~[0m
+[96msrc/components/text-button.css.ts[0m:[93m33[0m:[93m33[0m - [91merror[0m[90m TS2339: [0mProperty '$purple400' does not exist on type 'CSSVarFunction | MapLeafNodes<any, CSSVarFunction>'.
+  Property '$purple400' does not exist on type '`var(--${string})`'.
+
+[7m33[0m               color: vars.color.$purple400,
+[7m  [0m [91m                                ~~~~~~~~~~[0m
+[96msrc/components/text-button.css.ts[0m:[93m44[0m:[93m43[0m - [91merror[0m[90m TS2339: [0mProperty '$gray100' does not exist on type 'CSSVarFunction | MapLeafNodes<any, CSSVarFunction>'.
+  Property '$gray100' does not exist on type '`var(--${string})`'.
+
+[7m44[0m               backgroundColor: vars.color.$gray100,
+[7m  [0m [91m                                          ~~~~~~~~[0m
+[96msrc/components/text-button.css.ts[0m:[93m47[0m:[93m33[0m - [91merror[0m[90m TS2339: [0mProperty '$gray400' does not exist on type 'CSSVarFunction | MapLeafNodes<any, CSSVarFunction>'.
+  Property '$gray400' does not exist on type '`var(--${string})`'.
+
+[7m47[0m               color: vars.color.$gray400,
+[7m  [0m [91m                                ~~~~~~~~[0m
+[96msrc/components/text-button.css.ts[0m:[93m58[0m:[93m43[0m - [91merror[0m[90m TS2339: [0mProperty '$orange100' does not exist on type 'CSSVarFunction | MapLeafNodes<any, CSSVarFunction>'.
+  Property '$orange100' does not exist on type '`var(--${string})`'.
+
+[7m58[0m               backgroundColor: vars.color.$orange100,
+[7m  [0m [91m                                          ~~~~~~~~~~[0m
+[96msrc/components/text-button.css.ts[0m:[93m61[0m:[93m33[0m - [91merror[0m[90m TS2339: [0mProperty '$orange400' does not exist on type 'CSSVarFunction | MapLeafNodes<any, CSSVarFunction>'.
+  Property '$orange400' does not exist on type '`var(--${string})`'.
+
+[7m61[0m               color: vars.color.$orange400,
+[7m  [0m [91m                                ~~~~~~~~~~[0m
+[96msrc/components/text-button.css.ts[0m:[93m72[0m:[93m43[0m - [91merror[0m[90m TS2339: [0mProperty '$gray50' does not exist on type 'CSSVarFunction | MapLeafNodes<any, CSSVarFunction>'.
+  Property '$gray50' does not exist on type '`var(--${string})`'.
+
+[7m72[0m               backgroundColor: vars.color.$gray50,
+[7m  [0m [91m                                          ~~~~~~~[0m
+[96msrc/components/text-button.css.ts[0m:[93m75[0m:[93m33[0m - [91merror[0m[90m TS2339: [0mProperty '$gray400' does not exist on type 'CSSVarFunction | MapLeafNodes<any, CSSVarFunction>'.
+  Property '$gray400' does not exist on type '`var(--${string})`'.
+
+[7m75[0m               color: vars.color.$gray400,
+[7m  [0m [91m                                ~~~~~~~~[0m
+[96msrc/components/text-button.css.ts[0m:[93m86[0m:[93m43[0m - [91merror[0m[90m TS2339: [0mProperty '$gray100' does not exist on type 'CSSVarFunction | MapLeafNodes<any, CSSVarFunction>'.
+  Property '$gray100' does not exist on type '`var(--${string})`'.
+
+[7m86[0m               backgroundColor: vars.color.$gray100,
+[7m  [0m [91m                                          ~~~~~~~~[0m
+[96msrc/components/text-button.css.ts[0m:[93m89[0m:[93m33[0m - [91merror[0m[90m TS2339: [0mProperty '$gray400' does not exist on type 'CSSVarFunction | MapLeafNodes<any, CSSVarFunction>'.
+  Property '$gray400' does not exist on type '`var(--${string})`'.
+
+[7m89[0m               color: vars.color.$gray400,
+[7m  [0m [91m                                ~~~~~~~~[0m
+[96msrc/components/text-button.css.ts[0m:[93m100[0m:[93m43[0m - [91merror[0m[90m TS2339: [0mProperty '$blackAlphaLight' does not exist on type 'CSSVarFunction | MapLeafNodes<any, CSSVarFunction>'.
+  Property '$blackAlphaLight' does not exist on type '`var(--${string})`'.
+
+[7m100[0m               backgroundColor: vars.color.$blackAlphaLight,
+[7m   [0m [91m                                          ~~~~~~~~~~~~~~~~[0m
+[96msrc/components/text-button.css.ts[0m:[93m103[0m:[93m33[0m - [91merror[0m[90m TS2339: [0mProperty '$whiteAlphaRegular' does not exist on type 'CSSVarFunction | MapLeafNodes<any, CSSVarFunction>'.
+  Property '$whiteAlphaRegular' does not exist on type '`var(--${string})`'.
+
+[7m103[0m               color: vars.color.$whiteAlphaRegular,
+[7m   [0m [91m                                ~~~~~~~~~~~~~~~~~~[0m
+[96msrc/components/text-button.css.ts[0m:[93m114[0m:[93m43[0m - [91merror[0m[90m TS2339: [0mProperty '$blackAlphaLightUniversal' does not exist on type 'CSSVarFunction | MapLeafNodes<any, CSSVarFunction>'.
+  Property '$blackAlphaLightUniversal' does not exist on type '`var(--${string})`'.
+
+[7m114[0m               backgroundColor: vars.color.$blackAlphaLightUniversal,
+[7m   [0m [91m                                          ~~~~~~~~~~~~~~~~~~~~~~~~~[0m
+[96msrc/components/text-button.css.ts[0m:[93m117[0m:[93m33[0m - [91merror[0m[90m TS2339: [0mProperty '$whiteAlphaRegular' does not exist on type 'CSSVarFunction | MapLeafNodes<any, CSSVarFunction>'.
+  Property '$whiteAlphaRegular' does not exist on type '`var(--${string})`'.
+
+[7m117[0m               color: vars.color.$whiteAlphaRegular,
+[7m   [0m [91m                                ~~~~~~~~~~~~~~~~~~[0m
+[96msrc/components/text-button.css.ts[0m:[93m128[0m:[93m43[0m - [91merror[0m[90m TS2339: [0mProperty '$red100' does not exist on type 'CSSVarFunction | MapLeafNodes<any, CSSVarFunction>'.
+  Property '$red100' does not exist on type '`var(--${string})`'.
+
+[7m128[0m               backgroundColor: vars.color.$red100,
+[7m   [0m [91m                                          ~~~~~~~[0m
+[96msrc/components/text-button.css.ts[0m:[93m131[0m:[93m33[0m - [91merror[0m[90m TS2339: [0mProperty '$red400' does not exist on type 'CSSVarFunction | MapLeafNodes<any, CSSVarFunction>'.
+  Property '$red400' does not exist on type '`var(--${string})`'.
+
+[7m131[0m               color: vars.color.$red400,
+[7m   [0m [91m                                ~~~~~~~[0m
+[96msrc/components/text-button.css.ts[0m:[93m142[0m:[93m43[0m - [91merror[0m[90m TS2339: [0mProperty '$purple100' does not exist on type 'CSSVarFunction | MapLeafNodes<any, CSSVarFunction>'.
+  Property '$purple100' does not exist on type '`var(--${string})`'.
+
+[7m142[0m               backgroundColor: vars.color.$purple100,
+[7m   [0m [91m                                          ~~~~~~~~~~[0m
+[96msrc/components/text-button.css.ts[0m:[93m145[0m:[93m33[0m - [91merror[0m[90m TS2339: [0mProperty '$purple400' does not exist on type 'CSSVarFunction | MapLeafNodes<any, CSSVarFunction>'.
+  Property '$purple400' does not exist on type '`var(--${string})`'.
+
+[7m145[0m               color: vars.color.$purple400,
+[7m   [0m [91m                                ~~~~~~~~~~[0m
+[96msrc/components/textfield.css.ts[0m:[93m3[0m:[93m25[0m - [91merror[0m[90m TS2307: [0mCannot find module '@thefarmersfront/kpds-tokens' or its corresponding type declarations.
+
+[7m3[0m import { Spacing } from '@thefarmersfront/kpds-tokens';
+[7m [0m [91m                        ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[0m
+[96msrc/components/textfield.css.ts[0m:[93m13[0m:[93m31[0m - [91merror[0m[90m TS2339: [0mProperty '$16' does not exist on type 'CSSVarFunction | MapLeafNodes<any, CSSVarFunction>'.
+  Property '$16' does not exist on type '`var(--${string})`'.
+
+[7m13[0m     paddingLeft: vars.spacing.$16,
+[7m  [0m [91m                              ~~~[0m
+[96msrc/components/textfield.css.ts[0m:[93m14[0m:[93m32[0m - [91merror[0m[90m TS2339: [0mProperty '$16' does not exist on type 'CSSVarFunction | MapLeafNodes<any, CSSVarFunction>'.
+  Property '$16' does not exist on type '`var(--${string})`'.
+
+[7m14[0m     paddingRight: vars.spacing.$16,
+[7m  [0m [91m                               ~~~[0m
+[96msrc/components/textfield.css.ts[0m:[93m31[0m:[93m27[0m - [91merror[0m[90m TS2339: [0mProperty '$2' does not exist on type 'CSSVarFunction | MapLeafNodes<any, CSSVarFunction>'.
+  Property '$2' does not exist on type '`var(--${string})`'.
+
+[7m31[0m   marginTop: vars.spacing.$2,
+[7m  [0m [91m                          ~~[0m
+[96msrc/components/textfield.css.ts[0m:[93m37[0m:[93m23[0m - [91merror[0m[90m TS2339: [0mProperty 'text' does not exist on type 'CSSVarFunction | MapLeafNodes<any, CSSVarFunction>'.
+  Property 'text' does not exist on type '`var(--${string})`'.
+
+[7m37[0m     color: vars.color.text.$tertiary,
+[7m  [0m [91m                      ~~~~[0m
+[96msrc/components/textfield.css.ts[0m:[93m38[0m:[93m30[0m - [91merror[0m[90m TS2339: [0mProperty '$4' does not exist on type 'CSSVarFunction | MapLeafNodes<any, CSSVarFunction>'.
+  Property '$4' does not exist on type '`var(--${string})`'.
+
+[7m38[0m     paddingTop: vars.spacing.$4,
+[7m  [0m [91m                             ~~[0m
+[96msrc/components/textfield.css.ts[0m:[93m43[0m:[93m35[0m - [91merror[0m[90m TS2339: [0mProperty '$10' does not exist on type 'CSSVarFunction | MapLeafNodes<any, CSSVarFunction>'.
+  Property '$10' does not exist on type '`var(--${string})`'.
+
+[7m43[0m         paddingLeft: vars.spacing.$10,
+[7m  [0m [91m                                  ~~~[0m
+[96msrc/components/textfield.css.ts[0m:[93m53[0m:[93m30[0m - [91merror[0m[90m TS2339: [0mProperty '$4' does not exist on type 'CSSVarFunction | MapLeafNodes<any, CSSVarFunction>'.
+  Property '$4' does not exist on type '`var(--${string})`'.
+
+[7m53[0m     paddingTop: vars.spacing.$4,
+[7m  [0m [91m                             ~~[0m
+[96msrc/components/textfield.css.ts[0m:[93m58[0m:[93m27[0m - [91merror[0m[90m TS2339: [0mProperty 'main' does not exist on type 'CSSVarFunction | MapLeafNodes<any, CSSVarFunction>'.
+  Property 'main' does not exist on type '`var(--${string})`'.
+
+[7m58[0m         color: vars.color.main.$danger,
+[7m  [0m [91m                          ~~~~[0m
+[96msrc/components/textfield.css.ts[0m:[93m61[0m:[93m27[0m - [91merror[0m[90m TS2339: [0mProperty 'main' does not exist on type 'CSSVarFunction | MapLeafNodes<any, CSSVarFunction>'.
+  Property 'main' does not exist on type '`var(--${string})`'.
+
+[7m61[0m         color: vars.color.main.$complete,
+[7m  [0m [91m                          ~~~~[0m
+[96msrc/components/textfield.css.ts[0m:[93m71[0m:[93m31[0m - [91merror[0m[90m TS2339: [0mProperty 'background' does not exist on type 'CSSVarFunction | MapLeafNodes<any, CSSVarFunction>'.
+  Property 'background' does not exist on type '`var(--${string})`'.
+
+[7m71[0m   backgroundColor: vars.color.background.$background5,
+[7m  [0m [91m                              ~~~~~~~~~~[0m
+[96msrc/components/textfield.css.ts[0m:[93m73[0m:[93m23[0m - [91merror[0m[90m TS2339: [0mProperty '$4' does not exist on type 'CSSVarFunction | MapLeafNodes<any, CSSVarFunction>'.
+  Property '$4' does not exist on type '`var(--${string})`'.
+
+[7m73[0m   width: vars.spacing.$4,
+[7m  [0m [91m                      ~~[0m
+[96msrc/components/textfield.css.ts[0m:[93m74[0m:[93m24[0m - [91merror[0m[90m TS2339: [0mProperty '$4' does not exist on type 'CSSVarFunction | MapLeafNodes<any, CSSVarFunction>'.
+  Property '$4' does not exist on type '`var(--${string})`'.
+
+[7m74[0m   height: vars.spacing.$4,
+[7m  [0m [91m                       ~~[0m
+[96msrc/components/textfield.css.ts[0m:[93m80[0m:[93m31[0m - [91merror[0m[90m TS2339: [0mProperty '$22' does not exist on type 'CSSVarFunction | MapLeafNodes<any, CSSVarFunction>'.
+  Property '$22' does not exist on type '`var(--${string})`'.
+
+[7m80[0m   lineHeight: vars.lineHeight.$22,
+[7m  [0m [91m                              ~~~[0m
+[96msrc/components/textfield.css.ts[0m:[93m100[0m:[93m25[0m - [91merror[0m[90m TS2339: [0mProperty 'text' does not exist on type 'CSSVarFunction | MapLeafNodes<any, CSSVarFunction>'.
+  Property 'text' does not exist on type '`var(--${string})`'.
+
+[7m100[0m       color: vars.color.text.$primary,
+[7m   [0m [91m                        ~~~~[0m
+[96msrc/components/textfield.css.ts[0m:[93m103[0m:[93m29[0m - [91merror[0m[90m TS2339: [0mProperty 'text' does not exist on type 'CSSVarFunction | MapLeafNodes<any, CSSVarFunction>'.
+  Property 'text' does not exist on type '`var(--${string})`'.
+
+[7m103[0m           color: vars.color.text.$tertiary,
+[7m   [0m [91m                            ~~~~[0m
+[96msrc/components/textfield.css.ts[0m:[93m117[0m:[93m27[0m - [91merror[0m[90m TS2339: [0mProperty 'text' does not exist on type 'CSSVarFunction | MapLeafNodes<any, CSSVarFunction>'.
+  Property 'text' does not exist on type '`var(--${string})`'.
+
+[7m117[0m         color: vars.color.text.$disabled,
+[7m   [0m [91m                          ~~~~[0m
+[96msrc/components/textfield.css.ts[0m:[93m120[0m:[93m31[0m - [91merror[0m[90m TS2339: [0mProperty 'text' does not exist on type 'CSSVarFunction | MapLeafNodes<any, CSSVarFunction>'.
+  Property 'text' does not exist on type '`var(--${string})`'.
+
+[7m120[0m             color: vars.color.text.$disabled,
+[7m   [0m [91m                              ~~~~[0m
+[96msrc/components/textfield.css.ts[0m:[93m129[0m:[93m31[0m - [91merror[0m[90m TS2339: [0mProperty 'main' does not exist on type 'CSSVarFunction | MapLeafNodes<any, CSSVarFunction>'.
+  Property 'main' does not exist on type '`var(--${string})`'.
+
+[7m129[0m             color: vars.color.main.$danger,
+[7m   [0m [91m                              ~~~~[0m
+[96msrc/components/textfield.css.ts[0m:[93m136[0m:[93m34[0m - [91merror[0m[90m TS2339: [0mProperty '$16' does not exist on type 'CSSVarFunction | MapLeafNodes<any, CSSVarFunction>'.
+  Property '$16' does not exist on type '`var(--${string})`'.
+
+[7m136[0m         paddingTop: vars.spacing.$16,
+[7m   [0m [91m                                 ~~~[0m
+[96msrc/components/textfield.css.ts[0m:[93m139[0m:[93m41[0m - [91merror[0m[90m TS2339: [0mProperty '$16' does not exist on type 'CSSVarFunction | MapLeafNodes<any, CSSVarFunction>'.
+  Property '$16' does not exist on type '`var(--${string})`'.
+
+[7m139[0m             paddingBottom: vars.spacing.$16,
+[7m   [0m [91m                                        ~~~[0m
+[96msrc/components/textfield.css.ts[0m:[93m156[0m:[93m27[0m - [91merror[0m[90m TS2339: [0mProperty 'text' does not exist on type 'CSSVarFunction | MapLeafNodes<any, CSSVarFunction>'.
+  Property 'text' does not exist on type '`var(--${string})`'.
+
+[7m156[0m         color: vars.color.text.$primary,
+[7m   [0m [91m                          ~~~~[0m
+[96msrc/components/textfield.css.ts[0m:[93m159[0m:[93m31[0m - [91merror[0m[90m TS2339: [0mProperty 'text' does not exist on type 'CSSVarFunction | MapLeafNodes<any, CSSVarFunction>'.
+  Property 'text' does not exist on type '`var(--${string})`'.
+
+[7m159[0m             color: vars.color.text.$tertiary,
+[7m   [0m [91m                              ~~~~[0m
+[96msrc/components/textfield.css.ts[0m:[93m188[0m:[93m36[0m - [91merror[0m[90m TS2339: [0mProperty '$12' does not exist on type 'CSSVarFunction | MapLeafNodes<any, CSSVarFunction>'.
+  Property '$12' does not exist on type '`var(--${string})`'.
+
+[7m188[0m         borderRadius: vars.spacing.$12,
+[7m   [0m [91m                                   ~~~[0m
+[96msrc/components/textfield.css.ts[0m:[93m193[0m:[93m33[0m - [91merror[0m[90m TS2339: [0mProperty 'main' does not exist on type 'CSSVarFunction | MapLeafNodes<any, CSSVarFunction>'.
+  Property 'main' does not exist on type '`var(--${string})`'.
+
+[7m193[0m         borderColor: vars.color.main.$secondary,
+[7m   [0m [91m                                ~~~~[0m
+[96msrc/components/textfield.css.ts[0m:[93m196[0m:[93m33[0m - [91merror[0m[90m TS2339: [0mProperty 'line' does not exist on type 'CSSVarFunction | MapLeafNodes<any, CSSVarFunction>'.
+  Property 'line' does not exist on type '`var(--${string})`'.
+
+[7m196[0m         borderColor: vars.color.line.$line2,
+[7m   [0m [91m                                ~~~~[0m
+[96msrc/components/textfield.css.ts[0m:[93m201[0m:[93m33[0m - [91merror[0m[90m TS2339: [0mProperty 'line' does not exist on type 'CSSVarFunction | MapLeafNodes<any, CSSVarFunction>'.
+  Property 'line' does not exist on type '`var(--${string})`'.
+
+[7m201[0m         borderColor: vars.color.line.$line2,
+[7m   [0m [91m                                ~~~~[0m
+[96msrc/components/textfield.css.ts[0m:[93m206[0m:[93m33[0m - [91merror[0m[90m TS2339: [0mProperty 'main' does not exist on type 'CSSVarFunction | MapLeafNodes<any, CSSVarFunction>'.
+  Property 'main' does not exist on type '`var(--${string})`'.
+
+[7m206[0m         borderColor: vars.color.main.$danger,
+[7m   [0m [91m                                ~~~~[0m
+[96msrc/components/textfield.css.ts[0m:[93m217[0m:[93m33[0m - [91merror[0m[90m TS2339: [0mProperty 'main' does not exist on type 'CSSVarFunction | MapLeafNodes<any, CSSVarFunction>'.
+  Property 'main' does not exist on type '`var(--${string})`'.
+
+[7m217[0m         borderColor: vars.color.main.$secondary,
+[7m   [0m [91m                                ~~~~[0m
+[96msrc/components/textfield.css.ts[0m:[93m224[0m:[93m21[0m - [91merror[0m[90m TS2339: [0mProperty 'main' does not exist on type 'CSSVarFunction | MapLeafNodes<any, CSSVarFunction>'.
+  Property 'main' does not exist on type '`var(--${string})`'.
+
+[7m224[0m   color: vars.color.main.$secondary,
+[7m   [0m [91m                    ~~~~[0m
+[96msrc/components/textfield.css.ts[0m:[93m269[0m:[93m31[0m - [91merror[0m[90m TS2339: [0mProperty 'main' does not exist on type 'CSSVarFunction | MapLeafNodes<any, CSSVarFunction>'.
+  Property 'main' does not exist on type '`var(--${string})`'.
+
+[7m269[0m             color: vars.color.main.$danger,
+[7m   [0m [91m                              ~~~~[0m
+[96msrc/components/textfield.css.ts[0m:[93m278[0m:[93m33[0m - [91merror[0m[90m TS2339: [0mProperty '$8' does not exist on type 'CSSVarFunction | MapLeafNodes<any, CSSVarFunction>'.
+  Property '$8' does not exist on type '`var(--${string})`'.
+
+[7m278[0m         marginTop: vars.spacing.$8,
+[7m   [0m [91m                                ~~[0m
+[96msrc/components/textfield.css.ts[0m:[93m279[0m:[93m36[0m - [91merror[0m[90m TS2339: [0mProperty '$16' does not exist on type 'CSSVarFunction | MapLeafNodes<any, CSSVarFunction>'.
+  Property '$16' does not exist on type '`var(--${string})`'.
+
+[7m279[0m         marginBottom: vars.spacing.$16,
+[7m   [0m [91m                                   ~~~[0m
+[96msrc/components/textfield.css.ts[0m:[93m280[0m:[93m37[0m - [91merror[0m[90m TS2339: [0mProperty '$20' does not exist on type 'CSSVarFunction | MapLeafNodes<any, CSSVarFunction>'.
+  Property '$20' does not exist on type '`var(--${string})`'.
+
+[7m280[0m         lineHeight: vars.lineHeight.$20,
+[7m   [0m [91m                                    ~~~[0m
+[96msrc/components/textfield.css.ts[0m:[93m283[0m:[93m34[0m - [91merror[0m[90m TS2339: [0mProperty '$8' does not exist on type 'CSSVarFunction | MapLeafNodes<any, CSSVarFunction>'.
+  Property '$8' does not exist on type '`var(--${string})`'.
+
+[7m283[0m         marginLeft: vars.spacing.$8,
+[7m   [0m [91m                                 ~~[0m
+[96msrc/internal/alert.base.css.ts[0m:[93m28[0m:[93m30[0m - [91merror[0m[90m TS2339: [0mProperty 'system' does not exist on type 'CSSVarFunction | MapLeafNodes<any, CSSVarFunction>'.
+  Property 'system' does not exist on type '`var(--${string})`'.
+
+[7m28[0m       background: vars.color.system.$dimAlphaRegularUniversal,
+[7m  [0m [91m                             ~~~~~~[0m
+[96msrc/internal/alert.base.css.ts[0m:[93m46[0m:[93m29[0m - [91merror[0m[90m TS2339: [0mProperty '$16' does not exist on type 'CSSVarFunction | MapLeafNodes<any, CSSVarFunction>'.
+  Property '$16' does not exist on type '`var(--${string})`'.
+
+[7m46[0m   borderRadius: vars.radius.$16,
+[7m  [0m [91m                            ~~~[0m
+[96msrc/internal/alert.base.css.ts[0m:[93m47[0m:[93m31[0m - [91merror[0m[90m TS2339: [0mProperty 'background' does not exist on type 'CSSVarFunction | MapLeafNodes<any, CSSVarFunction>'.
+  Property 'background' does not exist on type '`var(--${string})`'.
+
+[7m47[0m   backgroundColor: vars.color.background.$background1,
+[7m  [0m [91m                              ~~~~~~~~~~[0m
+[96msrc/internal/alert.base.css.ts[0m:[93m53[0m:[93m28[0m - [91merror[0m[90m TS2339: [0mProperty '$32' does not exist on type 'CSSVarFunction | MapLeafNodes<any, CSSVarFunction>'.
+  Property '$32' does not exist on type '`var(--${string})`'.
+
+[7m53[0m   paddingTop: vars.spacing.$32,
+[7m  [0m [91m                           ~~~[0m
+[96msrc/internal/alert.base.css.ts[0m:[93m54[0m:[93m31[0m - [91merror[0m[90m TS2339: [0mProperty '$0' does not exist on type 'CSSVarFunction | MapLeafNodes<any, CSSVarFunction>'.
+  Property '$0' does not exist on type '`var(--${string})`'.
+
+[7m54[0m   paddingBottom: vars.spacing.$0,
+[7m  [0m [91m                              ~~[0m
+[96msrc/internal/alert.base.css.ts[0m:[93m58[0m:[93m29[0m - [91merror[0m[90m TS2339: [0mProperty '$24' does not exist on type 'CSSVarFunction | MapLeafNodes<any, CSSVarFunction>'.
+  Property '$24' does not exist on type '`var(--${string})`'.
+
+[7m58[0m   paddingLeft: vars.spacing.$24,
+[7m  [0m [91m                            ~~~[0m
+[96msrc/internal/alert.base.css.ts[0m:[93m59[0m:[93m30[0m - [91merror[0m[90m TS2339: [0mProperty '$24' does not exist on type 'CSSVarFunction | MapLeafNodes<any, CSSVarFunction>'.
+  Property '$24' does not exist on type '`var(--${string})`'.
+
+[7m59[0m   paddingRight: vars.spacing.$24,
+[7m  [0m [91m                             ~~~[0m
+[96msrc/internal/alert.base.css.ts[0m:[93m60[0m:[93m30[0m - [91merror[0m[90m TS2339: [0mProperty '$8' does not exist on type 'CSSVarFunction | MapLeafNodes<any, CSSVarFunction>'.
+  Property '$8' does not exist on type '`var(--${string})`'.
+
+[7m60[0m   marginBottom: vars.spacing.$8,
+[7m  [0m [91m                             ~~[0m
+[96msrc/internal/alert.base.css.ts[0m:[93m61[0m:[93m21[0m - [91merror[0m[90m TS2339: [0mProperty 'text' does not exist on type 'CSSVarFunction | MapLeafNodes<any, CSSVarFunction>'.
+  Property 'text' does not exist on type '`var(--${string})`'.
+
+[7m61[0m   color: vars.color.text.$primary,
+[7m  [0m [91m                    ~~~~[0m
+[96msrc/internal/alert.base.css.ts[0m:[93m65[0m:[93m30[0m - [91merror[0m[90m TS2339: [0mProperty '$20' does not exist on type 'CSSVarFunction | MapLeafNodes<any, CSSVarFunction>'.
+  Property '$20' does not exist on type '`var(--${string})`'.
+
+[7m65[0m   marginBottom: vars.spacing.$20,
+[7m  [0m [91m                             ~~~[0m
+[96msrc/internal/alert.base.css.ts[0m:[93m66[0m:[93m29[0m - [91merror[0m[90m TS2339: [0mProperty '$24' does not exist on type 'CSSVarFunction | MapLeafNodes<any, CSSVarFunction>'.
+  Property '$24' does not exist on type '`var(--${string})`'.
+
+[7m66[0m   paddingLeft: vars.spacing.$24,
+[7m  [0m [91m                            ~~~[0m
+[96msrc/internal/alert.base.css.ts[0m:[93m67[0m:[93m30[0m - [91merror[0m[90m TS2339: [0mProperty '$24' does not exist on type 'CSSVarFunction | MapLeafNodes<any, CSSVarFunction>'.
+  Property '$24' does not exist on type '`var(--${string})`'.
+
+[7m67[0m   paddingRight: vars.spacing.$24,
+[7m  [0m [91m                             ~~~[0m
+[96msrc/internal/alert.base.css.ts[0m:[93m74[0m:[93m23[0m - [91merror[0m[90m TS2339: [0mProperty 'text' does not exist on type 'CSSVarFunction | MapLeafNodes<any, CSSVarFunction>'.
+  Property 'text' does not exist on type '`var(--${string})`'.
+
+[7m74[0m     color: vars.color.text.$secondary,
+[7m  [0m [91m                      ~~~~[0m
+[96msrc/internal/dialogPC.base.css.ts[0m:[93m28[0m:[93m30[0m - [91merror[0m[90m TS2339: [0mProperty 'system' does not exist on type 'CSSVarFunction | MapLeafNodes<any, CSSVarFunction>'.
+  Property 'system' does not exist on type '`var(--${string})`'.
+
+[7m28[0m       background: vars.color.system.$dimAlphaRegularUniversal,
+[7m  [0m [91m                             ~~~~~~[0m
+[96msrc/internal/dialogPC.base.css.ts[0m:[93m48[0m:[93m29[0m - [91merror[0m[90m TS2339: [0mProperty '$16' does not exist on type 'CSSVarFunction | MapLeafNodes<any, CSSVarFunction>'.
+  Property '$16' does not exist on type '`var(--${string})`'.
+
+[7m48[0m   borderRadius: vars.radius.$16,
+[7m  [0m [91m                            ~~~[0m
+[96msrc/internal/dialogPC.base.css.ts[0m:[93m49[0m:[93m31[0m - [91merror[0m[90m TS2339: [0mProperty 'background' does not exist on type 'CSSVarFunction | MapLeafNodes<any, CSSVarFunction>'.
+  Property 'background' does not exist on type '`var(--${string})`'.
+
+[7m49[0m   backgroundColor: vars.color.background.$background1,
+[7m  [0m [91m                              ~~~~~~~~~~[0m
+[96msrc/internal/dialogPC.base.css.ts[0m:[93m59[0m:[93m28[0m - [91merror[0m[90m TS2339: [0mProperty '$12' does not exist on type 'CSSVarFunction | MapLeafNodes<any, CSSVarFunction>'.
+  Property '$12' does not exist on type '`var(--${string})`'.
+
+[7m59[0m   paddingTop: vars.spacing.$12,
+[7m  [0m [91m                           ~~~[0m
+[96msrc/internal/dialogPC.base.css.ts[0m:[93m60[0m:[93m29[0m - [91merror[0m[90m TS2339: [0mProperty '$16' does not exist on type 'CSSVarFunction | MapLeafNodes<any, CSSVarFunction>'.
+  Property '$16' does not exist on type '`var(--${string})`'.
+
+[7m60[0m   paddingLeft: vars.spacing.$16,
+[7m  [0m [91m                            ~~~[0m
+[96msrc/internal/dialogPC.base.css.ts[0m:[93m61[0m:[93m30[0m - [91merror[0m[90m TS2339: [0mProperty '$12' does not exist on type 'CSSVarFunction | MapLeafNodes<any, CSSVarFunction>'.
+  Property '$12' does not exist on type '`var(--${string})`'.
+
+[7m61[0m   paddingRight: vars.spacing.$12,
+[7m  [0m [91m                             ~~~[0m
+[96msrc/internal/dialogPC.base.css.ts[0m:[93m62[0m:[93m31[0m - [91merror[0m[90m TS2339: [0mProperty '$8' does not exist on type 'CSSVarFunction | MapLeafNodes<any, CSSVarFunction>'.
+  Property '$8' does not exist on type '`var(--${string})`'.
+
+[7m62[0m   paddingBottom: vars.spacing.$8,
+[7m  [0m [91m                              ~~[0m
+[96msrc/internal/dialogPC.base.css.ts[0m:[93m70[0m:[93m28[0m - [91merror[0m[90m TS2339: [0mProperty '$20' does not exist on type 'CSSVarFunction | MapLeafNodes<any, CSSVarFunction>'.
+  Property '$20' does not exist on type '`var(--${string})`'.
+
+[7m70[0m   paddingTop: vars.spacing.$20,
+[7m  [0m [91m                           ~~~[0m
+[96msrc/internal/dialogPC.base.css.ts[0m:[93m71[0m:[93m30[0m - [91merror[0m[90m TS2339: [0mProperty '$8' does not exist on type 'CSSVarFunction | MapLeafNodes<any, CSSVarFunction>'.
+  Property '$8' does not exist on type '`var(--${string})`'.
+
+[7m71[0m   paddingRight: vars.spacing.$8,
+[7m  [0m [91m                             ~~[0m
+[96msrc/internal/dialogPC.base.css.ts[0m:[93m75[0m:[93m21[0m - [91merror[0m[90m TS2339: [0mProperty 'text' does not exist on type 'CSSVarFunction | MapLeafNodes<any, CSSVarFunction>'.
+  Property 'text' does not exist on type '`var(--${string})`'.
+
+[7m75[0m   color: vars.color.text.$primary,
+[7m  [0m [91m                    ~~~~[0m
+[96msrc/internal/dialogPC.base.css.ts[0m:[93m78[0m:[93m21[0m - [91merror[0m[90m TS2339: [0mProperty 'text' does not exist on type 'CSSVarFunction | MapLeafNodes<any, CSSVarFunction>'.
+  Property 'text' does not exist on type '`var(--${string})`'.
+
+[7m78[0m   color: vars.color.text.$tertiary,
+[7m  [0m [91m                    ~~~~[0m
+[96msrc/internal/snackbar.base.css.ts[0m:[93m15[0m:[93m24[0m - [91merror[0m[90m TS2339: [0mProperty '$16' does not exist on type 'CSSVarFunction | MapLeafNodes<any, CSSVarFunction>'.
+  Property '$16' does not exist on type '`var(--${string})`'.
+
+[7m15[0m     left: vars.spacing.$16,
+[7m  [0m [91m                       ~~~[0m
+[96msrc/internal/snackbar.base.css.ts[0m:[93m16[0m:[93m25[0m - [91merror[0m[90m TS2339: [0mProperty '$16' does not exist on type 'CSSVarFunction | MapLeafNodes<any, CSSVarFunction>'.
+  Property '$16' does not exist on type '`var(--${string})`'.
+
+[7m16[0m     right: vars.spacing.$16,
+[7m  [0m [91m                        ~~~[0m
+[96msrc/internal/snackbar.base.css.ts[0m:[93m17[0m:[93m31[0m - [91merror[0m[90m TS2339: [0mProperty '$12' does not exist on type 'CSSVarFunction | MapLeafNodes<any, CSSVarFunction>'.
+  Property '$12' does not exist on type '`var(--${string})`'.
+
+[7m17[0m     borderRadius: vars.radius.$12,
+[7m  [0m [91m                              ~~~[0m
+[96msrc/internal/snackbar.base.css.ts[0m:[93m18[0m:[93m33[0m - [91merror[0m[90m TS2339: [0mProperty 'main' does not exist on type 'CSSVarFunction | MapLeafNodes<any, CSSVarFunction>'.
+  Property 'main' does not exist on type '`var(--${string})`'.
+
+[7m18[0m     backgroundColor: vars.color.main.$secondary,
+[7m  [0m [91m                                ~~~~[0m
+[96msrc/internal/snackbar.base.css.ts[0m:[93m19[0m:[93m31[0m - [91merror[0m[90m TS2339: [0mProperty '$20' does not exist on type 'CSSVarFunction | MapLeafNodes<any, CSSVarFunction>'.
+  Property '$20' does not exist on type '`var(--${string})`'.
+
+[7m19[0m     paddingLeft: vars.spacing.$20,
+[7m  [0m [91m                              ~~~[0m
+[96msrc/internal/snackbar.base.css.ts[0m:[93m20[0m:[93m32[0m - [91merror[0m[90m TS2339: [0mProperty '$24' does not exist on type 'CSSVarFunction | MapLeafNodes<any, CSSVarFunction>'.
+  Property '$24' does not exist on type '`var(--${string})`'.
+
+[7m20[0m     paddingRight: vars.spacing.$24,
+[7m  [0m [91m                               ~~~[0m
+[96msrc/internal/snackbar.base.css.ts[0m:[93m21[0m:[93m30[0m - [91merror[0m[90m TS2339: [0mProperty '$16' does not exist on type 'CSSVarFunction | MapLeafNodes<any, CSSVarFunction>'.
+  Property '$16' does not exist on type '`var(--${string})`'.
+
+[7m21[0m     paddingTop: vars.spacing.$16,
+[7m  [0m [91m                             ~~~[0m
+[96msrc/internal/snackbar.base.css.ts[0m:[93m22[0m:[93m33[0m - [91merror[0m[90m TS2339: [0mProperty '$16' does not exist on type 'CSSVarFunction | MapLeafNodes<any, CSSVarFunction>'.
+  Property '$16' does not exist on type '`var(--${string})`'.
+
+[7m22[0m     paddingBottom: vars.spacing.$16,
+[7m  [0m [91m                                ~~~[0m
+[96msrc/internal/snackbar.base.css.ts[0m:[93m36[0m:[93m35[0m - [91merror[0m[90m TS2339: [0mProperty '$24' does not exist on type 'CSSVarFunction | MapLeafNodes<any, CSSVarFunction>'.
+  Property '$24' does not exist on type '`var(--${string})`'.
+
+[7m36[0m         paddingLeft: vars.spacing.$24,
+[7m  [0m [91m                                  ~~~[0m
+[96msrc/internal/snackbar.base.css.ts[0m:[93m105[0m:[93m35[0m - [91merror[0m[90m TS2339: [0mProperty '$24' does not exist on type 'CSSVarFunction | MapLeafNodes<any, CSSVarFunction>'.
+  Property '$24' does not exist on type '`var(--${string})`'.
+
+[7m105[0m         paddingLeft: vars.spacing.$24,
+[7m   [0m [91m                                  ~~~[0m
+[96msrc/internal/snackbar.base.css.ts[0m:[93m106[0m:[93m36[0m - [91merror[0m[90m TS2339: [0mProperty '$12' does not exist on type 'CSSVarFunction | MapLeafNodes<any, CSSVarFunction>'.
+  Property '$12' does not exist on type '`var(--${string})`'.
+
+[7m106[0m         paddingRight: vars.spacing.$12,
+[7m   [0m [91m                                   ~~~[0m
+[96msrc/internal/snackbar.base.css.ts[0m:[93m107[0m:[93m34[0m - [91merror[0m[90m TS2339: [0mProperty '$16' does not exist on type 'CSSVarFunction | MapLeafNodes<any, CSSVarFunction>'.
+  Property '$16' does not exist on type '`var(--${string})`'.
+
+[7m107[0m         paddingTop: vars.spacing.$16,
+[7m   [0m [91m                                 ~~~[0m
+[96msrc/internal/snackbar.base.css.ts[0m:[93m108[0m:[93m37[0m - [91merror[0m[90m TS2339: [0mProperty '$8' does not exist on type 'CSSVarFunction | MapLeafNodes<any, CSSVarFunction>'.
+  Property '$8' does not exist on type '`var(--${string})`'.
+
+[7m108[0m         paddingBottom: vars.spacing.$8,
+[7m   [0m [91m                                    ~~[0m
+[96msrc/internal/snackbar.base.css.ts[0m:[93m117[0m:[93m35[0m - [91merror[0m[90m TS2339: [0mProperty '$24' does not exist on type 'CSSVarFunction | MapLeafNodes<any, CSSVarFunction>'.
+  Property '$24' does not exist on type '`var(--${string})`'.
+
+[7m117[0m         paddingLeft: vars.spacing.$24,
+[7m   [0m [91m                                  ~~~[0m
+[96msrc/internal/snackbar.base.css.ts[0m:[93m118[0m:[93m36[0m - [91merror[0m[90m TS2339: [0mProperty '$12' does not exist on type 'CSSVarFunction | MapLeafNodes<any, CSSVarFunction>'.
+  Property '$12' does not exist on type '`var(--${string})`'.
+
+[7m118[0m         paddingRight: vars.spacing.$12,
+[7m   [0m [91m                                   ~~~[0m
+[96msrc/internal/snackbar.base.css.ts[0m:[93m119[0m:[93m34[0m - [91merror[0m[90m TS2339: [0mProperty '$8' does not exist on type 'CSSVarFunction | MapLeafNodes<any, CSSVarFunction>'.
+  Property '$8' does not exist on type '`var(--${string})`'.
+
+[7m119[0m         paddingTop: vars.spacing.$8,
+[7m   [0m [91m                                 ~~[0m
+[96msrc/internal/snackbar.base.css.ts[0m:[93m120[0m:[93m37[0m - [91merror[0m[90m TS2339: [0mProperty '$8' does not exist on type 'CSSVarFunction | MapLeafNodes<any, CSSVarFunction>'.
+  Property '$8' does not exist on type '`var(--${string})`'.
+
+[7m120[0m         paddingBottom: vars.spacing.$8,
+[7m   [0m [91m                                    ~~[0m
+[96msrc/internal/snackbar.base.css.ts[0m:[93m134[0m:[93m21[0m - [91merror[0m[90m TS2339: [0mProperty 'text' does not exist on type 'CSSVarFunction | MapLeafNodes<any, CSSVarFunction>'.
+  Property 'text' does not exist on type '`var(--${string})`'.
+
+[7m134[0m   color: vars.color.text.$inverse,
+[7m   [0m [91m                    ~~~~[0m
+[96msrc/internal/snackbar.base.css.ts[0m:[93m138[0m:[93m29[0m - [91merror[0m[90m TS2339: [0mProperty '$12' does not exist on type 'CSSVarFunction | MapLeafNodes<any, CSSVarFunction>'.
+  Property '$12' does not exist on type '`var(--${string})`'.
+
+[7m138[0m   marginRight: vars.spacing.$12,
+[7m   [0m [91m                            ~~~[0m
+[96msrc/internal/snackbar.base.css.ts[0m:[93m143[0m:[93m28[0m - [91merror[0m[90m TS2339: [0mProperty '$16' does not exist on type 'CSSVarFunction | MapLeafNodes<any, CSSVarFunction>'.
+  Property '$16' does not exist on type '`var(--${string})`'.
+
+[7m143[0m   marginLeft: vars.spacing.$16,
+[7m   [0m [91m                           ~~~[0m
+[96msrc/theme.css.ts[0m:[93m13[0m:[93m8[0m - [91merror[0m[90m TS2307: [0mCannot find module '@thefarmersfront/kpds-tokens' or its corresponding type declarations.
+
+[7m13[0m } from '@thefarmersfront/kpds-tokens';
+[7m  [0m [91m       ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~[0m
+[96msrc/theme.css.ts[0m:[93m40[0m:[93m49[0m - [91merror[0m[90m TS2345: [0mArgument of type '{ font: { body: any; }; fontSize: any; fontWeight: any; lineHeight: any; spacing: any; radius: any; shadow: any; color: any; }' is not assignable to parameter of type 'MapLeafNodes<MapLeafNodes<{ font: { body: any; }; fontSize: any; fontWeight: any; lineHeight: any; spacing: any; radius: any; shadow: any; color: any; }, CSSVarFunction>, string>'.
+  Types of property 'fontSize' are incompatible.
+    Type 'any' is not assignable to type 'never'.
+
+[7m40[0m createGlobalTheme('[data-theme="light"]', vars, baseTokens);
+[7m  [0m [91m                                                ~~~~~~~~~~[0m
+[96msrc/theme.css.ts[0m:[93m43[0m:[93m3[0m - [91merror[0m[90m TS2322: [0mType 'any' is not assignable to type 'never'.
+
+[7m43[0m   color: {
+[7m  [0m [91m  ~~~~~[0m
+
+  [96msrc/theme.css.ts[0m:[93m33[0m:[93m3[0m
+    [7m33[0m   color: {
+    [7m  [0m [96m  ~~~~~~~~[0m
+    [7m34[0m     ...lightThemeColor,
+    [7m  [0m [96m~~~~~~~~~~~~~~~~~~~~~~~[0m
+    [7m35[0m   },
+    [7m  [0m [96m~~~[0m
+    The expected type comes from property 'color' which is declared here on type 'MapLeafNodes<MapLeafNodes<{ font: { body: any; }; fontSize: any; fontWeight: any; lineHeight: any; spacing: any; radius: any; shadow: any; color: any; }, CSSVarFunction>, string>'
+[96msrc/theme.css.ts[0m:[93m57[0m:[93m9[0m - [91merror[0m[90m TS2339: [0mProperty 'system' does not exist on type 'CSSVarFunction | MapLeafNodes<any, CSSVarFunction>'.
+
+[7m57[0m const { system, main, text, background, line, point, brand, member, ...baseColorSet } = vars.color;
+[7m  [0m [91m        ~~~~~~[0m
+[96msrc/theme.css.ts[0m:[93m57[0m:[93m17[0m - [91merror[0m[90m TS2339: [0mProperty 'main' does not exist on type 'CSSVarFunction | MapLeafNodes<any, CSSVarFunction>'.
+
+[7m57[0m const { system, main, text, background, line, point, brand, member, ...baseColorSet } = vars.color;
+[7m  [0m [91m                ~~~~[0m
+[96msrc/theme.css.ts[0m:[93m57[0m:[93m23[0m - [91merror[0m[90m TS2339: [0mProperty 'text' does not exist on type 'CSSVarFunction | MapLeafNodes<any, CSSVarFunction>'.
+
+[7m57[0m const { system, main, text, background, line, point, brand, member, ...baseColorSet } = vars.color;
+[7m  [0m [91m                      ~~~~[0m
+[96msrc/theme.css.ts[0m:[93m57[0m:[93m29[0m - [91merror[0m[90m TS2339: [0mProperty 'background' does not exist on type 'CSSVarFunction | MapLeafNodes<any, CSSVarFunction>'.
+
+[7m57[0m const { system, main, text, background, line, point, brand, member, ...baseColorSet } = vars.color;
+[7m  [0m [91m                            ~~~~~~~~~~[0m
+[96msrc/theme.css.ts[0m:[93m57[0m:[93m41[0m - [91merror[0m[90m TS2339: [0mProperty 'line' does not exist on type 'CSSVarFunction | MapLeafNodes<any, CSSVarFunction>'.
+
+[7m57[0m const { system, main, text, background, line, point, brand, member, ...baseColorSet } = vars.color;
+[7m  [0m [91m                                        ~~~~[0m
+[96msrc/theme.css.ts[0m:[93m57[0m:[93m47[0m - [91merror[0m[90m TS2339: [0mProperty 'point' does not exist on type 'CSSVarFunction | MapLeafNodes<any, CSSVarFunction>'.
+
+[7m57[0m const { system, main, text, background, line, point, brand, member, ...baseColorSet } = vars.color;
+[7m  [0m [91m                                              ~~~~~[0m
+[96msrc/theme.css.ts[0m:[93m57[0m:[93m54[0m - [91merror[0m[90m TS2339: [0mProperty 'brand' does not exist on type 'CSSVarFunction | MapLeafNodes<any, CSSVarFunction>'.
+
+[7m57[0m const { system, main, text, background, line, point, brand, member, ...baseColorSet } = vars.color;
+[7m  [0m [91m                                                     ~~~~~[0m
+[96msrc/theme.css.ts[0m:[93m57[0m:[93m61[0m - [91merror[0m[90m TS2339: [0mProperty 'member' does not exist on type 'CSSVarFunction | MapLeafNodes<any, CSSVarFunction>'.
+
+[7m57[0m const { system, main, text, background, line, point, brand, member, ...baseColorSet } = vars.color;
+[7m  [0m [91m                                                            ~~~~~~[0m
+[96msrc/theme.css.ts[0m:[93m57[0m:[93m72[0m - [91merror[0m[90m TS2700: [0mRest types may only be created from object types.
+
+[7m57[0m const { system, main, text, background, line, point, brand, member, ...baseColorSet } = vars.color;
+[7m  [0m [91m                                                                       ~~~~~~~~~~~~[0m
+
+[2K[1Gtransforming (1) [2msrc/index.ts[22m[2K[1Gtransforming (7) [2msrc/theme.css.ts[22m[2K[1Gtransforming (35) [2msrc/components/button.css.ts[22m[2K[1G[32m✓[39m 48 modules transformed.
+[2K[1Grendering chunks (1)...[2K[1G[32m
+[36m[vite:dts][32m Start generate declaration files...[39m
+[2K[1Gcomputing gzip size (0)...[2K[1Gcomputing gzip size (1)...[2K[1Gcomputing gzip size (2)...[2K[1G[2mdist/[22m[35mstyle.css  [39m[1m[2m87.80 kB[22m[1m[22m[2m │ gzip: 14.85 kB[22m
+[2mdist/[22m[36mindex.cjs  [39m[1m[2m93.67 kB[22m[1m[22m[2m │ gzip: 15.85 kB[22m
+[32m[36m[vite:dts][32m Declaration files built in 965ms.
+[39m
+[2K[1Grendering chunks (1)...[2K[1G[2K[1Gcomputing gzip size (1)...[2K[1Gcomputing gzip size (2)...[2K[1G[2mdist/[22m[35mstyle.css  [39m[1m[2m 87.80 kB[22m[1m[22m[2m │ gzip: 14.85 kB[22m
+[2mdist/[22m[36mindex.js   [39m[1m[2m107.56 kB[22m[1m[22m[2m │ gzip: 16.43 kB[22m
+[32m✓ built in 1.41s[39m

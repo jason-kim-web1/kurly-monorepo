@@ -1,7 +1,0 @@
-<svg width="40" height="50" viewBox="0 0 40 50" fill="none" xmlns="http://www.w3.org/2000/svg">
-    <path d="M14.347 19.343 20.003 25l-5.656 5.657" stroke="#333" stroke-linecap="round" stroke-linejoin="round"/>
-    <mask id="v7yzrmzxja" style="mask-type:alpha" maskUnits="userSpaceOnUse" x="13" y="18" width="8" height="14">
-        <path fill-rule="evenodd" clip-rule="evenodd" d="M14.347 19.343 20.003 25l-5.656 5.657" fill="#fff"/>
-        <path d="M14.347 19.343 20.003 25l-5.656 5.657" stroke="#fff" stroke-linecap="round" stroke-linejoin="round"/>
-    </mask>
-</svg>

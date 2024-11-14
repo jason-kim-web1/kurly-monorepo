@@ -1,1 +1,0 @@
-export const KURLY_PASS_CONTENTS_NUMBER = '5026337';
