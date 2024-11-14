@@ -1,16 +1,7 @@
 {
   "name": "@thefarmersfront/kpds-tokens",
-  "repository": {
-    "type": "git",
-    "url": "https://github.com/thefarmersfront/kpds-web"
-  },
-  "private": false,
-  "publishConfig": {
-    "@thefarmersfront:registry": "https://npm.pkg.github.com/"
-  },
+  "version": "0.0.1",
   "type": "module",
-  "version": "0.0.10",
-  "description": "",
   "main": "./dist/index.cjs",
   "module": "./dist/index.js",
   "types": "./dist/index.d.ts",
@@ -22,18 +13,9 @@
   "files": [
     "dist/**"
   ],
-  "sideEffects": false,
   "scripts": {
+    "clean": "rimraf dist && rimraf vite.config.ts.timestamp-*.mjs",
     "build": "vite build",
-    "dev": "vite build --watch",
-    "watch:build": "vite build",
-    "clean": "rimraf dist && rimraf vite.config.ts.timestamp-*.mjs"
-  },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
-  "devDependencies": {
-    "vite": "5.4.10",
-    "vite-plugin-dts": "4.3.0"
+    "dev": "vite build --watch"
   }
 }

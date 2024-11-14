@@ -1,27 +1,19 @@
 {
   "name": "kurly-monorepo",
-  "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
   "scripts": {
-    "clean": "rm -rf node_modules pnpm-lock.json"
-  },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
-  "packageManager": "pnpm@9.12.3+sha512.cce0f9de9c5a7c95bef944169cc5dfe8741abfb145078c0d508b868056848a87c81e626246cb60967cbd7fd29a6c062ef73ff840d96b3c86c40ac92cf4a813ee",
-  "dependencies": {
-    "zx": "8.1.9"
+    "clean": "turbo clean",
+    "build": "turbo build",
+    "dev:web-docs": "turbo dev --filter=@thefarmersfront/kpds-web-docs",
+    "dev:storybook": "turbo dev --filter=@thefarmersfront/kpds-storybook",
+    "ci:changeset-version": "changeset version",
+    "ci:changeset-publish": "changeset publish"
   },
   "devDependencies": {
-    "@changesets/cli": "2.27.9",
-    "@kurly/prettier-config": "0.0.0",
-    "@types/node": "22",
-    "prettier": "3.3.3",
     "rimraf": "6.0.1",
-    "tsx": "4.16.2",
     "turbo": "2.2.3",
     "typescript": "5.6.3",
-    "vite-bundle-visualizer": "1.2.1"
-  }
+    "vite": "5.4.10",
+    "vite-plugin-dts": "4.3.0"
+  },
+  "packageManager": "pnpm@9.12.3+sha512.cce0f9de9c5a7c95bef944169cc5dfe8741abfb145078c0d508b868056848a87c81e626246cb60967cbd7fd29a6c062ef73ff840d96b3c86c40ac92cf4a813ee"
 }
