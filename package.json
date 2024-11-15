@@ -1,12 +1,14 @@
 {
   "name": "kurly-monorepo",
   "scripts": {
-    "clean": "turbo clean",
-    "build": "turbo build",
-    "dev:web-docs": "turbo dev --filter=@thefarmersfront/kpds-web-docs",
-    "dev:storybook": "turbo dev --filter=@thefarmersfront/kpds-storybook",
-    "ci:changeset-version": "changeset version",
-    "ci:changeset-publish": "changeset publish"
+    "build#tokens": "pnpm --filter @thefarmersfront/kpds-tokens build",
+    "build#css": "pnpm --filter @thefarmersfront/kpds-css build",
+    "build#react": "pnpm --filter @thefarmersfront/kpds-react build",
+    "build": "pnpm build#tokens && pnpm build#css && pnpm build#react",
+    "clean#tokens": "pnpm --filter @thefarmersfront/kpds-tokens clean",
+    "clean#css": "pnpm --filter @thefarmersfront/kpds-css clean",
+    "clean#react": "pnpm --filter @thefarmersfront/kpds-react clean",
+    "clean": "pnpm clean#tokens && pnpm clean#css && pnpm clean#react"
   },
   "devDependencies": {
     "rimraf": "6.0.1",
